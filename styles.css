@@ -189,14 +189,24 @@
         width: 100%;
         flex-wrap: wrap;
         border-bottom: 2px solid black;
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         position: fixed;
         top: 0;
     }
 
+/*For the web view*/
+    @media screen and (min-width:600px) {
 
+        .menuitem {
+            display: block;
+            width: 50%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: rgb(28, 28, 28);
+            font-family: 'Space Grotesk', sans-serif;
+            text-decoration: none;
+            text-align: center;
+        }
+    
 
-
-
-
-
+    }
