@@ -1,5 +1,21 @@
  
                                                 /*------- MOBILE NAVIGATION ------*/
+.navbar{
+    height: 65px;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.toplogo{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    height: auto;
+    padding-top: 12.5px;
+    opacity: 10;
+
+}
 
 .mobilenav{
     background-color: grey;
@@ -215,10 +231,12 @@ table {
 /*Web view*/
 @media screen and (min-width:900px) {
 
-    /* .footerlogo {
-        background-image: url(/Pictures/logo_little_rotated.png);
-        background-repeat: no-repeat;
-    }  */
+    .footerlogo {
+            content: url("/Pictures/logo_little.png");
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+    }
 
     /*navigation*/
     .menuitem {
