@@ -21,10 +21,14 @@
 </head>
 
 <body>
+    
+    <div class="navbar"><img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png"></div>
     <nav>
+<<<<<<< HEAD
         <!--For mobile-->
+=======
+>>>>>>> 565866da5ee1b59d80f9a58865a6fdbae9564f0c
         <div class="mobilenav">
-
             <div id="myNav" class="overlay">
 
                 <!-- Button to close the overlay navigation -->
@@ -39,6 +43,7 @@
                     <a href="/HTML/gallery.html" class="menuitem">GALLERY</a>
                     <a href="/HTML/playlists.html" class="menuitem">OUR PLAYLISTS</a>
                     <a href="/HTML/contact.html" class="menuitem">CONTACT US</a>
+                    <button class="language">DK</button> &nbsp <button class="language">EN</button>
 
                 </div>
 
@@ -47,6 +52,7 @@
             <!-- Use any element to open/show the overlay navigation menu -->
             <span onclick="openNav()"></span>
             <!-- Use any element to open/show the overlay navigation menu -->
+<<<<<<< HEAD
             <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/lines.PNG"
                     width="35" height="30"></span>
         </div>
@@ -72,6 +78,15 @@
 
     <main>
     </main>
+=======
+            <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/lines.PNG" width="35" height="30">
+            </span>
+        </div>
+    </nav>
+
+    <!-- <main>
+    </main> -->
+>>>>>>> 565866da5ee1b59d80f9a58865a6fdbae9564f0c
 
     <footer>
         <div class="footercontainer">
@@ -139,16 +154,19 @@
             </div>
         </div>
     </footer>
+
+    <script>
+            // OPENS THE BURGER MENU
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+            // CLOSES THE BURGER MENU
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+
+        
+    </script>
+
 </body>
-<script>
-    function openNav() {
-        document.getElementById("myNav").style.height = "100%";
-    }
-
-    function closeNav() {
-        document.getElementById("myNav").style.height = "0%";
-    }
-
-</script>
-
 </html>
