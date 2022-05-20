@@ -57,8 +57,6 @@
         left: 25px;
         font-size: 45px;
         background: none;
-
-
     }
 
     .menuitem {
@@ -88,7 +86,6 @@
         background-color: tomato;
         position: sticky;
         top: 0;
-
     }
 
     .mobileiconlabel {
@@ -159,7 +156,6 @@
         z-index: 0;
         text-align: center;
         padding: 5px;
-
     }
 
 
@@ -197,3 +193,50 @@
             width: 100%;
         }
     }
+main{
+    display:flex;
+    flex-grow: 1;
+}
+                                         /*------------------FOOTER---------------------*/
+.footercontainer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items:baseline;
+}
+
+.footeritem{
+    min-width: 300px;
+    text-align: center;
+}
+
+/*footer opening hours table*/
+table {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.day{
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.footertitle{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+/*the social icoons*/
+
+.socials_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
