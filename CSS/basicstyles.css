@@ -1,3 +1,5 @@
+										/*------- BEGINNING OF CSS RESET ------*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -43,8 +45,14 @@ q:before, q:after {
 	content: none;
 }
 
+										/*------- END OF CSS RESET ------*/
 
-  
+
+										/*------- END OF CSS RESET ------*/
+ @font-face {
+     font-family: 'PhosphateInline';
+     src: url(./Font/PhosphateInline.ttf);
+ } 
 
 
-                                                                    /*Body fromatting*/   
+                	                   /*------- BODY FORMATTING ------*/   
