@@ -205,9 +205,13 @@ main{
     width: 100%;
     text-align: center;
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     flex-wrap: wrap;
     align-items:baseline;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    color: #f4e7bf;
+    background-color: #1f1f1f;
 }
 
 .footeritem{
@@ -230,6 +234,10 @@ table {
 .footertitle{
     padding-top: 20px;
     padding-bottom: 15px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #f4e7bf;
 }
 
 /*the social icoons*/
@@ -239,4 +247,22 @@ table {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: nowrap;
+}
+
+.socials_image{
+    width: 60px;
+    height: auto;
+    padding: 10px;
+}
+
+.openinghours{
+    text-align: center;
+}
+
+/*Web view*/
+@media screen and (min-width:900px) {
+
+ .openinghours{
+     text-align: right;
+ }
 }
