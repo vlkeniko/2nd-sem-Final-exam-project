@@ -1,4 +1,4 @@
-										/*------- BEGINNING OF CSS RESET ------*/
+								/*------- BEGINNING OF CSS RESET ------*/
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -44,15 +44,13 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-
 										/*------- END OF CSS RESET ------*/
 
 
-										/*------- END OF CSS RESET ------*/
- @font-face {
-     font-family: 'PhosphateInline';
-     src: url(./Font/PhosphateInline.ttf);
- } 
+										/*------- INSERTING FONTS ------*/
+@font-face {
+    font-family: 'PhosphateInline';
+    src: url(./Font/PhosphateInline.ttf);
+ }
 
-
-                	                   /*------- BODY FORMATTING ------*/   
+                	                   /*------- BODY FORMATTING ------*/
