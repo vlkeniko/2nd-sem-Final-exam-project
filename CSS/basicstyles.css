@@ -54,4 +54,59 @@ q:before, q:after {
     src: url(./Font/PhosphateInline.ttf);
  }
 
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url(../Font/SpaceGrotesk-VariableFont_wght.ttf);
+ }
+ @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+/* KROMOSOM HEADINGS */
+h1 {
+    position:relative;
+	font-family: 'PhosphateInline';
+	font-size: 70px;
+	color: #FD910A;
+    
+}
+
+/* SUBHEADINGS (MENU AND ABOUT US CARDS) */
+h2{
+   
+	font-family: 'Space Grotesk', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FD910A;
+	overflow: hidden;
+}
+/* ABOUT US TEXT */
+.p1{
+    
+    font-family: 'SpaceGrotesk';
+	font-weight: 'regular' ;
+	font-size: 16px;
+	color: #F4E7BF;
+	overflow: hidden;
+}
+/* BURGER MENU SECTIONS */
+.p2{
+    font-family: 'SpaceGrotesk';
+}
+/* MENU ITEM NAMES */
+.p3{
+    font-family: 'SpaceGrotesk';
+}
+/* MENU PRICES */
+.p4{
+    font-family: 'SpaceGrotesk';
+}
+/* READ MORE */
+.p5{
+    font-family: 'SpaceGrotesk';
+}
                 	                   /*------- BODY FORMATTING ------*/
+
+#testi-text{
+display: block;
+height: 80vh;
+}
