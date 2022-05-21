@@ -53,6 +53,11 @@ q:before, q:after {
     font-family: 'PhosphateInline';
     src: url(./Font/PhosphateInline.ttf);
  }
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url(../Font/SpaceGrotesk-VariableFont_wght.ttf);
+ }
+
 
 @font-face {
     font-family: 'SpaceGrotesk';
@@ -110,3 +115,36 @@ h2{
 display: block;
 height: 80vh;
 }
+
+/*Main headers with kromosom font*/
+ h1 {
+	font-family: 'PhosphateInline';
+}
+
+/*Menu headers - orange*/
+h2 {
+    font-family: 'SpaceGrotesk';
+}
+
+
+/* Menu item names */
+.p1 {
+	font-family: 'SpaceGrotesk';
+}
+
+/* Menu prices */
+.p2 {
+    font-family: 'SpaceGrotesk';
+}
+
+/* About us paragraphs */ 
+.p3 {
+    font-family: 'SpaceGrotesk';
+}
+
+/* Read more links */
+.read-more{
+	text-decoration: none;
+}
+                	                   /*------- BODY FORMATTING ------*/
+
