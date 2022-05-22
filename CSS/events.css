@@ -1,24 +1,19 @@
 /*Code by Md Farzan: https://codepen.io/mdfarzan/pen/yLeEJZV*/
 
 #slider {
-    width: 80%;
+   width: 600px;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
     ;
 }
 
 .slide {
-    width: 100%;
-
+    width: 100px;
     display: none;
     animation-name: fade;
     animation-duration: 1s;
-
 }
-
-
 
 @keyframes fade {
     from {
@@ -30,19 +25,29 @@
     }
 }
 
+.eventcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 .controls {
-    position: absolute;
+    
     top: 50%;
     transform: translateY(-50%);
     font-size: 1.5em;
     padding: 15px 10px;
     border-radius: 5px;
-    background: white;
 
 }
 
+.arrow{
+    width: 30px;
+}
+
 .controls:hover {
-    background: white;
+    
     transition: 0.3s;
 }
 
@@ -77,7 +82,7 @@
 
 @media (max-width:576px) {
     #slider {
-        width: 100%;
+        width: 90%;
 
     }
 
