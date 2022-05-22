@@ -69,7 +69,6 @@ q:before, q:after {
               	                   /*------- TEXT FORMATTING ------*/
 /* KROMOSOM HEADINGS */
 h1 {
-    position:relative;
 	font-family: 'PhosphateInline';
 	font-size: 70px;
 	color: #FD910A;
@@ -86,69 +85,42 @@ h2{
 
 /* ABOUT US TEXT */
 .p1{
-    font-family: 'SpaceGrotesk';
-	font-weight: 'regular' ;
+	font-family: 'Space Grotesk', sans-serif;
+	font-weight: 400;
 	font-size: 16px;
 	color: #F4E7BF;
 	overflow: hidden;
 }
 
-/* BURGER MENU SECTIONS */
-.p2{
-    font-family: 'SpaceGrotesk';
-}
+/* BURGER MENU SECTIONS (in the burger css) */
 
 /* MENU ITEM NAMES */
 .p3{
-    font-family: 'SpaceGrotesk';
+	font-family: 'Space Grotesk', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FD910A;
+	overflow: hidden;
 }
 
 /* MENU PRICES */
 .p4{
-    font-family: 'SpaceGrotesk';
+	font-family: 'Space Grotesk', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #1F1F1F;
+	overflow: hidden;
 }
 
 /* READ MORE */
 .p5{
-    font-family: 'SpaceGrotesk';
+	font-family: 'Space Grotesk', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	color: #F4E7BF;
+	overflow: hidden;
 }
 
-
-
-#testi-text{
-	display: block;
-	z-index: -5;
-}
-
-/*Main headers with kromosom font*/
- h1 {
-	font-family: 'PhosphateInline';
-}
-
-/*Menu headers - orange*/
-h2 {
-    font-family: 'SpaceGrotesk';
-}
-
-/* Menu item names */
-.p1 {
-	font-family: 'SpaceGrotesk';
-}
-
-/* Menu prices */
-.p2 {
-    font-family: 'SpaceGrotesk';
-}
-
-/* About us paragraphs */ 
-.p3 {
-    font-family: 'SpaceGrotesk';
-}
-
-/* Read more links */
-.read-more{
-	text-decoration: none;
-}
 
                 	                   /*------- BODY FORMATTING ------*/
 main{
@@ -163,7 +135,7 @@ main{
 	z-index:-7;
 }
 
-h3{
+/* h3{
 	font-family: 'Space Grotesk', sans-serif;
 	font-size: 20px;
 	color:#FD910A;
@@ -173,4 +145,4 @@ p{
 	font-family: 'Space Grotesk', sans-serif;
 	font-size: 16px;
 	color:#F4E7BF;
-}
+} */

@@ -14,6 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/CSS/navfooter.css">
     <link rel="stylesheet" href="/CSS/basicstyles.css">
     <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico">
@@ -22,71 +23,60 @@
 
 <body>
 
-    <!-- Start of the NAVBAR coding-->
+    <div class="navbar"><a href="index.html"><img class="toplogo" alt="menuicon"
+            src="/Pictures/logo_little.png"></a></div>
     <nav>
         <!--For mobile-->
         <div class="mobilenav">
-            <div class="navbar"></div>
-            <a href="index.html"><img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png"></a>
             <div id="myNav" class="overlay">
+
                 <!-- Button to close the overlay navigation -->
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
                 <!-- Overlay content -->
                 <div class="overlay-content">
-                    <a href="/index.html" class="menuitem">HOME</a>
+                    <a href="index.html" class="menuitem">HOME</a>
                     <a href="/HTML/menu.html" class="menuitem">MENU</a>
                     <a href="/HTML/events.html" class="menuitem">EVENTS</a>
                     <a href="/HTML/aboutus.html" class="menuitem">ABOUT US</a>
                     <a href="/HTML/gallery.html" class="menuitem">GALLERY</a>
                     <a href="/HTML/playlists.html" class="menuitem">OUR PLAYLISTS</a>
                     <a href="/HTML/contact.html" class="menuitem">CONTACT US</a>
-                    <button class="languagebutton dk">DK</button> &nbsp; <button class="languagebutton en">EN</button>
-                    <div class="langcontainer">
-                    <img class="langlogo" alt="lang" src="/Pictures/logo_little.png">
-                    <p class="langchangetext">Do you wanna<br>change the<br>language?</p>
-                    </div>
+                    <button class="languagebutton dk">DK</button> &nbsp <button class="languagebutton en">EN</button>
+
                 </div>
+
             </div>
+
             <!-- Use any element to open/show the overlay navigation menu -->
             <span onclick="openNav()"></span>
             <!-- Use any element to open/show the overlay navigation menu -->
-            <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/burger-img.png"
-                width="30" height="25">
-            </span>
-    </nav>
-    <!-- End of the NAVBAR coding -->
 
+            <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/lines.PNG"
+                    width="35" height="30">
 
-    <!-- TEXT TRY-OUTS -->
-    <!--<div>
-    <br> <br> <br>
-    <h1>h1 Main headers with kromosom font</h1>
-
-    <h2>h2 Menu headers - orange</h2>
-    
-    <p1>p1 Menu item names</p1>
-    
-    <p2>p2 Menu prices </p2>
-
-    <p3>p3 About us paragraphs</p3>
-    
-<a class="read-more" href="#" >.read-more Read more links</p>>
-    <br><br><br>
-</div>-->
-    <main>
-        <div id="testi-text"><br>
-            <br>
-            <br>
-            <h1>KROMOSOM HEADINGS</h1> <br>
-            <h2>SUBHEADINGS (MENU AND ABOUT US CARDS)</h2><br>
-            <p1>ABOUT US TEXT</p1><br>
-            <p2>BURGER MENU SECTIONS</p2><br>
-            <p3>MENU ITEM NAMES</p3><br>
-            <p4>MENU PRICES</p4><br>
-            <p5>READ MORE</p5>
+            <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/lines.PNG"
+                    width="35" height="30"></span>
         </div>
+    </nav>
+
+    <main>
     </main>
+            
+        </div>
+    </nav>
+
+    <!-- <div id="testi-text"><br>
+<h1>KROMOSOM HEADINGS</h1> <br>
+<h2>SUBHEADINGS (MENU AND ABOUT US CARDS)</h2><br>
+<p class="p1">ABOUT US TEXT</p><br>
+<p class="p2">BURGER MENU SECTIONS</p><br>
+<p class="p3">MENU ITEM NAMES</p><br>
+<p class="p4">MENU PRICES</p><br>
+<p class="p5">READ MORE</p>
+    </div> -->
+    <!-- <main>
+    </main> -->
 
     <footer>
         <div class="footercontainer">
@@ -136,9 +126,9 @@
                 <h2 class="footertitle">SOCIAL MEDIA</h2>
                 <div class="socialscontainer">
                     <a href="https://www.facebook.com/Kromosom66"><img class="socials_image"
-                        src="/Pictures/fb icon.png" alt="Facebook"></a>
+                            src="/Pictures/fb icon 1.png" alt="Facebook"></a>
                     <a href="https://www.instagram.com/kromosom66/"><img class="socials_image"
-                        src="/Pictures/Ig icon.png" alt="Instagram"></a>
+                            src="Pictures/Ig icon.png" alt="Instagram"></a>
                 </div>
             </div>
             <div class="footeritem">
@@ -155,7 +145,7 @@
             </div>
         </div>
     </footer>
-   
+
     <script>
         // OPENS THE BURGER MENU
         function openNav() {
@@ -165,7 +155,10 @@
         function closeNav() {
             document.getElementById("myNav").style.height = "0%";
         }
+
+
     </script>
 
 </body>
+
 </html>
