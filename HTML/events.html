@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,12 +14,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="/CSS/navfooter.css">
-        <link rel="stylesheet" href="/CSS/basicstyles.css">
-        <link rel="stylesheet" href="/CSS/events.css">
-        <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico">
+    <link rel="stylesheet" href="/CSS/navfooter.css">
+    <link rel="stylesheet" href="/CSS/basicstyles.css">
+    <link rel="stylesheet" href="/CSS/events.css">
+    <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico">
     <title>Kromosom - Events</title>
 </head>
+
 <body>
     <nav>
         <!--For mobile-->
@@ -40,8 +42,8 @@
                     <a href="/HTML/contact.html" class="menuitem">CONTACT US</a>
                     <button class="languagebutton dk">DK</button> &nbsp; <button class="languagebutton en">EN</button>
                     <div class="langcontainer">
-                    <img class="langlogo" alt="lang" src="/Pictures/logo_little.png">
-                    <p class="langchangetext">Do you wanna<br>change the<br>language?</p>
+                        <img class="langlogo" alt="lang" src="/Pictures/logo_little.png">
+                        <p class="langchangetext">Do you wanna<br>change the<br>language?</p>
                     </div>
 
                 </div>
@@ -55,30 +57,55 @@
             </span>
     </nav>
 
-      <!-- Images from Craig Henry's Dribbble profile: http://dribbble.com/craighenry -->
+    <!--Code by Md Farzan: https://codepen.io/mdfarzan/pen/yLeEJZV-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="slider">
+        <div class="slide">
+            <img src="https://img.fotocommunity.com/peacefull-95e65145-d050-4957-9ddc-85dd60689d45.jpg?height=500">
+        </div>
 
-<ul class="slider">
-    <li>
-        <input type="radio" id="slide1" name="slide" checked>
-        <label for="slide1"></label>
-        <img src="https://dribbble.s3.amazonaws.com/users/322/screenshots/872485/coldchase.jpg" alt="Panel 1">
-    </li>
-    <li>
-        <input type="radio" id="slide2" name="slide">
-        <label for="slide2"></label>
-        <img src="https://dribbble.s3.amazonaws.com/users/322/screenshots/980517/icehut_sm.jpg" alt="Panel 2">
-    </li>
-    <li>
-        <input type="radio" id="slide3" name="slide">
-        <label for="slide3"></label>
-        <img src="https://dribbble.s3.amazonaws.com/users/322/screenshots/943660/hq_sm.jpg" alt="Panel 3">
-    </li>
-    <li>
-        <input type="radio" id="slide4" name="slide">
-        <label for="slide4"></label>
-        <img src="https://dribbble.s3.amazonaws.com/users/322/screenshots/599584/home.jpg" alt="Panel 4">
-    </li>
-</ul>
-    
+        <div class="slide">
+            <img
+                src="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/2/sunset-storm-haystack-rock-canon-beach-oregon-coast-tl-mair.jpg">
+        </div>
+
+        <div class="slide">
+            <img
+                src=" https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/1-tourists-at-eiffel-tower-paris-panoramic-images.jpg">
+        </div>
+
+        <div class="slide">
+            <img src="https://dmasia.travel/wp-content/uploads/2019/09/vit3-1000x350.jpg">
+        </div>
+
+        <!--Controlling arrows-->
+        <span class="controls" onclick="prevSlide(-1)" id="left-arrow"><i class="fa fa-arrow-left"
+                aria-hidden="true"></i>
+        </span>
+        <span class="controls" id="right-arrow" onclick="nextSlide(1)"><i class="fa fa-arrow-right"
+                aria-hidden="true"></i>
+        </span>
+    </div>
+    <div id="dots-con">
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+    </div>
+
+    <script src="/events.js"></script>
+    <script>
+        // OPENS THE BURGER MENU
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+        // CLOSES THE BURGER MENU
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+
+
+    </script>
 </body>
+
 </html>
