@@ -49,8 +49,11 @@
 
  .overlay a {
     text-decoration: none;
-    font-size: 28px;
+	font-family: 'Space Grotesk', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
     color: #f4e7bf;
+    /* line-height: 13.6px; */
     display: block;
     transition: 0.3s;
 }
