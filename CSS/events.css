@@ -1,12 +1,12 @@
 /*Code by Md Farzan: https://codepen.io/mdfarzan/pen/yLeEJZV*/
 
 #slider {
-   width: 600px;
-   padding: 12px;
-   border: 5px solid #555;
-   border-spacing: 100px;
-   border-radius: 20px;
-   background-color:rgba(255, 228, 228, 0.5);
+    width: 600px;
+    padding: 12px;
+    border: 5px solid #555;
+    border-spacing: 100px;
+    border-radius: 20px;
+    background-color: rgba(255, 228, 228, 0.5);
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -16,7 +16,6 @@
 
 .slide {
     width: 100px;
-  
     display: none;
     animation-name: fade;
     animation-duration: 1s;
@@ -32,7 +31,7 @@
     }
 }
 
-.eventcontainer{
+.eventcontainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +46,7 @@
     border-radius: 5px;
 }
 
-.arrow{
+.arrow {
     width: 30px;
     cursor: pointer;
 }
@@ -85,27 +84,40 @@
     background: crimson;
 }
 
-@media (max-width:576px) {
-    #slider {
-        width: 90%;
 
+/*Styling of the event description*/
+
+.eventdescription {
+    min-width: 300px;
+    padding-top: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 40px;
+}
+
+/*Making the whole page responsive*/
+@media only screen and (max-width: 1000px) {
+    .eventdescription {
+        min-width: 300px;
+        padding-top: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 40px;
+    }
+
+    #slider {
+        width: 200px;
+    }
+
+    .slide {
+        width: 200px;
     }
 
     .controls {
         font-size: 1em;
     }
 
-    #dots-con {
-        display: none;
+    .eventpics{
+        width: 200px;
     }
-}
-
-/*Styling of the event description*/
-
-.eventdescription{
-    min-width: 300px;
-    padding-top: 20px;
-    padding-left:30%;
-    padding-right: 30%;
-    padding-bottom: 40px;
 }

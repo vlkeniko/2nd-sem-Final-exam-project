@@ -1,0 +1,21 @@
+.gallerycontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 70%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -150px;
+}
+
+.galleryimage {
+    margin-bottom: -200px;
+    width: 400px;
+}
+
+.jaj{
+    padding-top: 300px;
+}
