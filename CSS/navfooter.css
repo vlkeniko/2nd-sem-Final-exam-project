@@ -285,10 +285,12 @@
 
      .footercontainer {
          flex-wrap: nowrap;
+         overflow: hidden ;
      }
 
      .footerlogo {
-         content: url("/Pictures/logo_little_mirrored.png");
+         content: url("/Pictures/logo_little_mirrored.png"); 
+         transform: scaleX(-1);
          margin-left: 40px;
          z-index: 1;
          width: 20px;
