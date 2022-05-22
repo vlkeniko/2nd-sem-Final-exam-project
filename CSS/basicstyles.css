@@ -113,7 +113,6 @@ h2{
 
 #testi-text{
 display: block;
-height: 80vh;
 z-index: -5;
 }
 
@@ -152,4 +151,5 @@ h2 {
 
 main{
 	z-index: -5;
+	min-height: 65vh;
 }
