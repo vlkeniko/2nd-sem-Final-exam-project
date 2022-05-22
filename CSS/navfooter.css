@@ -186,7 +186,28 @@
      background: #fd910a;
      color: #1f1f1f;
  }
+.langcontainer{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: left;
+}
 
+.langlogo{
+    width: 45px;
+    height: auto;
+    color:#f4e7bf;
+    margin-left: 20px;
+
+}
+
+.langchangetext{
+    font-family: 'Space Grotesk', sans-serif;
+	font-weight: 'regular' ;
+	font-size: 12px;
+	color: #F4E7BF;
+}
  /*For the web view we make it to not cover the whole page.*/
  /*NEEDS TO BE FIXED.*/
  main {
