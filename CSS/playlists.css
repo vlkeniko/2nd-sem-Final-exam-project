@@ -58,7 +58,7 @@
     padding: 10px 5px 0px 5px;
 }
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
 .card {
     width: 80%;
 }
@@ -69,14 +69,38 @@
     margin-left: auto;
     margin-right: auto;
 }
-}
-
-/* @media screen and (max-width: 620px) {
-.container {
-    width: 100%;
-}
-
-.card {
-    width: 100%;
-}
 } */
+
+@media screen and (min-width: 1600px) {
+.iframe-vinyl-1 {
+    width: 40%;
+    height: 280px;
+
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.vinyl-1 {
+    width: 400px;
+    margin-top: 20px;
+}
+}
+
+@media screen and (max-width: 620px) {
+.card {
+    width: 80%;
+}
+
+.vinyl-1 {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.iframe-vinyl-1 {
+    width: 70%;
+    height: 300px;
+
+    margin-top: 20px;
+    margin-right: 35px;
+}
+}
