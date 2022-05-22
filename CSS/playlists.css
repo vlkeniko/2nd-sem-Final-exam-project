@@ -71,7 +71,7 @@
 }
 } */
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1000px) {
 .iframe-vinyl-1 {
     width: 40%;
     height: 280px;
@@ -87,13 +87,10 @@
 }
 
 @media screen and (max-width: 620px) {
-.card {
-    width: 80%;
-}
-
 .vinyl-1 {
-    width: 300px;
+    width: 330px;
     margin-top: 20px;
+    margin-left: -20px;
 }
 
 .iframe-vinyl-1 {
@@ -102,5 +99,12 @@
 
     margin-top: 20px;
     margin-right: 35px;
+}
+}
+
+@media screen and (min-width: 820px) {
+.vinyl-1 {
+    width: 300px;
+    margin-top: 20px;
 }
 }
