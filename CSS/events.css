@@ -10,6 +10,7 @@
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+    z-index: -5;
     ;
 }
 
@@ -97,4 +98,14 @@
     #dots-con {
         display: none;
     }
+}
+
+/*Styling of the event description*/
+
+.eventdescription{
+    min-width: 300px;
+    padding-top: 20px;
+    padding-left:30%;
+    padding-right: 30%;
+    padding-bottom: 40px;
 }
