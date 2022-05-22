@@ -15,10 +15,155 @@
         rel="stylesheet">
         <link rel="stylesheet" href="/CSS/navfooter.css">
         <link rel="stylesheet" href="/CSS/basicstyles.css">
+        <link rel="stylesheet" href="/CSS/contact.css">
         <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico">
     <title>Kromosom - Contact</title>
 </head>
 <body>
+
+    <div class="navbar"><a href="/index.html"><img class="toplogo" alt="menuicon"
+        src="/Pictures/logo_little.png"></a></div>
+<nav>
+    <!--For mobile-->
+    <div class="mobilenav">
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a href="/index.html" class="menuitem">HOME</a>
+                <a href="/HTML/menu.html" class="menuitem">MENU</a>
+                <a href="/HTML/events.html" class="menuitem">EVENTS</a>
+                <a href="/HTML/aboutus.html" class="menuitem">ABOUT US</a>
+                <a href="/HTML/gallery.html" class="menuitem">GALLERY</a>
+                <a href="/HTML/playlists.html" class="menuitem">OUR PLAYLISTS</a>
+                <a href="/HTML/contact.html" class="menuitem">CONTACT US</a>
+                <button class="languagebutton dk">DK</button> &nbsp <button class="languagebutton en">EN</button>
+
+            </div>
+
+        </div>
+
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <span onclick="openNav()"></span>
+        <!-- Use any element to open/show the overlay navigation menu -->
+
+        <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/lines.PNG"
+                width="35" height="30">
+
+        <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/lines.PNG"
+                width="35" height="30"></span>
+    </div>
+</nav>
+
     <h1 class="title">CONTACT US</h1>
+    <div class="contactcontainer">
+        <div class="circle">
+            <img class="contactimage" alt="contactimage" src="/Pictures/fb icon.png"
+            width="35">
+        <p class="contactdescription">Facebook</p>
+        </div>
+        <div class="circle">
+            <img class="contactimage" alt="contactimage" src="/Pictures/Ig icon.png"
+            width="35">
+        <p class="contactdescription">Instagram</p>
+        </div>
+        <div class="circle">
+            <img class="contactimage" alt="contactimage" src="/Pictures/phone.png"
+            width="35">
+        <p1 class="contactdescription">Telephone<br>number</p1>
+        </div>
+        <div class="circle">
+            <img class="contactimage" alt="contactimage" src="/Pictures/brev1.png"
+            width="35">
+        <p class="contactdescription">E-mail</p>
+        </div>
+    </div>
+    <h1 class="title">OPENING HOURS</h1>
+    <h1 class="title">LOCATION</h1>
+
+
+    <footer>
+        <div class="footercontainer">
+            <div class="footeritem">
+                <h2 class="footertitle openinghours">OPENING<br>HOURS</h2>
+            </div>
+            <div class="footeritem">
+                <table>
+                    <tr>
+                        <th class="day">Monday</th>
+                        <th>Closed</th>
+                    </tr>
+                    <tbody>
+                        <tr class="hoursrow">
+                            <td class="day">Tuesday</td>
+                            <td>2pm - 10pm</td>
+                        </tr>
+                        <tr class="hoursrow">
+                            <td class="day">Wednesday</td>
+                            <td>2pm - 10pm</td>
+                        </tr>
+                        <tr class="hoursrow">
+                            <td class="day">Thursday</td>
+                            <td>2pm - 12am</td>
+                        </tr>
+                        <tr class="hoursrow">
+                            <td class="day">Friday</td>
+                            <td>2pm - 12am</td>
+                        </tr>
+                        <tr class="hoursrow">
+                            <td class="day">Saturday</td>
+                            <td>2pm - 2am</td>
+                        </tr>
+                        <tr class="hoursrow">
+                            <td class="day">Sunday</td>
+                            <td>Closed</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="footeritem">
+                <h2 class="footertitle">ADDRESS</h2>
+                <p>Nørre Allé 66</p>
+                <p>8000 Aarhus</p>
+            </div>
+            <div class="footeritem">
+                <h2 class="footertitle">SOCIAL MEDIA</h2>
+                <div class="socialscontainer">
+                    <a href="https://www.facebook.com/Kromosom66"><img class="socials_image"
+                            src="/Pictures/fb icon.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/kromosom66/"><img class="socials_image"
+                            src="/Pictures/Ig icon.png" alt="Instagram"></a>
+                </div>
+            </div>
+            <div class="footeritem">
+                <p class="smallmessage">
+                    CAN'T >
+                    <br>
+                    WAIT TO SEE YOU
+                </p>
+            </div>
+            <div class="footeritem footerlogo">
+            </div>
+            <div class="footeritem footercopyright">
+                <p class="copyright">© 2022 KROMOSOM. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // OPENS THE BURGER MENU
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+        // CLOSES THE BURGER MENU
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+
+
+    </script>
 </body>
 </html>

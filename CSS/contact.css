@@ -1,0 +1,26 @@
+.contactcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.circle{
+    background:#f4e7bf;
+    border: 3px solid black;
+    border-radius: 80px;
+    padding: 40px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+}
+
+.contactdescription{
+    font-family: 'Space Grotesk', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #FD910A;
+    font-weight: bold;
+    padding-top: 10px;
+}
