@@ -58,7 +58,6 @@ q:before, q:after {
     src: url(../Font/SpaceGrotesk-VariableFont_wght.ttf);
  }
 
-
 @font-face {
     font-family: 'SpaceGrotesk';
     src: url(../Font/SpaceGrotesk-VariableFont_wght.ttf);
@@ -72,39 +71,41 @@ h1 {
 	font-family: 'PhosphateInline';
 	font-size: 70px;
 	color: #FD910A;
-    
 }
 
 /* SUBHEADINGS (MENU AND ABOUT US CARDS) */
 h2{
-   
 	font-family: 'Space Grotesk', sans-serif;
 	font-weight: bold;
 	font-size: 30px;
 	color: #FD910A;
 	overflow: hidden;
 }
+
 /* ABOUT US TEXT */
 .p1{
-    
     font-family: 'SpaceGrotesk';
 	font-weight: 'regular' ;
 	font-size: 16px;
 	color: #F4E7BF;
 	overflow: hidden;
 }
+
 /* BURGER MENU SECTIONS */
 .p2{
     font-family: 'SpaceGrotesk';
 }
+
 /* MENU ITEM NAMES */
 .p3{
     font-family: 'SpaceGrotesk';
 }
+
 /* MENU PRICES */
 .p4{
     font-family: 'SpaceGrotesk';
 }
+
 /* READ MORE */
 .p5{
     font-family: 'SpaceGrotesk';
@@ -112,8 +113,8 @@ h2{
                 	                   /*------- BODY FORMATTING ------*/
 
 #testi-text{
-display: block;
-z-index: -5;
+	display: block;
+	z-index: -5;
 }
 
 /*Main headers with kromosom font*/
@@ -126,11 +127,9 @@ h2 {
     font-family: 'SpaceGrotesk';
 }
 
-
 /* Menu item names */
 .p1 {
 	font-family: 'SpaceGrotesk';
-	
 }
 
 /* Menu prices */
