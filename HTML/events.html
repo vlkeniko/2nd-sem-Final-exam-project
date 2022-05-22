@@ -15,10 +15,70 @@
         rel="stylesheet">
         <link rel="stylesheet" href="/CSS/navfooter.css">
         <link rel="stylesheet" href="/CSS/basicstyles.css">
+        <link rel="stylesheet" href="/CSS/events.css">
         <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico">
     <title>Kromosom - Events</title>
 </head>
 <body>
+    <nav>
+        <!--For mobile-->
+        <div class="mobilenav">
+            <div class="navbar"></div>
+            <a href="/index.html"><img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png"></a>
+            <div id="myNav" class="overlay">
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                    <a href="index.html" class="menuitem">HOME</a>
+                    <a href="/HTML/menu.html" class="menuitem">MENU</a>
+                    <a href="/HTML/events.html" class="menuitem">EVENTS</a>
+                    <a href="/HTML/aboutus.html" class="menuitem">ABOUT US</a>
+                    <a href="/HTML/gallery.html" class="menuitem">GALLERY</a>
+                    <a href="/HTML/playlists.html" class="menuitem">OUR PLAYLISTS</a>
+                    <a href="/HTML/contact.html" class="menuitem">CONTACT US</a>
+                    <button class="languagebutton dk">DK</button> &nbsp; <button class="languagebutton en">EN</button>
+                    <div class="langcontainer">
+                    <img class="langlogo" alt="lang" src="/Pictures/logo_little.png">
+                    <p class="langchangetext">Do you wanna<br>change the<br>language?</p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <span onclick="openNav()"></span>
+            <!-- Use any element to open/show the overlay navigation menu -->
+
+            <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/lines.PNG"
+                    width="30" height="25">
+            </span>
+    </nav>
+
+      <!-- Images from Craig Henry's Dribbble profile: http://dribbble.com/craighenry -->
+
+<ul class="slider">
+    <li>
+        <input type="radio" id="slide1" name="slide" checked>
+        <label for="slide1"></label>
+        <img src="https://dribbble.s3.amazonaws.com/users/322/screenshots/872485/coldchase.jpg" alt="Panel 1">
+    </li>
+    <li>
+        <input type="radio" id="slide2" name="slide">
+        <label for="slide2"></label>
+        <img src="https://dribbble.s3.amazonaws.com/users/322/screenshots/980517/icehut_sm.jpg" alt="Panel 2">
+    </li>
+    <li>
+        <input type="radio" id="slide3" name="slide">
+        <label for="slide3"></label>
+        <img src="https://dribbble.s3.amazonaws.com/users/322/screenshots/943660/hq_sm.jpg" alt="Panel 3">
+    </li>
+    <li>
+        <input type="radio" id="slide4" name="slide">
+        <label for="slide4"></label>
+        <img src="https://dribbble.s3.amazonaws.com/users/322/screenshots/599584/home.jpg" alt="Panel 4">
+    </li>
+</ul>
     
 </body>
 </html>
