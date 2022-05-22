@@ -114,6 +114,7 @@ h2{
 #testi-text{
 display: block;
 height: 80vh;
+z-index: -5;
 }
 
 /*Main headers with kromosom font*/
@@ -148,3 +149,6 @@ h2 {
 }
                 	                   /*------- BODY FORMATTING ------*/
 
+main{
+	z-index: -5;
+}
