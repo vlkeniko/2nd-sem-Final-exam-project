@@ -33,21 +33,19 @@
 }
 
 .controls {
-    
     top: 50%;
     transform: translateY(-50%);
     font-size: 1.5em;
     padding: 15px 10px;
     border-radius: 5px;
-
 }
 
 .arrow{
     width: 30px;
+    cursor: pointer;
 }
 
 .controls:hover {
-    
     transition: 0.3s;
 }
 
