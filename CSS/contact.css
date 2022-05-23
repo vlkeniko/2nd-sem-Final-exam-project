@@ -1,31 +1,3 @@
-/* .contactcontainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-
-} */
-
-/* .circle {
-    background: #f4e7bf;
-    border: 3px solid black;
-    border-radius: 80px;
-    padding: 40px;
-    height: 60px;
-    width: 60px;
-    text-align: center;
-} */
-
-/* .contactdescription {
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #FD910A;
-    font-weight: bold;
-    padding-top: 10px;
-} */
-
-
 /* -------------- CONTACT US CONTAINER ------------- */
 .contact-us-container {
     /* background-image: url("/pictures/black-background.svg");
@@ -33,8 +5,77 @@
     background-size: 100vw;
     background-repeat: no-repeat; */
     background-color: #1F1F1F;
+    padding: 80px 40px;
 }
 
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.card {
+    border: 2px solid #F4E7BF;
+    border-radius: 20px;
+    padding: 20px;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.social-media-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.socials_contact-img {
+    width: 96px;
+    height: auto;
+    margin-left: -25px;
+}
+
+.concert-booking-card {
+    align-self: flex-end;
+}
+
+/* -------------- OPENING HOURS CONTAINER ------------- */
+.brain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    padding: 80px 20px;
+}
+
+.day-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 80%;
+}
+
+.day-card {
+    border: 2px solid #1F1F1F;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 30px;
+    box-shadow: 5px 5px#fd910a;
+    /* text-overflow: ellipsis; */
+}
+
+
+
+
+
+/* ---- MAP ---- */
 .mapouter {
     position: relative;
     text-align: right;
