@@ -34,3 +34,30 @@ html {
 
     height: 100vh;
 }
+
+.day-card {
+    border: 2px solid #1F1F1F;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 30px;
+    box-shadow: 5px 5px#fd910a;
+    /* text-overflow: ellipsis; */
+}
+
+.night-card {
+    border: 2px solid #f4e7bf;
+    background-color:#1F1F1F;
+    color: #f4e7bf;
+
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 30px;
+    box-shadow: 5px 5px#f4e7bf;
+  
+}
