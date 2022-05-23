@@ -273,17 +273,8 @@ table {
 .socials_image {
     width: 60px;
     height: auto;
-    padding: 10px;
+    padding-top: 10px;
 }
-
-/* img.facebook-rainbow {
-    opacity: 0;
-    transition: ease-out cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-img.facebook-rainbow:hover {
-    opacity: 1;
-} */
 
 .openinghours {
     text-align: center;
