@@ -1,0 +1,14 @@
+.moon{
+    border: 2px solid black;
+
+}
+
+.sunmoon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 60px;
+    
+}
