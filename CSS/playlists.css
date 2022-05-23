@@ -1,3 +1,4 @@
+/* the h1 "OUR PLAYLISTS" styling */
 .heading {
     text-align: center;
     margin-bottom: 80px;
@@ -60,17 +61,8 @@
     height: 380px;
 
     margin-top: 15px;
-    margin-right: 100px;
+    margin-left: 100px;
     float: left;
-}
-
-.card-body2 {
-    display: block;
-    color: rgb(58, 58, 58);
-    text-align: center;
-    background: linear-gradient(to right, #ff416c, #ff4b2b);
-    text-decoration: none;
-    padding: 10px 5px 0px 5px;
 }
 
 /* @media screen and (min-width: 1000px) {
