@@ -1,14 +1,36 @@
-.moon{
+html {
+    display: flex;
+    flex-direction: column;
+}
+
+.moon {
+    display: block;
     border: 2px solid black;
+    padding-top: 150px;
 
 }
 
-.sunmoon{
+.SUN {
+    display: block;
+    left: auto;
+    right: auto;
+}
+
+.sunmoon {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 60px;
-    
+    gap: 200px;
+    width: 100%;
+    height: 100vh;
+}
+
+#cafe {
+
+    height: 100vh;
+}
+
+#bar {
+
+    height: 100vh;
 }

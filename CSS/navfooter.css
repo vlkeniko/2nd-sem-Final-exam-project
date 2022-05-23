@@ -212,13 +212,6 @@ header {
 	color: #F4E7BF;
 }
 
- /*For the web view we make it to not cover the whole page.*/
- /*NEEDS TO BE FIXED.*/
-main {
-    display: flex;
-    flex-grow: 1;
-}
-
                         /*------------------FOOTER---------------------*/
 .footercontainer {
     /* z-index: -2; */
