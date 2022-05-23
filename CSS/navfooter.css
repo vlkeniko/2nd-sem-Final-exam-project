@@ -314,7 +314,7 @@
     }
 
     .footerlogo {
-        content: url("/Pictures/logo_little_mirrored.png"); 
+        content: url("/pictures/logo_little_mirrored.png"); 
         transform: scaleX(-1);
         margin-left: 40px;
         z-index: 1;
