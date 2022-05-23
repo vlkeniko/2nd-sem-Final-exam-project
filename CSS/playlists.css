@@ -39,6 +39,12 @@
     margin-top: 20px;
 }
 
+.vinyl-2 {
+    width: 550px;
+    float: right;
+    margin-top: 20px;
+}
+
 .iframe-vinyl-1 {
     border-radius:12px;
     width: 50%;
@@ -47,6 +53,16 @@
     margin-top: 15px;
     margin-right: 100px;
     float: right;
+}
+
+.iframe-vinyl-2 {
+    border-radius:12px;
+    width: 50%;
+    height: 380px;
+
+    margin-top: 15px;
+    margin-right: 100px;
+    float: left;
 }
 
 .card-body2 {
@@ -72,7 +88,7 @@
 } */
 
 @media screen and (min-width: 1000px) {
-.iframe-vinyl-1 {
+.iframe-vinyl-1 .iframe-vinyl-2 {
     width: 40%;
     height: 280px;
 
@@ -80,20 +96,37 @@
     margin-right: 100px;
 }
 
-.vinyl-1 {
+.vinyl-1 .vinyl-2{
     width: 400px;
     margin-top: 20px;
+}
+
+.vinyl-2 {
+    margin-right: 20px;
+}
+
+.iframe-vinyl-2 {
+    width: 50%;
+    height: 280px;
+
+    margin-top: 20px;
+    margin-left: 20px;
 }
 }
 
 @media screen and (max-width: 620px) {
-.vinyl-1 {
+.vinyl-1 .vinyl-2 {
     width: 330px;
     margin-top: 20px;
     margin-left: -20px;
 }
 
-.iframe-vinyl-1 {
+.vinyl-2 {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.iframe-vinyl-1 .iframe-vinyl-2 {
     width: 70%;
     height: 300px;
 
@@ -103,7 +136,7 @@
 }
 
 @media screen and (min-width: 820px) {
-.vinyl-1 {
+.vinyl-1 .vinyl-2 {
     width: 300px;
     margin-top: 20px;
 }
