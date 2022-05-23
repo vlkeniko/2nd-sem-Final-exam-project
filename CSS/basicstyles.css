@@ -66,6 +66,12 @@ q:before, q:after {
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 
 
+/* HTML scroll behavior to smooth */
+html {
+	scroll-behavior: smooth;
+}
+
+
               	                   /*------- TEXT FORMATTING ------*/
 /* KROMOSOM HEADINGS */
 h1 {

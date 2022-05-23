@@ -212,13 +212,6 @@ header {
 	color: #F4E7BF;
 }
 
- /*For the web view we make it to not cover the whole page.*/
- /*NEEDS TO BE FIXED.*/
-main {
-    display: flex;
-    flex-grow: 1;
-}
-
                         /*------------------FOOTER---------------------*/
 .footercontainer {
     /* z-index: -2; */
@@ -338,7 +331,7 @@ table {
         font-size: 10px;
         text-align: center;
         margin: auto;
-        margin-right: 45px;
+        margin-right: 55px;
         padding-top: 30px;
     }
 }

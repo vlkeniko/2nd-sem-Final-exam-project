@@ -5,15 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts Linking -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+
+    <!-- CSS Linking -->
     <link rel="stylesheet" href="/CSS/navfooter.css">
     <link rel="stylesheet" href="/CSS/basicstyles.css">
     <link rel="stylesheet" href="/CSS/contact.css">
@@ -22,14 +25,16 @@
 </head>
 
 <body>
-
-    <div class="navbar"><a href="/index.html"><img class="toplogo" alt="menuicon" src="/pictures/logo_little.png"></a>
-    </div>
+    
+    <!-- Start of the NAVBAR coding-->
     <nav>
         <!--For mobile-->
         <div class="mobilenav">
-            <div id="myNav" class="overlay">
 
+            <div class="navbar"></div>
+            <a href="/index.html"><img class="toplogo" alt="menuicon" src="/pictures/logo_little.png"></a>
+
+            <div id="myNav" class="overlay">
                 <!-- Button to close the overlay navigation -->
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
@@ -51,12 +56,9 @@
             <!-- Use any element to open/show the overlay navigation menu -->
             <span onclick="openNav()"></span>
             <!-- Use any element to open/show the overlay navigation menu -->
-
-            <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/pictures/lines.PNG"
-                    width="35" height="30">
-
-                <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/pictures/lines.PNG"
-                        width="35" height="30"></span>
+            <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/pictures/burger-img.png"
+                width="30" height="25">
+            </span>
         </div>
     </nav>
     <div class="contact-us-container">
@@ -218,4 +220,5 @@
         </script>
 </body>
 
+</body>
 </html>

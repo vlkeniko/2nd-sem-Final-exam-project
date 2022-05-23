@@ -25,6 +25,9 @@
     bottom: 0;
 }
 
+                        /* ---------- MEDIA QUERIES ---------- */
+
+/* -- For mobile view -- */
 @media screen and (max-width:900px) {
 
     .gallerycontainer {
@@ -57,7 +60,6 @@
         padding-bottom: 0px;
         padding-top: 70px;
     }
-
 }
 
 .igmessage{
@@ -79,5 +81,4 @@
     display: flex;
     justify-content: center;
     padding-top: 20px;
-   
 }
