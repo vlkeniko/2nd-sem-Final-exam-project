@@ -41,8 +41,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 80%;
-        
+        width: 80%; 
     }
 
     .jaj {
@@ -70,7 +69,8 @@
 }
 
 .igitem{
-    text-align:center;
+    text-align:left;
+    font-weight: bold;
     padding-left: auto;
     padding-right: auto;
 }
