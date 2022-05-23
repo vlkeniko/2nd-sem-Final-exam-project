@@ -38,8 +38,10 @@
 
     .galleryimage {
         margin-bottom: 0px;
-        width: 100%;
-        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%; 
     }
 
     .jaj {
@@ -56,4 +58,26 @@
         padding-top: 70px;
     }
 
+}
+
+.igmessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+.igitem{
+    text-align:left;
+    font-weight: bold;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.logolittle{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+   
 }
