@@ -1,6 +1,6 @@
  /*nav bar styling*/
  /*------- MOBILE NAVIGATION ------*/
- .navbar {
+.navbar {
     display: inline-block;
     position: fixed;
     top: 0;
@@ -11,7 +11,7 @@
     z-index: 2;
 }
 
- .toplogo {
+.toplogo {
     display: inline-block;
     position: fixed;
     top: 0;
@@ -25,7 +25,7 @@
 
  /*navigation menu opened*/
 
- .overlay {
+.overlay {
     height: 0%;
     width: 100%;
     position: fixed;
@@ -37,7 +37,7 @@
     transition: 0.5s;
 }
 
- .overlay-content {
+.overlay-content {
     position: relative;
     top: 10%;
     width: 100%;
@@ -46,7 +46,7 @@
     background-color: rgb(28, 28, 28);
 }
 
- .overlay a {
+.overlay a {
     text-decoration: none;
 	font-family: 'Space Grotesk', sans-serif;
 	font-weight: 300;
@@ -57,18 +57,18 @@
     transition: 0.3s;
 }
 
- .overlay a:hover, .overlay a:focus {
+.overlay a:hover, .overlay a:focus {
     color: #fd910a;
 }
 
- .overlay .closebtn {
+.overlay .closebtn {
     position: absolute;
     top: 0px;
     left: 20px;
     font-size: 60px;
 }
 
- .menu {
+.menu {
     position: fixed;
     top: 0px;
     left: 25px;
@@ -78,17 +78,17 @@
     z-index: 3;
 }
 
- .menuitem {
+.menuitem {
     margin: 2% 0;
 }
 
- .navigation__container {
+.navigation__container {
     background-color: #fd910a;
     position: sticky;
     top: 0;
 }
 
- .mobileiconlabel {
+.mobileiconlabel {
     display: inline-block;
     color: #f4e7bf;
     background: #fd910a;
@@ -97,7 +97,7 @@
     padding: 10px;
 }
 
- .menuitem {
+.menuitem {
     display: block;
     width: 100%;
     padding-top: 10px;
@@ -109,19 +109,19 @@
 }
 
  /*Hide checkbox and menuitems until clicked*/
- .menuitems__container,
- .mobileicon {
+.menuitems__container,
+.mobileicon {
     display: none;
 }
 
  /*Show menuitems when mobileicon-label is clicked*/
- .navigation__container input:checked~.menuitems__container {
+.navigation__container input:checked~.menuitems__container {
     display: block;
     padding-bottom: 100%;
     background: #f4e7bf;
 }
 
- #logomenu {
+#logomenu {
     display: inline-block;
     align-items: center;
     padding-left: 20px;
@@ -130,20 +130,20 @@
     height: auto;
 }
 
- .lines {
+.lines {
     display: inline-block;
     left: 10px;
     background: none;
     z-index: 4;
 }
 
- form {
+form {
     display: inline-block;
     color: #1f1f1f;
     text-align: center;
 }
 
- .input {
+.input {
     position: relative;
     opacity: 100%;
     z-index: 0;
@@ -152,7 +152,7 @@
 }
 
 
- header {
+header {
     display: flex;
     justify-items: center;
     align-items: center;
@@ -168,7 +168,7 @@
 
  /*Styling the button for language change*/
 
- .languagebutton {
+.languagebutton {
     border: 2px solid #fd910a;
     background: #1f1f1f;
     font-weight: bold;
@@ -180,12 +180,12 @@
     cursor: pointer;
 }
 
- .languagebutton:active {
+.languagebutton:active {
     background: #fd910a;
     color: #1f1f1f;
 }
 
- .en {
+.en {
     background: #fd910a;
     color: #1f1f1f;
 }
@@ -214,13 +214,13 @@
 
  /*For the web view we make it to not cover the whole page.*/
  /*NEEDS TO BE FIXED.*/
- main {
+main {
     display: flex;
     flex-grow: 1;
 }
 
- /*------------------FOOTER---------------------*/
- .footercontainer {
+                        /*------------------FOOTER---------------------*/
+.footercontainer {
     /* z-index: -2; */
     left: 0;
     bottom: 0;
@@ -236,10 +236,8 @@
     background-color: #1f1f1f;
 }
 
-
-
  /*footer opening hours table*/
- table {
+table {
     min-width: 260px;
     padding-left: 10px;
     padding-right: 10px;
@@ -249,12 +247,12 @@
     margin-right: auto;
 }
 
- .day {
+.day {
     padding-right: 20px;
     font-weight: bold;
 }
 
- .footertitle {
+.footertitle {
     padding-top: 20px;
     padding-bottom: 15px;
     font-family: 'Space Grotesk', sans-serif;
@@ -265,20 +263,20 @@
 
  /*the social icoons*/
 
- .socials_container {
+.socials_container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: nowrap;
 }
 
- .socials_image {
+.socials_image {
     width: 60px;
     height: auto;
     padding: 10px;
 }
 
- .openinghours {
+.openinghours {
     text-align: center;
 }
 
@@ -286,7 +284,7 @@
  /*------------------MEDIA QUERIES---------------------*/
 
  /*Web view*/
- @media screen and (min-width:900px) {
+@media screen and (min-width:900px) {
 
     /*navigation*/
     .menuitem {
@@ -341,10 +339,9 @@
         text-align: center;
         margin: auto;
     }
-
 }
 
- @media screen and (max-width:1150px) {
+@media screen and (max-width:1150px) {
     .footercontainer {
         flex-wrap: wrap;
     }
@@ -355,11 +352,10 @@
         text-align: center;
         margin: auto;
     }
-
 }
 
  /*Phone view*/
- @media screen and (max-width:899px) {
+@media screen and (max-width:899px) {
 
     /*footer*/
 
@@ -372,5 +368,4 @@
         text-align: center;
         margin-top: 20px;
     }
-
 }
