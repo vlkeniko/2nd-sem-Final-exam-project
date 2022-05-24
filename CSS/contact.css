@@ -1,13 +1,4 @@
 /* ------------ CONTACT US CONTAINER ----------- */
-.contact-us-container {
-    /* background-image: url("/pictures/black-background.svg");
-    background-position: center;
-    background-size: 100vw;
-    background-repeat: no-repeat; */
-    /* background-color: #1F1F1F;
-    padding: 80px 40px; */
-}
-
 .cards-container {
     display: flex;
     flex-direction: column;
@@ -74,6 +65,15 @@
 }
 
 /* ------------ LOCATION CONTAINER ----------- */
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        margin-top: 5vh;
+        padding-bottom: 50px;
+}
+
 .location-text-container {
     display: flex;
     flex-direction: column;
@@ -105,28 +105,9 @@
 
     body {
         background-image: url("/pictures/contactus_pc.png");
-        /* background-position: center; */
-        /* background-size: 100vw; */
         background-repeat: no-repeat;
         background-size: cover;
     }
-
-    /*------- TEXT FORMATTING ------*/
-    /* KROMOSOM HEADINGS */
-    /* h1 {
-        font-size: 120px;
-    } */
-
-    /* SUBHEADINGS (MENU AND ABOUT US CARDS) */
-    /* h2 {
-        font-size: 30px;
-        color: #FD910A;
-    } */
-
-    /* ABOUT US TEXT */
-    /* .p5 {
-        font-size: 20px;
-    } */
 
     body {
         display: flex;
@@ -173,48 +154,26 @@
 
     /* ------------ OPENING HOURS CONTAINER ----------- */
     .brain-container {
-        /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        text-align: center;
-        gap: 30px;
-        padding: 80px 20px 50px;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto; */
-        align-items: center;
+        margin-top: 400px;
     }
 
     .day-cards {
         flex-wrap: wrap;
+        flex: 60px;
         gap: 40px;
         height: 60vh;
-        /* overflow: hidden; */
-    }
-
-    .day-card {
-        /* border: 2px solid #1F1F1F;
-        border-radius: 50px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        gap: 10px;
-        padding: 6px 30px;
-        box-shadow: 5px 5px#fd910a;
-        /* text-overflow: ellipsis; */
-        /* white-space: nowrap; */
+        width: 60%;
+        margin-left: -10vw;
     }
 
     /* ------------ LOCATION CONTAINER ----------- */
-    .location-text-container {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        padding-bottom: 30px;
+    .location {
+        margin-top: 10vh;
+        padding-bottom: 50px;
+    }
+
+    .location-header {
+        margin-bottom: 30px;
     }
 
     /* ---- MAP ---- */
@@ -222,7 +181,7 @@
         position: relative;
         text-align: right;
         height: auto;
-        width: 100%;
+        width: 70%;
         overflow: hidden;
     }
 
@@ -233,4 +192,8 @@
     }
 }
 
-@media screen and (max-width:1150px) {}
+@media screen and (max-width:1150px) {
+    .contact-us-container {
+        margin: 0px 20px;
+    }
+}
