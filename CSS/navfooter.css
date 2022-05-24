@@ -304,7 +304,7 @@ table {
     }
 
     .footerlogo {
-        content: url("/pictures/logo_little_mirrored.png"); 
+        content: url("/pictures/beige_person.png"); 
         transform: scaleX(-1);
         margin-left: 40px;
         z-index: 1;

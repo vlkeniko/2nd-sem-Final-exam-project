@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- Fonts Linking -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -62,16 +61,86 @@
         </div>
     </nav>
 
-    <main>
-        <!--Sun and Moon to choose "cafe" and bar menu-->
-        <div class="sunmoon">
-            <div class="cafebar"><a href="menubar.html"><img class="moon" alt="menuicon" src="/Pictures/moon-01.png"></a></div>
-            <div class="cafebar"><a href="menucafe.html"><img class="sun" alt="menuicon" src="/Pictures/sun_menu-01.png"></a></div>
-        </div>  
-    </main>
+    <!--Menu for the cafe-->
+    <div class="cafe">
+
+        <!--The moon icon to switch to bar menu-->
+        <a class="cafebar" href="menubar.html"><img class="moonicon" src="/Pictures/moon-01.png" alt="moonicon"
+                width="100px"></a>
+
+        <!--The sun icon at the top of the menu-->
+        <img class="sunlogo" src="/Pictures/sun_menuday.png" alt="sunlogo" width="100px">
+
+        <!--The menu-->
+        <div id="cafe">
+            <table>
+                <th>
+                    <h2>HOT DRINKS</h2>
+                </th>
+                <div class="menucard">
+                    <tr class="day-card">
+                        <td class="product">FILTER COFFEE</td>
+                        <td class="price">30 DKK</td>
+                    </tr>
+                </div>
+                <tr class="day-card">
+                    <td class="product">SPECIAL COFFEE</td>
+                    <td>40 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">HOT CHOCOLATE</td>
+                    <td>40 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">TEA</td>
+                    <td>40 DKK</td>
+                </tr>
+            </table>
+
+            <table>
+                <th>
+                    <h2>SODAS</h2>
+                </th>
+                <tr class="day-card">
+                    <td class="product">SODA</td>
+                    <td>40 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">GINGER BEER</td>
+                    <td>40 DKK</td>
+                </tr>
+
+                <th>
+                    <h2>SNACKS</h2>
+                </th>
+                <tr class="day-card">
+                    <td class="product">NUTS</td>
+                    <td>15 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">OLIVES</td>
+                    <td>15 DKK</td>
+                </tr>
+            </table>
+        </div>
+
+        <!--Coffee card part, SPECIAL OFFERS-->
+        <div class="specialperson">
+            <img src="/Pictures/logo_little.png" alt="personicon" width="70px">
+            <p class="p4">WE HAVE THE<BR>SPECIAL OFFERS FOR<BR>YOU!</p>
+        </div>
+        <h1 class="title">SPECIAL<br>OFFERS</h1>
+        <div class="coffeecard">
+            <img class="cardimage" src="/Pictures/click on this.png" alt="we need another image here">
+            <div class="cardtext">
+                <p>HOW DOES IT WORK?</p>
+                <br>PRICE</p>
+            </div>
+        </div>
+    </div>
 
     <!--Footer-->
-   <!-- <footer>
+    <footer>
         <div class="footercontainer">
             <div class="footeritem">
                 <h2 class="footertitle openinghours">OPENING<br>HOURS</h2>
@@ -137,7 +206,7 @@
                 <p class="copyright">© 2022 KROMOSOM. All rights reserved</p>
             </div>
         </div>
-    </footer>-->
+    </footer>
     <!--Small script-->
     <script>
         // OPENS THE BURGER MENU
@@ -149,7 +218,6 @@
             document.getElementById("myNav").style.height = "0%";
         }
     </script>
-
 </body>
 
 </html>

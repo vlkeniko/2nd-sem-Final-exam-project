@@ -4,19 +4,21 @@ html {
     scroll-behavior: smooth;
 }
 
-.cafebar{
-width: 200px;
-height: auto;
+.cafebar {
+    width: 200px;
+    height: auto;
 }
+
 .moon {
     display: block;
     padding-top: 150px;
     width: 200px;
     margin-left: -20px;
-    transition: transform .2s; /* Animation */
+    transition: transform .2s;
+    /* Animation */
 }
 
-.moon:hover{
+.moon:hover {
     transform: scale(1.5);
 }
 
@@ -26,10 +28,11 @@ height: auto;
     right: auto;
     width: 200px;
     margin-left: -100px;
-    transition: transform .2s; /* Animation */
+    transition: transform .2s;
+    /* Animation */
 }
 
-.sun:hover{
+.sun:hover {
     transform: scale(1.5);
 }
 
@@ -40,11 +43,10 @@ height: auto;
     gap: 50px;
     width: 100%;
     min-height: 100vh;
-    
+
 }
 
 #cafe {
-    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -64,6 +66,11 @@ height: auto;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    
+}
+
+body{
+    background-color:#1F1F1F;
 }
 
 th {
@@ -139,45 +146,142 @@ td {
     background-color: #f4e7bf;
     border-radius: 30px;
     box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-    width: 500px;
+    max-width: 400px;
     justify-content: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
 }
 
 .cardimage {
     margin-top: 30px;
     border-radius: 20px;
+    width: 90%;
+    height: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
 
 }
 
+.cardtext {
+    text-align: left;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    align-items: flex-start;
+}
+
+/*placing of sun and moon nav items*/
+
+
+/*placing the sun and moon icons on top of the menu*/
+
+
+
 /*Background for 1st*/
 @media screen and (min-width:900px) {
-    .sunmoon{
+    .sunmoon {
         background-image: url("/Pictures/menu1-01.png");
         background-repeat: repeat;
         background-size: cover;
     }
 
-    .cafebackground{
-        background-image: url("/Pictures/menu_day.png");
+    .cafe {
+        background-image: url("/Pictures/menu1.png");
         background-repeat: repeat;
         background-size: cover;
     }
 
-    .barbackground{
-        background-image: url("/Pictures/menu_night.png");
+    .bar {
+        background-image: url("/Pictures/menu2.png");
         background-repeat: repeat;
         background-size: cover;
     }
 }
+
 /*Background for mobile*/
 @media screen and (max-width:899px) {
-  
+
+    .sunlogo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+    }
+
+    .moonicon {
+        display: block;
+    }
+
+    .coffeecard{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .moonicon {
+        display: block;
+        margin-left: 5%;
+        padding-top: 60px;
+        transition: transform .2s;
+        transform: scaleX(-1);
+        /* Animation */
+    }
+    
+    .moonicon:hover {
+        transform: scale(1.5);
+        transform: scaleX(-1);
+      
+    }
 }
 
-/*Background for pc*/
+/*for pc*/
 @media screen and (min-width:900px) {
+    #cafe {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+        max-width: 60%;
+        margin-left: 30%;
+        margin-right: auto;
+    }
+
+    #bar {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+        max-width: 60%;
+        margin-left: 30%;
+        margin-right: auto;
+    }
+    .sunlogo {
+        display: block;
+        margin-left: 55%;
+        margin-right: auto;
+        margin-top: 200px;
+    }
+
+    .shots{
+        margin-left: 70px;
+        padding-left: 0;
+    }
+
+    .moonicon {
+        display: block;
+        margin-left: 80px;
+        padding-top: 80px;
+        transition: transform .2s;
+        /* Animation */
+    }
     
+    .moonicon:hover {
+        transform: scale(1.5);
+      
+    }
 }
