@@ -13,7 +13,8 @@
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
     <!-- CSS Linking -->
@@ -25,8 +26,9 @@
 </head>
 
 <body>
-    <div class="navbar"><a href="/index.html"><img class="toplogo" alt="menuicon" src="/pictures/logo_little.png"></a>
-    </div>
+    <div class="navbar"></div><a href="/index.html"><img class="toplogo" alt="menuicon"
+            src="/pictures/logo_little.png"></a>
+
     <nav>
         <!--For mobile-->
         <div class="mobilenav">
@@ -63,139 +65,210 @@
     <main>
         <!--Sun and Moon to choose "cafe" and bar menu-->
         <div class="sunmoon">
-            <a href="/index.html"><img class="moon" alt="menuicon" src="/Pictures/moon.png"></a>
-            <a href="/index.html"><img class="sun" alt="menuicon" src="/Pictures/sun.png"></a>
+            <div class="cafebar"><a href="#bar1"><img class="moon" alt="menuicon" src="/Pictures/moon.png"></a></div>
+            <div class="cafebar"><a href="#cafe1"><img class="sun" alt="menuicon" src="/Pictures/sun.png"></a></div>
         </div>
-<br>
-        <div class="cafe">
-            <h2>HOT DRINKS</h2>
+        <div id="cafe1"></div>
+        <br>
+        <br>
+        <div id="cafe">   
             <table>
-                <tr>
-                    <td>FILTER COFFEE</td>
-                    <td></td>
+                <th><h2>HOT DRINKS</h2></th>
+                <div class="menucard">
+                <tr class="day-card">
+                    <td class="product">FILTER COFFEE</td>
+                    <td class="price">30 DKK</td>
                 </tr>
-                <tr>
-                    <td>SPECIAL COFFEE</td>
+                </div>
+                <tr class="day-card">
+                    <td class="product">SPECIAL COFFEE</td>
                     <td>40 DKK</td>
                 </tr>
-                <tr>
-                    <td>HOT CHOCOLATE</td>
+                <tr class="day-card">
+                    <td class="product">HOT CHOCOLATE</td>
                     <td>40 DKK</td>
                 </tr>
-                <tr>
-                    <td>TEA</td>
+                <tr class="day-card">
+                    <td class="product">TEA</td>
                     <td>40 DKK</td>
                 </tr>
             </table>
-            <h2>SODAS</h2>
+           
             <table>
-                <tr>
-                    <td>SODA</td>
+                <th> <h2>SODAS</h2></th>
+                <tr class="day-card">
+                    <td class="product">SODA</td>
                     <td>40 DKK</td>
                 </tr>
-                <tr>
-                    <td>GINGER BEER</td>
+                <tr class="day-card">
+                    <td class="product">GINGER BEER</td>
                     <td>40 DKK</td>
                 </tr>
             </table>
-            <h2>SNACKS</h2>
+            
             <table>
-                <tr>
-                    <td>NUTS</td>
+                <th><h2>SNACKS</h2></th>
+                <tr class="day-card">
+                    <td class="product">NUTS</td>
                     <td>15 DKK</td>
                 </tr>
-                <tr>
-                    <td>OLIVES</td>
+                <tr class="day-card">
+                    <td class="product">OLIVES</td>
                     <td>15 DKK</td>
+                </tr>
+            </table>
+        </div>
+        <div id="bar1"></div>
+        <br>
+        <br>
+        <div id="bar">
+            
+            <table>
+                <th><h2>FADOL</h2></th>
+                <tr class="night-card">
+                    <td class="product">THY PILSNER</td>
+                    <td>45 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">THY CLASSIC</td>
+                    <td>50 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">IPA</td>
+                    <td>55 DKK</td>
+                </tr>
+            </table>
+           
+            <table>
+                <th> <h2>BOTTLED BEER</h2></th>
+                <tr class="night-card">
+                    <td class="product">THY PILSNER</td>
+                    <td>30 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">THY CLASSIC</td>
+                    <td>35 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">SPECIAL BEER</td>
+                    <td>40 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">CERES TOP</td>
+                    <td>30 DKK</td>
+                </tr>
+            </table>
+            
+            <table>
+                <th><h2>VIN</h2></th>
+                <tr class="night-card">
+                    <td class="product">GLASS</td>
+                    <td>50 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">BOTTLE</td>
+                    <td>200 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">BOBLER</td>
+                    <td>250 DKK</td>
+                </tr>
+            </table>
+            
+            <table>
+                <th><h2>SODA</h2></th>
+                <tr class="night-card">
+                    <td class="product">SODA</td>
+                    <td>35 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">GINGER BEER</td>
+                    <td>35 DKK</td>
+                </tr>
+            </table>
+            
+            <table>
+                <th><h2>2cl DRINKS</h2></th>
+                <tr class="night-card">
+                    <td class="product">WAP</td>
+                    <td>60 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">MORJETTE</td>
+                    <td>60 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">GIN TONIC</td>
+                    <td>60 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">GIN HASS</td>
+                    <td>60 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">RUM AND COLA</td>
+                    <td>60 DKK</td>
+                </tr>
+            </table>
+            
+            <table>
+                <th><h2>4cl DRINKS</h2></th>
+                <tr class="night-card">
+                    <td class="product">LIGHTSTORMY</td>
+                    <td>70 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">SONI ON THE BEACH</td>
+                    <td>70DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">GLIMMERBØSSE</td>
+                    <td>70 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">MOSCOW MULE</td>
+                    <td>70 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">JACK TWIST</td>
+                    <td>70 DKK</td>
+                </tr>
+            </table>
+            
+            <table>
+                <th><h2>SHOTS</h2></th>
+                <tr class="night-card">
+                    <td class="product">ALM. SHOT</td>
+                    <td>20 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">TEQUILA</td>
+                    <td>30 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">TEQUILA LIME</td>
+                    <td>30 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">UCRAINE COCAINE</td>
+                    <td>30 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">10 ALM. SHOTS</td>
+                    <td>150 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">10 TEQUILA SHOT</td>
+                    <td>200 DKK</td>
+                </tr>
+                <tr class="night-card">
+                    <td class="product">KROMOSHOT</td>
+                    <td>30 DKK</td>
                 </tr>
             </table>
         </div>
 
-        <div class="bar">
-            <h2>FADOL</h2>
-            <table>
-                <tr>
-                    <td>THY PILSNER</td>
-                    <td>15 DKK</td>
-                </tr>
-                <tr>
-                    <td>THY CLASSIC</td>
-                    <td>15 DKK</td>
-                </tr>
-                <tr>
-                    <td>IPA</td>
-                    <td>15 DKK</td>
-                </tr>
-            </table>
-            <h2>BOTTLED BEER</h2>
-            <table>
-                <tr>
-                    <td>THY PILSNER</td>
-                    <td>15 DKK</td>
-                </tr>
-                <tr>
-                    <td>THY CLASSIC</td>
-                    <td>15 DKK</td>
-                </tr>
-                <tr>
-                    <td>SPECIAL BEER</td>
-                    <td>15 DKK</td>
-                </tr>
-                <tr>
-                    <td>CERES TOP</td>
-                    <td>15 DKK</td>
-                </tr>
-            </table>
-            <h2>VIN</h2>
-            <table>
-                <tr>
-                    <td>GLASS</td>
-                    <td>15 DKK</td>
-                </tr>
-                <tr>
-                    <td>BOTTLE</td>
-                    <td>15 DKK</td>
-                </tr>
-                <tr>
-                    <td>BOBLER</td>
-                    <td>15 DKK</td>
-                </tr>
-            </table>
-            <h2>SODA</h2>
-            <table>
-                <tr>
-                    <td>SODA</td>
-                    <td>40 DKK</td>
-                </tr>
-                <tr>
-                    <td>GINGER BEER</td>
-                    <td>40 DKK</td>
-                </tr>
-            </table>
-            <h2>2cl DRINKS</h2>
-            <table>
-                <tr>
-                    <td>WAP</td>
-                    <td>40 DKK</td>
-                </tr>
-                <tr>
-                    <td>MORJETTE</td>
-                    <td>40 DKK</td>
-                </tr>
-                <tr>
-                    <td>GIN TONIC</td>
-                    <td>40 DKK</td>
-                </tr>
-                <tr>
-                    <td>GIN HASS</td>
-                    <td>40 DKK</td>
-                </tr>
-                <tr>
-                    <td>RUM AND COLA</td>
-                    <td>40 DKK</td>
-                </tr>
-            </table>
-        </div>
+
     </main>
 
     <footer>
@@ -278,4 +351,5 @@
     </script>
 
 </body>
+
 </html>
