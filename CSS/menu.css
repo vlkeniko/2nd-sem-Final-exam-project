@@ -160,13 +160,13 @@ td {
         background-size: cover;
     }
 
-    .cafebackground{
+    .cafe{
         background-image: url("/Pictures/menu_day.png");
         background-repeat: repeat;
         background-size: cover;
     }
 
-    .barbackground{
+    .bar{
         background-image: url("/Pictures/menu_night.png");
         background-repeat: repeat;
         background-size: cover;
