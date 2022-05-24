@@ -1,127 +1,193 @@
+ /* HTML page scrolls smoothly when a button that leads to a section is pressed */
+ html {
+    scroll-behavior: smooth;
+}
+
 /* the h1 "OUR PLAYLISTS" styling */
 .heading {
     text-align: center;
     margin-bottom: 80px;
 }
 
-/* Inspirational code from: https://codepen.io/skcals/pen/eYpEvda */
-
 /* Containers with the Vinyl and Spotify playlist */
 .container {
-    width: 90%;
-    margin: 150px auto;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-flow: wrap;
-}
-
-.card {
-    width: 90%;
-    background: #fff;
-    border: 1px solid #ccc;
-    margin-bottom: 50px;
-    transition: 0.3s;
-    align-items: center;
-    padding: 20px 0px 20px 0px;
+    /* margin: 250px auto; */
+    margin-top: 250px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-.card:hover {
+.vinyls {
+    margin-bottom: 200px;
+    transition: 0.5s ease-in-out;
+}
+
+.vinyls:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+    transition: 0.5s ease-in-out;
 }
 
 .vinyl-sun {
-    width: 550px;
-    float: left;
-    margin-top: 20px;
-}
-
-.vinyl-moon {
-    width: 550px;
-    float: right;
-    margin-top: 20px;
-}
-
-.iframe-vinyl-sun {
-    border-radius:12px;
-    width: 50%;
-    height: 380px;
-
-    margin-top: 15px;
-    margin-right: 100px;
-    float: right;
-}
-
-.iframe-vinyl-moon {
-    border-radius:12px;
-    width: 50%;
-    height: 380px;
-
-    margin-top: 15px;
-    margin-left: 100px;
-    float: left;
-}
-
-@media screen and (max-width: 900px) {
-    
-}
-
-/* @media screen and (min-width: 1000px) {
-.iframe-vinyl-sun .iframe-vinyl-moon {
-    width: 40%;
-    height: 280px;
-
-    margin-top: 20px;
-    margin-right: 100px;
-}
-
-.vinyl-sun.vinyl-moon {
     width: 400px;
     margin-top: 20px;
 }
 
 .vinyl-moon {
-    margin-right: 20px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.iframe-vinyl-sun {
+    border-radius:12px;
+    width: 90%;
+    height: 380px;
+    transition: 0.3s;
+}
+
+.iframe-vinyl-sun:hover {
+    transform: scale(1.05);
 }
 
 .iframe-vinyl-moon {
-    width: 50%;
-    height: 280px;
-
-    margin-top: 20px;
-    margin-left: 20px;
+    border-radius:12px;
+    width: 90%;
+    height: 380px;
+    transition: 0.3s;
 }
+
+.iframe-vinyl-moon:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+body {
+    background-image: url(pictures/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Set display to none for day-spotify*/
+#day-spotify {
+    display: none;
+}
+
+/* Set display to none for night-spotify*/
+#night-spotify {
+    display: none;
+}
+
+
+
+
+
+
+
+/* NEW CSS STYLING */
+
+.row {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    flex-flow: column;
+    /* align-content: center; */
+    align-items: center;
+}
+
+.card {
+    width: 80%;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+
+.card-header {
+    text-align: center;
+    padding: 50px 10px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.card-header:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 0px 10px;
+    text-align: center;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.card-body .btn {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    padding: 80px 50px;
+}
+
+.btn {
+    border-radius: 12px;
+    border: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+
+    /* -------- MEDIA QUERIES -------- */
+@media screen and (max-width: 1000px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .vinyls {
+        margin-bottom: 110px;
+    }
 }
 
 @media screen and (max-width: 620px) {
-.vinyl-sun .vinyl-moon {
-    width: 330px;
-    margin-top: 20px;
-    margin-left: -20px;
-}
 
-.vinyl-moon {
-    margin-left: 0;
-    margin-right: 20px;
-}
+    h1 {
+        font-size: 60px;
+    }
 
-.iframe-vinyl-sun .iframe-vinyl-moon {
-    width: 70%;
-    height: 300px;
+    .container {
+        width: 100%;
+    }
 
-    margin-top: 20px;
-    margin-right: 35px;
-}
-}
+    .heading {
+        padding: 20px;
+        font-size: 20px;
+    }
 
-@media screen and (min-width: 820px) {
-.vinyl-sun .vinyl-moon {
-    width: 300px;
-    margin-top: 20px;
+    .vinyl-sun {
+        width: 200px;
+    }
+
+    .vinyl-moon {
+        width: 200px;
+    }
+
+    .vinyls {
+        margin-bottom: 110px;
+    }
+
+    .card {
+        width: 80%;
+    }
 }
-} */

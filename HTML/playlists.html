@@ -13,15 +13,12 @@
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     
     <!-- CSS Linking -->
-    <link rel="stylesheet" href="/CSS/navfooter.css">
-    <link rel="stylesheet" href="/CSS/basicstyles.css">
-    <link rel="stylesheet" href="/CSS/playlists.css">
-    <link rel="icon" type="image/x-icon" href="/pictures/favicon.ico">
+    <link rel="stylesheet" href="basic.css">
+    <link rel="stylesheet" href="playlists.css">
     <title>Kromosom - Our playlists</title>
 </head>
 
@@ -66,16 +63,95 @@
 
 
     <main>
-        <!-- Vinyl & Spotify FLEXBOX -->
+
+        <div class="container">
+            <div class="heading">
+              <h1>OUR<br>PLAYLISTS</h1>
+            </div>
+
+            <div class="row">
+
+                <div class="vinyls">
+                    <!-- Add id to image -->
+                    <a href="#day-spotify">
+                        <img class="vinyl-sun" id="sun-vinyl" src="pictures/vinyl-sun.png" alt="GFG image"
+                        style="cursor: pointer;"/>
+                    </a>
+                </div>
+
+                <div class="card" id="day-spotify">
+                    <div class="card-header">
+                        <h1>DAYTIME<br>CHILL</h1>
+                    </div>
+                    <div class="card-body">
+                        <iframe class="iframe-vinyl-sun"
+                            src="https://open.spotify.com/embed/playlist/53yRtUq1VZvwsLKEKkuNdF?utm_source=generator"
+                            frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+                        </iframe>
+                        <div class="btn">
+                            <h2 style="text-align: left;">WHAT'S THE VIBE?</h2>
+                            <p style="text-align: left; color: blue;"><br><br>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Suspendisse Et Ornare Risus, 
+                                Quis Facilisis Ex. Phasellus Sed Blandit Purus, Ut Sollicitudin Eros. Lorem Ipsum Dolor Sit Amet, 
+                                Consectetur Adipiscing Elit. Suspendisse Et Ornare Risus, Quis Facilisis Ex. 
+                                <br><br>
+                                Phasellus Sed Blandit Purus, Ut Sollicitudin Eros. Lorem Ipsum Dolor Sit Amet, Consectetur 
+                                Adipiscing Elit. Suspendisse Et Ornare Risus, Quis Facilisis Ex. Phasellus Sed Blandit Purus, 
+                                Ut Sollicitudin Eros.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vinyls">
+                    <!-- Add id to image -->
+                    <a href="#night-spotify">
+                        <img class="vinyl-moon" id="moon-vinyl" src="pictures/vinyl-moon.png" alt="GFG image"
+                        style="cursor: pointer;"/>
+                    </a>
+                </div>
+
+                <div class="card" id="night-spotify">
+                    <div class="card-header">
+                        <h1>NIGHTTIME<br>PARTY</h1>
+                    </div>
+                    <div class="card-body">
+
+                        <iframe class="iframe-vinyl-moon"
+                            src="https://open.spotify.com/embed/playlist/1kN8ZKn434Xbc8zq882e6W?utm_source=generator"
+                            frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+                        </iframe>
+
+                        <div class="btn">
+                            <h2 style="text-align: left;">WHAT'S THE VIBE?</h2>
+                            <p style="text-align: left; color: blue;"><br><br>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Suspendisse Et Ornare Risus, 
+                                Quis Facilisis Ex. Phasellus Sed Blandit Purus, Ut Sollicitudin Eros. Lorem Ipsum Dolor Sit Amet, 
+                                Consectetur Adipiscing Elit. Suspendisse Et Ornare Risus, Quis Facilisis Ex. 
+                                <br><br>
+                                Phasellus Sed Blandit Purus, Ut Sollicitudin Eros. Lorem Ipsum Dolor Sit Amet, Consectetur 
+                                Adipiscing Elit. Suspendisse Et Ornare Risus, Quis Facilisis Ex. Phasellus Sed Blandit Purus, 
+                                Ut Sollicitudin Eros.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+
+
+
+        <!-- Vinyl & Spotify FLEXBOX
         <div class="container">
             <div class="heading">
                 <h1>OUR<br>PLAYLISTS</h1>
             </div>
             <div class="row">
                 <div class="card">
-                    <!-- Vinyl picture -->
+                    <!- Vinyl picture --
                     <img class="vinyl-sun" src="/pictures/vinyl-sun.png" alt="Vinyl with sun in the middle image">
-                    <!-- Spotify playlist -->
+                    <!- Spotify playlist --
                     <iframe class="iframe-vinyl-sun"
                         src="https://open.spotify.com/embed/playlist/53yRtUq1VZvwsLKEKkuNdF?utm_source=generator"
                         frameBorder="0" allowfullscreen=""
@@ -84,29 +160,17 @@
                 </div>
 
                 <div class="card">
-                    <!-- Spotify playlist -->
+                    <!- Spotify playlist --
                     <iframe class="iframe-vinyl-moon"
                         src="https://open.spotify.com/embed/playlist/1kN8ZKn434Xbc8zq882e6W?utm_source=generator"
                         frameBorder="0" allowfullscreen=""
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
                     </iframe>
-                    <!-- Vinyl picture -->
+                    <!- Vinyl picture --
                     <img class="vinyl-moon" src="/pictures/vinyl-moon.png" alt="Vinyl with moon in the middle image">
                 </div>
             </div>
-        </div>
-        <!-- <iframe style="border-radius:12px"
-            src="https://open.spotify.com/embed/playlist/53yRtUq1VZvwsLKEKkuNdF?utm_source=generator" width="100%"
-            height="380" frameBorder="0" allowfullscreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
-        </iframe> -->
-        <!-- <br>
-        <br>
-        <iframe style="border-radius:12px"
-            src="https://open.spotify.com/embed/playlist/1kN8ZKn434Xbc8zq882e6W?utm_source=generator" width="100%"
-            height="380" frameBorder="0" allowfullscreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
-        </iframe> -->
+        </div> -->
     </main>
 
 
@@ -191,6 +255,8 @@
             document.getElementById("myNav").style.height = "0%";
         }
     </script>
+
+    <script src="javascript.js"></script>
 
 </body>
 </html>
