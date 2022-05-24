@@ -1,6 +1,7 @@
 html {
     display: flex;
     flex-direction: column;
+    scroll-behavior: smooth;
 }
 
 .moon {
@@ -10,7 +11,7 @@ html {
 
 }
 
-.SUN {
+.sun {
     display: block;
     left: auto;
     right: auto;
@@ -22,18 +23,38 @@ html {
     align-items: center;
     gap: 200px;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #cafe {
-
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #bar {
 
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+th{
+    margin-bottom: 15px;
+}
+
+td{
+    gap: 10pc;}
 
 .day-card {
     border: 2px solid #1F1F1F;
@@ -44,6 +65,11 @@ html {
     justify-content: space-between;
     padding: 6px 30px;
     box-shadow: 5px 5px#fd910a;
+	font-family: 'Space Grotesk', sans-serif;
+	font-weight:900;
+	font-size: 16px;
+    width: 250px;
+    margin-bottom: 20px;
     /* text-overflow: ellipsis; */
 }
 
@@ -51,7 +77,6 @@ html {
     border: 2px solid #f4e7bf;
     background-color:#1F1F1F;
     color: #f4e7bf;
-
     border-radius: 50px;
     display: flex;
     flex-direction: row;
@@ -59,5 +84,21 @@ html {
     justify-content: space-between;
     padding: 6px 30px;
     box-shadow: 5px 5px#f4e7bf;
-  
+    font-family: 'Space Grotesk', sans-serif;
+	font-weight:900;
+	font-size: 16px;
+    width: 250px;
+    margin-bottom: 20px;
+   
+
+}
+
+.product{
+    font-family: 'Space Grotesk', sans-serif;
+	font-weight:300;
+	font-size: 16px;
+}
+
+.menucard{
+    padding-bottom: 30px;
 }
