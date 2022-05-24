@@ -4,8 +4,8 @@
     background-position: center;
     background-size: 100vw;
     background-repeat: no-repeat; */
-    background-color: #1F1F1F;
-    padding: 80px 40px;
+    /* background-color: #1F1F1F;
+    padding: 80px 40px; */
 }
 
 .cards-container {
@@ -97,4 +97,140 @@
     width: 100%;
 }
 
-/* ------------------- DESKTOP MEDIA QUERIES ------------------ */
+
+/*------------------MEDIA QUERIES---------------------*/
+
+/*----- DESKTOP -----*/
+@media screen and (min-width:900px) {
+
+    body {
+        background-image: url("/pictures/contactus_pc.png");
+        /* background-position: center; */
+        /* background-size: 100vw; */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /*------- TEXT FORMATTING ------*/
+    /* KROMOSOM HEADINGS */
+    /* h1 {
+        font-size: 120px;
+    } */
+
+    /* SUBHEADINGS (MENU AND ABOUT US CARDS) */
+    /* h2 {
+        font-size: 30px;
+        color: #FD910A;
+    } */
+
+    /* ABOUT US TEXT */
+    /* .p5 {
+        font-size: 20px;
+    } */
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* ------------ CONTACT US CONTAINER ----------- */
+    .contact-us-container {
+        margin-top: 80px;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 7vw;
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 165px;
+    }
+
+    .card {
+        border: 2px solid #F4E7BF;
+        border-radius: 20px;
+        padding: 25px 25px;
+        height: 10vw;
+        min-width: 23vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 5px;
+    }
+
+    .socials_contact-img {
+        width: 8vw;
+        height: auto;
+        margin-left: -25px;
+    }
+
+    .concert-booking-card {
+        align-self: flex-end;
+    }
+
+    /* ------------ OPENING HOURS CONTAINER ----------- */
+    .brain-container {
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 30px;
+        padding: 80px 20px 50px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto; */
+        align-items: center;
+    }
+
+    .day-cards {
+        flex-wrap: wrap;
+        gap: 40px;
+        height: 60vh;
+        /* overflow: hidden; */
+    }
+
+    .day-card {
+        /* border: 2px solid #1F1F1F;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 6px 30px;
+        box-shadow: 5px 5px#fd910a;
+        /* text-overflow: ellipsis; */
+        /* white-space: nowrap; */
+    }
+
+    /* ------------ LOCATION CONTAINER ----------- */
+    .location-text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+
+    /* ---- MAP ---- */
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1150px) {}
