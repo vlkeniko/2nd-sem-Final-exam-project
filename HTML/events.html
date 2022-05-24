@@ -13,7 +13,8 @@
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
     <!-- CSS Linking -->
@@ -55,17 +56,16 @@
             <span onclick="openNav()"></span>
             <!-- Use any element to open/show the overlay navigation menu -->
             <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/pictures/burger-img.png"
-                width="30" height="25">
+                    width="30" height="25">
             </span>
     </nav>
 
     <!--Code by Md Farzan: https://codepen.io/mdfarzan/pen/yLeEJZV-->
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <h1 class="title">EVENTS</h1>
+<div class="facebookmention">
+    <img src="/Pictures/logo_little.png" alt="logo" WIDTH="40PX">
+    <p class="check">CHECK OUR<BR>FACEBOOK<BR>FOR MORE!</p>
+</div>
+    <h1 class="title bigtitle">EVENTS</h1>
 
     <div class="eventcontainer">
         <!--First arrow-->
@@ -102,15 +102,23 @@
         </div>
     </div>
     <!--the dots that show how many events are there, but we dont want them-->
-    <div id="dots-con" style="display: none;">
-        <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+    <div id="dots-con">
+        <span class="dot" onclick="nextSlide(1)"></span>
+        <span class="dot" onclick="nextSlide(1)"></span>
+        <span class="dot" onclick="nextSlide(1)"></span>
+        <span class="dot" onclick="nextSlide(1)"></span>
     </div>
 
     <!--Short description of the event-->
     <div class="eventdescription">
-        <h3>Join us now!</h3>
+        <h2>JUST JOIN US!</h2>
+        <br>
         <p>Sit amet, consectetur adipiscing elit. Quisque rhoncus est
-            vel eros scelerisque dictum quis vel sapien. Integer ac lectus nec lorem feugiat imperdiet.</p>
+            vel eros scelerisque dictum quis vel sapien. Integer ac lectus nec lorem feugiat imperdiet. Scelerisque
+            dictum quis vel sapien. Integer ac lectus nec lorem feugiat imperdiet.</p><br>
+        <p>Sit amet, consectetur adipiscing elit. Quisque rhoncus est
+            vel eros scelerisque dictum quis vel sapien. Integer ac lectus nec lorem feugiat imperdiet. Scelerisque
+            dictum quis vel sapien. Integer ac lectus nec lorem feugiat imperdiet.</p>
     </div>
     <!--The Footer-->
     <footer>
