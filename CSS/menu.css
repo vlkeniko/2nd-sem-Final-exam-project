@@ -4,26 +4,43 @@ html {
     scroll-behavior: smooth;
 }
 
+.cafebar{
+width: 200px;
+height: auto;
+}
 .moon {
     display: block;
-    border: 2px solid black;
     padding-top: 150px;
+    width: 200px;
+    margin-left: -20px;
+    transition: transform .2s; /* Animation */
+}
 
+.moon:hover{
+    transform: scale(1.5);
 }
 
 .sun {
     display: block;
     left: auto;
     right: auto;
+    width: 200px;
+    margin-left: -100px;
+    transition: transform .2s; /* Animation */
+}
+
+.sun:hover{
+    transform: scale(1.5);
 }
 
 .sunmoon {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 50px;
     width: 100%;
     min-height: 100vh;
+    
 }
 
 #cafe {
@@ -49,15 +66,17 @@ html {
     margin-right: auto;
 }
 
-th{
+th {
     margin-bottom: 15px;
 }
 
-td{
-    gap: 10pc;}
+td {
+    gap: 10pc;
+}
 
 .day-card {
     border: 2px solid #1F1F1F;
+    background-color: #f4e7bf;
     border-radius: 50px;
     display: flex;
     flex-direction: row;
@@ -65,9 +84,9 @@ td{
     justify-content: space-between;
     padding: 6px 30px;
     box-shadow: 5px 5px#fd910a;
-	font-family: 'Space Grotesk', sans-serif;
-	font-weight:900;
-	font-size: 16px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
     width: 250px;
     margin-bottom: 20px;
     /* text-overflow: ellipsis; */
@@ -75,7 +94,7 @@ td{
 
 .night-card {
     border: 2px solid #f4e7bf;
-    background-color:#1F1F1F;
+    background-color: #1F1F1F;
     color: #f4e7bf;
     border-radius: 50px;
     display: flex;
@@ -85,20 +104,80 @@ td{
     padding: 6px 30px;
     box-shadow: 5px 5px#f4e7bf;
     font-family: 'Space Grotesk', sans-serif;
-	font-weight:900;
-	font-size: 16px;
+    font-weight: 900;
+    font-size: 16px;
     width: 250px;
     margin-bottom: 20px;
-   
+
 
 }
 
-.product{
+.product {
     font-family: 'Space Grotesk', sans-serif;
-	font-weight:300;
-	font-size: 16px;
+    font-weight: 300;
+    font-size: 16px;
 }
 
-.menucard{
+.menucard {
     padding-bottom: 30px;
+}
+
+/*THis special offers*/
+
+.specialperson {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.coffeecard {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #f4e7bf;
+    border-radius: 30px;
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+    width: 500px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.cardimage {
+    margin-top: 30px;
+    border-radius: 20px;
+
+}
+
+/*Background for 1st*/
+@media screen and (min-width:900px) {
+    .sunmoon{
+        background-image: url("/Pictures/menu1-01.png");
+        background-repeat: repeat;
+        background-size: cover;
+    }
+
+    .cafebackground{
+        background-image: url("/Pictures/menu_day.png");
+        background-repeat: repeat;
+        background-size: cover;
+    }
+
+    .barbackground{
+        background-image: url("/Pictures/menu_night.png");
+        background-repeat: repeat;
+        background-size: cover;
+    }
+}
+/*Background for mobile*/
+@media screen and (max-width:899px) {
+  
+}
+
+/*Background for pc*/
+@media screen and (min-width:900px) {
+    
 }
