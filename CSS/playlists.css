@@ -22,7 +22,7 @@ html {
 }
 
 .vinyls {
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     transition: 0.5s ease-in-out;
 }
 
@@ -38,7 +38,8 @@ html {
 
 .vinyl-moon {
     width: 400px;
-    margin-top: 20px;
+    margin-top: 800px;
+    /* margin-bottom: 50px; */
 }
 
 .iframe-vinyl-sun {
