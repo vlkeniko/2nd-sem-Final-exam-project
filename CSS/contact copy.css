@@ -70,8 +70,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5vh;
-    padding-bottom: 50px;
+        margin-top: 5vh;
+        padding-bottom: 50px;
 }
 
 .location-text-container {
@@ -104,7 +104,7 @@
 @media screen and (min-width:900px) {
 
     body {
-        background-image: url("/pictures/contactus_ver2.png");
+        background-image: url("/pictures/contactus_pc.png");
         background-repeat: no-repeat;
         background-size: 100%;
         flex-direction: column;
@@ -113,33 +113,33 @@
 
     /* ------------ CONTACT US CONTAINER ----------- */
     .contact-us-container {
-        margin-top: 5vh;
+        margin-top: 80px;
     }
 
     .cards-container {
         flex-direction: column;
         align-items: flex-start;
-        gap: 2vw;
+        gap: 7vw;
         width: 55%;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 3vh;
+        margin-top: 165px;
     }
 
     .card {
         border: 2px solid #F4E7BF;
         border-radius: 20px;
-        padding: 10px 20px;
-        height: 8vw;
-        min-width: 21vw;
+        padding: 25px 25px;
+        height: 10vw;
+        min-width: 23vw;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-
+        gap: 5px;
     }
 
     .socials_contact-img {
-        width: 6vw;
+        width: 8vw;
         height: auto;
         margin-left: -25px;
     }
@@ -150,8 +150,7 @@
 
     /* ------------ OPENING HOURS CONTAINER ----------- */
     .brain-container {
-        margin-top: 73vh;
-        padding: 0px 20px 0px;
+        margin-top: 400px;
     }
 
     .day-cards {
@@ -165,15 +164,12 @@
 
     /* ------------ LOCATION CONTAINER ----------- */
     .location {
-        margin-top: 15vh;
+        margin-top: 10vh;
         padding-bottom: 50px;
     }
 
     .location-header {
-        margin-bottom: 4vh;
-    }
-    .location-text-container {
-        padding-bottom: 2vh;
+        margin-bottom: 30px;
     }
 
     /* ---- MAP ---- */
