@@ -55,20 +55,46 @@
 /*The gallery picture and link*/
 .gallerylink{
     display: block;
-   width: 300px;
+   width: 40%;
     margin-left: auto;
     margin-right: auto;
     text-align: right;
 }
 
+@media screen and (max-width:900px) {
+    .gallerylink{
+        display: block;
+       width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: right;
+    }
+
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cardz{
+        width: 100%;
+    }
+}
 /*Cards*/
 
 .cardscontainer{
-
     display:flex;
     gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
+}
+
+.galleryimagep{
+    width: 40%;
 }
