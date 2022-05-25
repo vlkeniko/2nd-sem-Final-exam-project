@@ -1,0 +1,60 @@
+/*THe main image and title*/
+
+.mainimagecontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.maintitle {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*THe lorem ipsum cards*/
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding: 20px;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.social-media-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.socials_contact-img {
+    width: 96px;
+    height: auto;
+    margin-left: -25px;
+}
+
+.concert-booking-card {
+    align-self: flex-end;
+}
+
+/*The gallery picture and link*/
+.gallerylink{
+    display: block;
+   width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
