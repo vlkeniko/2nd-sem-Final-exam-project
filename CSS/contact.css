@@ -104,7 +104,7 @@
 @media screen and (min-width:900px) {
 
     body {
-        background-image: url("/pictures/contactus_pc.png");
+        background-image: url("/pictures/contactus_ver2.png");
         background-repeat: no-repeat;
         background-size: 100%;
         flex-direction: column;
@@ -113,7 +113,7 @@
 
     /* ------------ CONTACT US CONTAINER ----------- */
     .contact-us-container {
-        margin-top: 8vh;
+        margin-top: 5vh;
     }
 
     .cards-container {
@@ -123,13 +123,13 @@
         width: 55%;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 5vh;
+        padding-top: 3vh;
     }
 
     .card {
         border: 2px solid #F4E7BF;
         border-radius: 20px;
-        padding: 15px 20px;
+        padding: 10px 20px;
         height: 8vw;
         min-width: 21vw;
         display: flex;
@@ -150,7 +150,7 @@
 
     /* ------------ OPENING HOURS CONTAINER ----------- */
     .brain-container {
-        margin-top: 30vh;
+        margin-top: 73vh;
         padding: 0px 20px 0px;
     }
 
@@ -160,17 +160,20 @@
         gap: 40px;
         height: 60vh;
         width: 60%;
-        /* margin-left: -10vw; */
+        margin-left: -10vw;
     }
 
     /* ------------ LOCATION CONTAINER ----------- */
     .location {
-        margin-top: 30vh;
+        margin-top: 15vh;
         padding-bottom: 50px;
     }
 
     .location-header {
-        margin-bottom: 30px;
+        margin-bottom: 4vh;
+    }
+    .location-text-container {
+        padding-bottom: 2vh;
     }
 
     /* ---- MAP ---- */
