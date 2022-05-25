@@ -25,6 +25,12 @@
     bottom: 0;
 }
 
+body{
+    background-image: url("/Pictures/gallery_pc.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
                         /* ---------- MEDIA QUERIES ---------- */
 
 /* -- For mobile view -- */
@@ -60,6 +66,12 @@
         padding-bottom: 0px;
         padding-top: 70px;
     }
+
+    body{
+        background-image: url("/Pictures/mobile/gallery_mobile.png");
+        background-repeat: repeat;
+        background-size: cover;
+    }
 }
                         /* ---------- END of MEDIA QUERIES ---------- */
 
@@ -84,8 +96,3 @@
     padding-top: 20px;
 }
 
-body{
-    background-image: url("/Pictures/gallery_pc.png");
-    background-repeat: repeat;
-    background-size: cover;
-}
