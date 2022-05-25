@@ -58,3 +58,15 @@
     margin-right: auto;
     text-align: right;
 }
+
+/*Cards*/
+
+.cardscontainer{
+
+    display:flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
