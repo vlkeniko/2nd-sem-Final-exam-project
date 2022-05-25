@@ -1,3 +1,8 @@
+.title{
+    padding-top:120px;
+    padding-left: 200px;
+}
+
 .gallerycontainer {
     position: relative;
     display: flex;
@@ -9,7 +14,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: -150px;
-    margin-bottom: 200px;
+    margin-bottom: 230px;
 }
 
 .galleryimage {
@@ -36,11 +41,17 @@ body{
 /* -- For mobile view -- */
 @media screen and (max-width:900px) {
 
+    .title{
+        padding-top:0px;
+        padding-left: 100px;
+    }
+    
+
     .gallerycontainer {
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 0;
+        margin-bottom: 30px;
         margin-top: 0px;
         width: 100%;
     }

@@ -1,5 +1,10 @@
 /*THe main image and title*/
 
+body{
+    background-color: #1f1f1f;
+}
+
+
 .mainimagecontainer {
     position: relative;
     text-align: center;
@@ -21,17 +26,19 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
-    width: 50%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 60px;
 }
 
 .card {
-    border: 2px solid #000000;
+    border: 2px solid #f4e7bf;
     border-radius: 20px;
     padding: 20px;
-    height: 100px;
-    width: 200px;
+    padding-top: 40px;
+    height: 120px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -53,26 +60,32 @@
 }
 
 /*The gallery picture and link*/
-.gallerylink{
+.gallerylink {
     display: block;
-   width: 40%;
-    margin-left: auto;
+    width: 40%;
+    margin-left: 20%;
     margin-right: auto;
     text-align: right;
+    text-decoration: none;
 }
 
-.denduer{
-   font-size: 35px;
+.denduer {
+    font-size: 35px;
 }
 
-.whoarewe{
-    margin-top: 120px;
+.whoarewe {
+    margin-top: 7%;
 }
 
+.rmaboutus{
+    margin-top: -20px;
+    text-align: right;
+    margin-left: 180px;
+}
 @media screen and (max-width:900px) {
-    .gallerylink{
+    .gallerylink {
         display: block;
-       width: 80%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
         text-align: right;
@@ -81,27 +94,39 @@
     .cards-container {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         gap: 20px;
         width: 80%;
         margin-left: auto;
         margin-right: auto;
+        
     }
 
-    .cardz{
+
+    .concert-booking-card {
+        align-self: center;
+    }
+
+    .cardz {
         width: 100%;
     }
 
-    .whoarewe{
+    .whoarewe {
         margin-top: 20px;
     }
-    
-    .kromosom{
+
+    .kromosom {
         font-size: 50px;
     }
 
-    .denduer{
+    .denduer {
         font-size: 25px;
+    }
+
+    .rmaboutus{
+        margin-top: -20px;
+        text-align: right;
+        margin-left: 120px;
     }
 
     .maintitle {
@@ -111,14 +136,16 @@
         transform: translate(-50%, -50%);
     }
 
-    .title{
+    .title {
         font-size: 44px;
     }
+
 }
+
 /*Cards*/
 
-.cardscontainer{
-    display:flex;
+.cardscontainer {
+    display: flex;
     gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
@@ -126,6 +153,6 @@
     margin-bottom: 30px;
 }
 
-.galleryimagep{
+.galleryimagep {
     width: 40%;
 }

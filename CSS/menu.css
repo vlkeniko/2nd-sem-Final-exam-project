@@ -199,6 +199,8 @@ td {
         background-repeat: repeat;
         background-size: cover;
     }
+
+   
 }
 
 /*Background for mobile*/
@@ -309,4 +311,6 @@ td {
         transform: scale(1.5);
 
     }
+
+  
 }
