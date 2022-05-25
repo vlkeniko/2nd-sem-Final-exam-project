@@ -189,6 +189,12 @@ body {
 
 @media screen and (max-width: 620px) {
 
+    body {
+        background-image: url(/Pictures/mobile/playlist_mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     h1 {
         font-size: 60px;
     }
