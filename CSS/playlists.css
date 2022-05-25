@@ -1,5 +1,5 @@
- /* HTML page scrolls smoothly when a button that leads to a section is pressed */
- html {
+/* HTML page scrolls smoothly when a button that leads to a section is pressed */
+html {
     scroll-behavior: smooth;
 }
 
@@ -9,10 +9,9 @@
     margin-bottom: 80px;
 }
 
-/* Containers with the Vinyl and Spotify playlist */
+/* Containers with the Person&Text, title, Vinyl, Spotify playlist and Vibe-box */
 .container {
-    /* margin: 250px auto; */
-    margin-top: 250px;
+    margin-top: 200px;
     margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -23,7 +22,7 @@
 }
 
 .vinyls {
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     transition: 0.5s ease-in-out;
 }
 
@@ -39,7 +38,8 @@
 
 .vinyl-moon {
     width: 400px;
-    margin-top: 20px;
+    margin-top: 800px;
+    /* margin-bottom: 50px; */
 }
 
 .iframe-vinyl-sun {
@@ -69,7 +69,7 @@
 
 
 body {
-    background-image: url(/Pictures/bg2.png);
+    background-image: url(/Pictures/playlist-small_pc.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -91,6 +91,21 @@ body {
 
 
 /* NEW CSS STYLING */
+
+
+.facebookmention{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+.check{
+    font-size: 12px;
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 15px;
+}
+
 
 .row {
     display: flex;
@@ -141,6 +156,18 @@ body {
 
 .btn:hover {
     transform: scale(1.05);
+}
+
+
+.socialscontainer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    transition: 1s;
 }
 
 
