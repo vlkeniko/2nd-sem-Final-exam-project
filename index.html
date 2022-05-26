@@ -177,12 +177,14 @@
       <div class="footeritem">
         <h2 class="footertitle">SOCIAL MEDIA</h2>
 
-        <div class="socials_container">
-          <a href="https://www.facebook.com/Kromosom66"><img class="socials_image facebook" src="/Pictures/fb-icon.png"
-              alt="Facebook" />
+        <div class="socialscontainer social-media">
+          <a href="https://www.facebook.com/Kromosom66">
+              <img class="socials_image fbk" id="fbk-icon" src="/Pictures/fb-icon.png" alt="Facebook">
+              <img style="display: none;" class="socials_image fbk" id="fbk-icon-rainbow" src="/Pictures/fb-icon-rainbow.png" alt="Fbk rainbowish">
           </a>
-          <a href="https://www.instagram.com/kromosom66/"><img class="socials_image instagram"
-              src="/Pictures/ig-icon.png" alt="Instagram" />
+          <a href="https://www.instagram.com/kromosom66/">
+              <img class="socials_image" id="ig-icon" src="/Pictures/ig-icon.png" alt="Instagram">
+              <img style="display: none;" class="socials_image" id="ig-icon-rainbow" src="/Pictures/ig-icon-rainbow.png" alt="Ig rainbowish">
           </a>
         </div>
       </div>
@@ -208,6 +210,8 @@
       document.getElementById("myNav").style.height = "0%";
     }
   </script>
-</body>
 
+  <script src="/JavaScript/footer.js"></script>
+
+</body>
 </html>
