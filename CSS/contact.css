@@ -1,9 +1,21 @@
 /* ------------ CONTACT US CONTAINER ----------- */
+body {
+    background-image: url("/pictures/contactus_mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-us-container {
+    margin: 15vw 20px;
+}
+
 .cards-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
+    gap: 6vh;
 }
 
 .card {
@@ -41,6 +53,7 @@
     text-align: center;
     gap: 30px;
     padding: 80px 20px 50px;
+    margin-top: 36vh;
 }
 
 .day-cards {
@@ -172,6 +185,7 @@
     .location-header {
         margin-bottom: 4vh;
     }
+
     .location-text-container {
         padding-bottom: 2vh;
     }
@@ -192,8 +206,8 @@
     }
 }
 
-@media screen and (max-width:1150px) {
+/* @media screen and (max-width:1150px) {
     .contact-us-container {
         margin: 0px 20px;
     }
-}
+} */
