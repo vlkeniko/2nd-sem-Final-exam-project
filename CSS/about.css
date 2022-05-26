@@ -1,4 +1,11 @@
-.heading-aboutus {
+/* .heading-aboutus {
     text-align: center;
     margin: 150px auto;
+} */
+
+.heading-aboutus {
+    background-image: url(/Pictures/about-us2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1250vh;
 }
