@@ -104,7 +104,7 @@
 @media screen and (min-width:900px) {
 
     body {
-        background-image: url("/pictures/contactus_pc.png");
+        background-image: url("/Pictures/contactus_pc.png");
         background-repeat: no-repeat;
         background-size: 100%;
         flex-direction: column;

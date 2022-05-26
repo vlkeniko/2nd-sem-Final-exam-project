@@ -318,7 +318,7 @@ table {
     }
 
     .footerlogo {
-        content: url("/pictures/beige_person.png"); 
+        content: url("/Pictures/beige_person.png"); 
         transform: scaleX(-1);
         margin-left: 40px;
         z-index: 1;
