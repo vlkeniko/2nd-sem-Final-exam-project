@@ -7,16 +7,43 @@ const sunVinyl = document.getElementById("sun-vinyl");
 const daySpotify = document.getElementById("day-spotify");
 
 // Create a function that shows/hides the Spotify playlist if you click on the Vinyl image
+// sunVinyl.onclick = function () {
+//   // If the Spotify playlist isn't shown
+//   if (daySpotify.style.display !== "block") {
+//     // then show it
+//     daySpotify.style.display = "block";
+//   } else {  //if it is shown
+//     daySpotify.style.display = "none";
+//     // then hide it
+//   }
+// };
+
+
+// Create a function that shows/hides the Spotify playlist if you click on the Vinyl image
 sunVinyl.onclick = function () {
   // If the Spotify playlist isn't shown
   if (daySpotify.style.display !== "block") {
     // then show it
     daySpotify.style.display = "block";
-  } else {  //if it is shown
+
+    document.body.style.backgroundImage = "url(/pictures/playlist-large_pc.png)";
+
+  } else if(daySpotify.style.display !== "none" && nightSpotify.style.display !== "none") {
     daySpotify.style.display = "none";
     // then hide it
+
+    document.body.style.backgroundImage = "url(/pictures/playlist-large_pc.png)";
   }
+
+    else {
+      document.body.style.backgroundImage = "url(/pictures/playlist-small_pc.png)";
+
+      nightSpotify.style.display = "none";
+      daySpotify.style.display = "none";
+    }
 };
+
+
 
 // Declare the variables for the Moon-Vinyl & Night Spotify
 const moonVinyl = document.getElementById("moon-vinyl");
