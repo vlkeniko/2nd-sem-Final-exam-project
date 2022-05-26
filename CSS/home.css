@@ -140,6 +140,19 @@ body{
         font-size: 44px;
     }
 
+    .card {
+        border: 2px solid #f4e7bf;
+        border-radius: 20px;
+        padding: 20px;
+        padding-top: 40px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 250px;
+       margin-left: auto;
+       margin-right: auto;
+    }
 }
 
 /*Cards*/
