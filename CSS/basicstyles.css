@@ -145,20 +145,8 @@ main{
 p{
 	line-height: 22px;
 }
-/* h3{
-	font-family: 'Space Grotesk', sans-serif;
-	font-size: 20px;
-	color:#FD910A;
-}
 
-p{
-	font-family: 'Space Grotesk', sans-serif;
-	font-size: 16px;
-	color:#F4E7BF;
-} */
-
-
-/* ------- SCREOLL BAR -------*/
+/* ------- SCROLL BAR -------*/
 /* width */
 ::-webkit-scrollbar {
 	width: 15px;
@@ -171,12 +159,12 @@ p{
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-	background: #888;
+	background: #1F1F1F;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-	background-image: url("/pictures/scrollbar.png");
+	background-image: url("/pictures/scrollbar.jpg");
 	background-size: contain;
 	background-repeat: repeat;
   }
