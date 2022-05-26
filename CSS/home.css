@@ -1,23 +1,32 @@
 /*THe main image and title*/
 
-body{
-    background-color: #1f1f1f;
+body {
+    background-image: url("/Pictures/mobile/mainpage_pc.png");
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 
-.mainimagecontainer {
-    position: relative;
-    text-align: center;
-    color: white;
-    max-height: 100vh;
-    width: 100%;
-}
 
 .maintitle {
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    display:block;
+    margin-top: 500px;
+    text-align: center;
+ 
+}
+
+.cardscontainer {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.galleryimagep {
+    width: 40%;
 }
 
 /*THe lorem ipsum cards*/
@@ -32,6 +41,10 @@ body{
     margin-top: 60px;
 }
 
+.concert-booking-card {
+    align-self: flex-end;
+}
+
 .card {
     border: 2px solid #f4e7bf;
     border-radius: 20px;
@@ -44,20 +57,8 @@ body{
     gap: 5px;
 }
 
-.social-media-icons {
-    display: flex;
-    flex-direction: row;
-}
 
-.socials_contact-img {
-    width: 96px;
-    height: auto;
-    margin-left: -25px;
-}
 
-.concert-booking-card {
-    align-self: flex-end;
-}
 
 /*The gallery picture and link*/
 .gallerylink {
@@ -69,20 +70,38 @@ body{
     text-decoration: none;
 }
 
+
 .denduer {
     font-size: 35px;
+    
 }
 
 .whoarewe {
-    margin-top: 7%;
+    margin-top: 200px;
 }
 
-.rmaboutus{
+.rmaboutus {
     margin-top: -20px;
     text-align: right;
     margin-left: 180px;
 }
+
+.specialperson {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 @media screen and (max-width:900px) {
+
+    body {
+        background-image: url("/Pictures/mobile/mainpage_mobile.png");
+        background-repeat: repeat;
+        background-size: cover;
+    }
+
     .gallerylink {
         display: block;
         width: 80%;
@@ -94,25 +113,31 @@ body{
     .cards-container {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         gap: 20px;
         width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        
+        margin-top: 200px;
+
     }
 
-
     .concert-booking-card {
-        align-self: center;
+        align-self: flex-end;
+    } 
+
+    .maintitle {
+        position: relative;
+        display:block;
+        margin-top: 600px;
+        text-align: center;
     }
 
     .cardz {
         width: 100%;
+        border: 2px solid #f4e7bf;
+        border-radius: 30px;
     }
-
     .whoarewe {
-        margin-top: 20px;
+        margin-top: 150px;
     }
 
     .kromosom {
@@ -123,49 +148,31 @@ body{
         font-size: 25px;
     }
 
-    .rmaboutus{
-        margin-top: -20px;
+    .rmaboutus {
         text-align: right;
-        margin-left: 120px;
-    }
-
-    .maintitle {
-        position: absolute;
-        top: 75%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        margin-left: 100px;
     }
 
     .title {
         font-size: 44px;
+        padding-top: 15px;
+        padding-bottom: 5px;
     }
 
     .card {
         border: 2px solid #f4e7bf;
         border-radius: 20px;
         padding: 20px;
-        padding-top: 40px;
         height: 100px;
         display: flex;
         flex-direction: column;
         gap: 5px;
-        width: 250px;
-       margin-left: auto;
-       margin-right: auto;
+        width: 200px;
+    }
+
+    .specialperson {
+        display: none;
     }
 }
 
 /*Cards*/
-
-.cardscontainer {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.galleryimagep {
-    width: 40%;
-}

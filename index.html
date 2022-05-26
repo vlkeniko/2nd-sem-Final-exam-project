@@ -35,45 +35,42 @@
   <nav>
     <!--For mobile-->
     <div class="mobilenav">
-      <div class="navbar"></div>
-      <a href="index.html"><img class="toplogo" alt="menuicon" src="/pictures/logo_little.png" /></a>
+        <div class="navbar"></div>
+        <a href="/index.html"><img class="toplogo" alt="menuicon" src="/pictures/logo_little.png"></a>
+        <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-      <div id="myNav" class="overlay">
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <a href="/index.html" class="menuitem">HOME</a>
-          <a href="/HTML/menu.html" class="menuitem">MENU</a>
-          <a href="/HTML/events.html" class="menuitem">EVENTS</a>
-          <a href="/HTML/aboutus.html" class="menuitem">ABOUT US</a>
-          <a href="/HTML/gallery.html" class="menuitem">GALLERY</a>
-          <a href="/HTML/playlists.html" class="menuitem">OUR PLAYLISTS</a>
-          <a href="/HTML/contact.html" class="menuitem">CONTACT US</a>
-          <button class="languagebutton dk">DK</button> &nbsp
-          <button class="languagebutton en">EN</button>
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a href="/index.html" class="menuitem">HOME</a>
+                <a href="/HTML/menu.html" class="menuitem">MENU</a>
+                <a href="/HTML/events.html" class="menuitem">EVENTS</a>
+                <a href="/HTML/aboutus.html" class="menuitem">ABOUT US</a>
+                <a href="/HTML/gallery.html" class="menuitem">GALLERY</a>
+                <a href="/HTML/playlists.html" class="menuitem">OUR PLAYLISTS</a>
+                <a href="/HTML/contact.html" class="menuitem">CONTACT US</a>
+                <button class="languagebutton dk">DK</button> &nbsp; <button class="languagebutton en">EN</button>
+                <div class="langcontainer">
+                    <img class="langlogo" alt="lang" src="/pictures/logo_little.png">
+                    <p class="langchangetext">Do you wanna<br>change the<br>language?</p>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <!-- Use any element to open/show the overlay navigation menu -->
-      <span onclick="openNav()"></span>
-      <!-- Use any element to open/show the overlay navigation menu -->
-      <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/pictures/burger-img.png" width="30"
-          height="25" />
-      </span>
-    </div>
-  </nav>
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <span onclick="openNav()"></span>
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/pictures/burger-img.png"
+                width="30" height="25">
+        </span>
+</nav>
 
   <!-- Content -->
   <main>
-    <div class="mainimagecontainer">
-      <img src="/Pictures/main-photo.jpg" alt="main" style="width: 100%" />
       <div class="maintitle">
         <h1 class="kromosom">KROMOSOM</h1>
         <h1 class="denduer">- DEN DU ER -</h1>
       </div>
-    </div>
 
     <!--Who are we-->
     <h1 class="whoarewe title">WHO ARE WE?</h1>
@@ -87,47 +84,46 @@
       </a>
     </div>
     <!--Lorem Ipsum boxes + About us link-->
+    
     <div class="cards-container">
-      <a href="/HTML/aboutus.html">
-        <div class="card social-media-card">
-          <h2>SOCIAL MEDIA</h2>
-          <div class="social-media-icons">
-            <a class="card-icon" href="https://www.facebook.com/Kromosom66"><img class="socials_contact-img"
-                src="/pictures/fb-icon.png" alt="Facebook icon link" /></a>
-            <a class="card-icon" href="https://www.instagram.com/kromosom66/"><img class="socials_contact-img"
-                src="/pictures/ig-icon.png" alt="Instagram" /></a>
-          </div>
-      </a>
-    </div>
-    <a href="/HTML/aboutus.html">
-      <div class="card concert-booking-card">
-        <h2>CONCERT BOOKING</h2>
-        <div class="social-media-icons">
-          <p class="p5">kromosom66@gmail.com</p>
-        </div>
-    </a>
-    </div>
-    <div class="email-card-about-us">
-      <a href="/HTML/aboutus.html">
-        <div class="card direct-email-card">
-          <h2>DIRECT E-MAIL</h2>
-          <div class="social-media-icons">
-            <p class="p5">musikbooking66@gmail.com</p>
-            <!-- <p class="p5">READ MORE <br> ABOUT US</p> -->
-          </div>
-      </a>
-    </div>
-    </div>
-    <a href="/HTML/aboutus.html">
-      <p class="p5 rmaboutus">READ MORE ABOUT US ➤</p>
-    </a>
-    </div>
 
+      <a href="/HTML/aboutus.html"><div class="card social-media-card">
+          <h2>Lorem ipsom dolor amet</h2>
+          <p class="p1">Lorem ipsum dolor amet.</p>
+          <p class="p1">Lorem ipsum dolor amet.</p>
+        </div></a>
+    
+    
+      <div class="card concert-booking-card"><a href="/HTML/aboutus.html"></a>
+        <h2>Lorem ipsom dolor amet</h2>
+        <p class="p1">Lorem ipsum dolor amet.</p>
+        <p class="p1">Lorem ipsum dolor amet.</p>
+      </a></div>
+
+      <div class="email-card-about-us">
+        <a href="/HTML/aboutus.html">
+          <div class="card direct-email-card">
+          <h2>Lorem ipsom dolor amet</h2>
+          <p class="p1">Lorem ipsum dolor amet.</p>
+          <p class="p1">Lorem ipsum dolor amet.</p>
+        </a>
+      </div>
+    </div>
+    <div>
+      <a href="/HTML/aboutus.html">
+        <p class="p5 rmaboutus">READ MORE ABOUT US ➤</p>
+      </a>
+    </div>
     <!--Special offers, cards-->
+    <!--Little logo special offers-->
+    <div class="specialperson">
+      <img src="/Pictures/logo_little.png" alt="personicon" width="70px">
+      <p class="p4">WE HAVE THE<BR>SPECIAL OFFERS FOR<BR>YOU!</p>
+    </div>
     <h1 class="title">SPECIAL OFFERS</h1>
     <div class="cardscontainer">
-      <a href="HTML/menucafe.html#beercard"> <img class="cardz" src="/Pictures/click on this.png" alt="main" /></a>
-      <a href="HTML/menucafe.html#coffeecard"> <img class="cardz" src="/Pictures/click on this.png" alt="main" /></a>
+      <a href="HTML/menucafe.html#beercard"> <img class="cardz" src="/Pictures/beercard.png" alt="main" /></a>
+      <a href="HTML/menucafe.html#coffeecard"> <img class="cardz" src="/Pictures/coffeecard.png" alt="main" /></a>
     </div>
   </main>
   <footer>
@@ -187,16 +183,8 @@
               <img style="display: none;" class="socials_image" id="ig-icon-rainbow" src="/Pictures/ig-icon-rainbow.png" alt="Ig rainbowish">
           </a>
         </div>
-      </div>
-      <div class="footeritem">
-        <p class="smallmessage">CAN'T ><br />WAIT TO SEE YOU</p>
-      </div>
-      <div class="footeritem footerlogo"></div>
-      <div class="footeritem footercopyright">
-        <p class="copyright">© 2022 KROMOSOM. All rights reserved</p>
-      </div>
     </div>
-  </footer>
+</footer>
   <!-- End of the FOOTER coding -->
 
   <script>
