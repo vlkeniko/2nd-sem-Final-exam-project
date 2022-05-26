@@ -7,16 +7,49 @@ const sunVinyl = document.getElementById("sun-vinyl");
 const daySpotify = document.getElementById("day-spotify");
 
 // Create a function that shows/hides the Spotify playlist if you click on the Vinyl image
+// sunVinyl.onclick = function () {
+//   // If the Spotify playlist isn't shown
+//   if (daySpotify.style.display !== "block") {
+//     // then show it
+//     daySpotify.style.display = "block";
+//   } else {  //if it is shown
+//     daySpotify.style.display = "none";
+//     // then hide it
+//   }
+// };
+
+
+// Create a function that shows/hides the Spotify playlist if you click on the Vinyl image
 sunVinyl.onclick = function () {
   // If the Spotify playlist isn't shown
   if (daySpotify.style.display !== "block") {
     // then show it
     daySpotify.style.display = "block";
-  } else {  //if it is shown
+
+    document.body.style.backgroundImage = "url(/Pictures/playlist-extended_pc.png)";
+
+    // moonVinyl.classList.add("margin-top-extended-bgk");
+
+  } else if(daySpotify.style.display !== "none" && nightSpotify.style.display !== "none") {
     daySpotify.style.display = "none";
     // then hide it
+
+    document.body.style.backgroundImage = "url(/Pictures/playlist-extended_pc.png)";
+
+    // moonVinyl.classList.remove("margin-top-extended-bgk");
   }
+
+    else {
+      document.body.style.backgroundImage = "url(/Pictures/playlist-small_pc.png)";
+
+      nightSpotify.style.display = "none";
+      daySpotify.style.display = "none";
+
+      // moonVinyl.classList.remove("margin-top-extended-bgk");
+    }
 };
+
+
 
 // Declare the variables for the Moon-Vinyl & Night Spotify
 const moonVinyl = document.getElementById("moon-vinyl");
@@ -35,52 +68,3 @@ moonVinyl.onclick = function () {
 };
 
 // ------------------------- END OF ONCLICK FUNCTION FOR THE SUN & MOON VINYLS ---------------------------
-
-
-
-// --------------- START OF ON-MOUSE-OVER & OUT FUNCTION FOR THE Facebook & Instagram ICONS ------------------
-
-// Declare the variables for the Orange Facebook Icon & Rainbow Facebook Icon
-const fbkIcon = document.getElementById("fbk-icon");
-const fbkIconRainbow = document.getElementById("fbk-icon-rainbow");
-
-// Create functions that changes the Orange Facebook Icon if you hover over it with the Rainbow Facebook icon
-// If the mouse is over the Orange Fbk Icon
-fbkIcon.onmouseover = function () {
-  // then hide it
-  fbkIcon.style.display = "none";
-  // and show the Rainbow Fbk Icon
-  fbkIconRainbow.style.display = "block";
-};
-
-// If the mouse is out the Rainbow Fbk Icon
-fbkIcon.onmouseout = function () {
-  // then hide it
-  fbkIconRainbow.style.display = "none";
-  // and show the Orange Fbk Icon
-  fbkIcon.style.display = "block";
-};
-
-
-// Declare the variables for the Orange Instagram Icon & Rainbow Instagram Icon
-const igIcon = document.getElementById("ig-icon");
-const igIconRainbow = document.getElementById("ig-icon-rainbow");
-
-// Create functions that changes the Orange Instagram Icon if you hover over it with the Rainbow Instagram icon
-// If the mouse is over the Orange Ig Icon
-igIcon.onmouseover = function () {
-  // then hide it
-  igIcon.style.display = "none";
-  // and show the Rainbow Ig Icon
-  igIconRainbow.style.display = "block";
-};
-
-// If the mouse is out the Rainbow Ig Icon
-igIcon.onmouseout = function () {
-  // then hide it
-  igIconRainbow.style.display = "none";
-  // and show the Orange Ig Icon
-  igIcon.style.display = "block";
-};
-
-// --------------- END OF ON-MOUSE-OVER & OUT FUNCTION FOR THE Facebook & Instagram ICONS ------------------

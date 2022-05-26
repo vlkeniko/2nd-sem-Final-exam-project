@@ -9,28 +9,7 @@ html {
     height: auto;
 }
 
-.moon {
-    display: block;
-    padding-top: 150px;
-    width: 200px;
-    margin-left: -20px;
-    transition: transform .2s;
-    /* Animation */
-}
 
-.moon:hover {
-    transform: scale(1.5);
-}
-
-.sun {
-    display: block;
-    left: auto;
-    right: auto;
-    width: 200px;
-    margin-left: -100px;
-    transition: transform .2s;
-    /* Animation */
-}
 
 .sun:hover {
     transform: scale(1.5);
@@ -57,7 +36,6 @@ html {
 }
 
 #bar {
-
     min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
@@ -199,6 +177,30 @@ td {
         background-repeat: repeat;
         background-size: cover;
     }
+
+    .moon {
+        display: block;
+        padding-top: 150px;
+        width: 200px;
+        margin-left: -20px;
+        transition: transform .2s;
+        /* Animation */
+    }
+    
+    .moon:hover {
+        transform: scale(1.5);
+    }
+    
+    .sun {
+        display: block;
+        left: auto;
+        right: auto;
+        width: 200px;
+        margin-left: -100px;
+        transition: transform .2s;
+        /* Animation */
+    }
+
 }
 
 /*Background for mobile*/
@@ -208,7 +210,9 @@ td {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 140px;
+        margin-top: 80px;
+        width:60px;
+        height:auto;
     }
 
     .moonicon {
@@ -219,12 +223,15 @@ td {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 30px;
     }
 
     .moonicon {
         display: block;
         margin-left: 5%;
-        padding-top: 60px;
+        padding-top: 80px;
+        width:60px;
+        height:auto;
         transition: transform .2s;
         transform: scaleX(-1);
         /* Animation */
@@ -259,12 +266,53 @@ td {
     table {
         width: 100%;
     }
+
+    .sun{
+        height: 100px;
+        width: auto;
+        display: block;
+        padding-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .moon{
+        height: 100px;
+        width: auto;
+        padding-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sunmoon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 80%;
+        min-height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+    .p4{
+        color:#f4e7bf;
+    }
+
+/*move some titles to right so that it becomes readable*/
+    #hotdrinks{
+        text-align: right;
+    }
+
+    .fadol{
+        text-align: right;
+    }
 }
 
 /*for pc*/
 @media screen and (min-width:900px) {
     #cafe {
-
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -275,7 +323,6 @@ td {
     }
 
     #bar {
-
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -309,4 +356,12 @@ td {
         transform: scale(1.5);
 
     }
+
+    .coffeecard {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
 }

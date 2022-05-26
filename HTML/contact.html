@@ -77,14 +77,15 @@
             <div class="card concert-booking-card">
                 <h2>CONCERT BOOKING</h2>
                 <div class="social-media-icons">
-                    <p class="p5">kromosom66@gmail.com</p>
+                    <p class="p5">musikbooking66@gmail.com</p>
                 </div>
             </div>
             <div class="email-card-about-us">
                 <div class="card direct-email-card">
                     <h2>DIRECT E-MAIL</h2>
                     <div class="social-media-icons">
-                        <p class="p5">musikbooking66@gmail.com</p>
+                        <p class="p5">kromosom66@gmail.com</p>
+                        
                         <!-- <p class="p5">READ MORE <br> ABOUT US</p> -->
                     </div>
                 </div>
@@ -191,11 +192,15 @@
             </div>
             <div class="footeritem">
                 <h2 class="footertitle">SOCIAL MEDIA</h2>
-                <div class="socialscontainer">
-                    <a href="https://www.facebook.com/Kromosom66"><img class="socials_image" src="/pictures/fb-icon.png"
-                            alt="Facebook"></a>
-                    <a href="https://www.instagram.com/kromosom66/"><img class="socials_image"
-                            src="/pictures/ig-icon.png" alt="Instagram"></a>
+                <div class="socialscontainer social-media">
+                    <a href="https://www.facebook.com/Kromosom66">
+                        <img class="socials_image fbk" id="fbk-icon" src="/Pictures/fb-icon.png" alt="Facebook">
+                        <img style="display: none;" class="socials_image fbk" id="fbk-icon-rainbow" src="/Pictures/fb-icon-rainbow.png" alt="Fbk rainbowish">
+                    </a>
+                    <a href="https://www.instagram.com/kromosom66/">
+                        <img class="socials_image" id="ig-icon" src="/Pictures/ig-icon.png" alt="Instagram">
+                        <img style="display: none;" class="socials_image" id="ig-icon-rainbow" src="/Pictures/ig-icon-rainbow.png" alt="Ig rainbowish">
+                    </a>
                 </div>
             </div>
             <div class="footeritem">
@@ -222,11 +227,9 @@
         function closeNav() {
             document.getElementById("myNav").style.height = "0%";
         }
-
-
     </script>
-</body>
+
+    <script src="/JavaScript/footer.js"></script>
 
 </body>
-
 </html>
