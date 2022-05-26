@@ -26,20 +26,26 @@ sunVinyl.onclick = function () {
     // then show it
     daySpotify.style.display = "block";
 
-    document.body.style.backgroundImage = "url(/pictures/playlist-large_pc.png)";
+    document.body.style.backgroundImage = "url(/Pictures/playlist-large_pc.png)";
+
+    moonVinyl.classList.add("margin-top-extended-bgk");
 
   } else if(daySpotify.style.display !== "none" && nightSpotify.style.display !== "none") {
     daySpotify.style.display = "none";
     // then hide it
 
-    document.body.style.backgroundImage = "url(/pictures/playlist-large_pc.png)";
+    document.body.style.backgroundImage = "url(/Pictures/playlist-large_pc.png)";
+
+    moonVinyl.classList.remove("margin-top-extended-bgk");
   }
 
     else {
-      document.body.style.backgroundImage = "url(/pictures/playlist-small_pc.png)";
+      document.body.style.backgroundImage = "url(/Pictures/playlist-small_pc.png)";
 
       nightSpotify.style.display = "none";
       daySpotify.style.display = "none";
+
+      moonVinyl.classList.remove("margin-top-extended-bgk");
     }
 };
 

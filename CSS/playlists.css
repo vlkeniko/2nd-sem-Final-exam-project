@@ -42,6 +42,10 @@ html {
     /* margin-bottom: 50px; */
 }
 
+.margin-top-extended-bgk {
+    margin-top: 1300px;
+}
+
 .iframe-vinyl-sun {
     border-radius:12px;
     width: 90%;
