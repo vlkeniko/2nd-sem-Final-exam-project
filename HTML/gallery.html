@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     
     <!-- CSS Linking -->
     <link rel="stylesheet" href="/CSS/navfooter.css">
@@ -64,13 +65,28 @@
 
     <!--Flexbox for the pictures-->
     <div class="gallerycontainer">
-        <div class="galleryitem"><img class="galleryimage" alt="lang" src="/pictures/photoframes/frame1.jpg"></div>
-        <div class="galleryitem"><img class="galleryimage jaj" alt="lang" src="/pictures/photoframes/frame2.jpg"></div>
-        <div class="galleryitem"><img class="galleryimage" alt="lang" src="/pictures/photoframes/frame3.jpg"></div>
-        <div class="galleryitem"><img class="galleryimage jaj" alt="lang" src="/pictures/photoframes/frame4.jpg"></div>
-        <div class="galleryitem"><img class="galleryimage" alt="lang" src="/pictures/photoframes/frame5.jpg"></div>
-        <div class="galleryitem"><img class="galleryimage jaj" alt="lang" src="/pictures/photoframes/frame6.jpg"></div>
+        <div class="galleryitem"><img style="cursor:pointer" 
+            onclick="onClick(this)" class="w3-hover-opacity galleryimage" alt="lang" src="/pictures/photoframes/frame1.jpg"></div>
+        <div class="galleryitem"><img style="cursor:pointer" 
+            onclick="onClick(this)" class="w3-hover-opacity galleryimage jaj" alt="lang" src="/pictures/photoframes/frame2.jpg"></div>
+        <div class="galleryitem"><img style="cursor:pointer" 
+            onclick="onClick(this)" class="w3-hover-opacity galleryimage" alt="lang" src="/pictures/photoframes/frame3.jpg"></div>
+        <div class="galleryitem"><img style="cursor:pointer" 
+            onclick="onClick(this)" class="w3-hover-opacity galleryimage jaj" alt="lang" src="/pictures/photoframes/frame4.jpg"></div>
+        <div class="galleryitem"><img style="cursor:pointer" 
+            onclick="onClick(this)" class="w3-hover-opacity galleryimage" alt="lang" src="/pictures/photoframes/frame5.jpg"></div>
+        <div class="galleryitem"><img style="cursor:pointer" 
+            onclick="onClick(this)" class="w3-hover-opacity galleryimage jaj" alt="lang" src="/pictures/photoframes/frame6.jpg"></div>
     </div>
+
+
+<!--Big image opens on click, from w3schools. https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_gallery -->
+    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom">
+          <img id="img01" style="width:100%">
+        </div>
+      </div>
 
     <!--Instagram promo message-->
     <!--<div class="p1 logolittle">
@@ -166,6 +182,12 @@
         function closeNav() {
             document.getElementById("myNav").style.height = "0%";
         }
+
+// CODE FOR SHOWING THE BIG PICTURE
+        function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
     </script>
 
 </body>
