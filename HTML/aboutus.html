@@ -63,8 +63,11 @@
 
         <div class="onclick-aboutus">
             <!-- <img src="/Pictures/onclick-about-us.png" alt="About us image hidden"> -->
+            <!-- onclick="smoothScroll(document.getElementById('heading-aboutus'))" -->
+            <button class="onclick-aboutus-button" type="button" onclick="scrolldiv()"></button>
         </div>
-        <div class="heading-aboutus">
+
+        <div class="heading-aboutus" id="heading-aboutus">
             <!-- <h1>ABOUT US</h1> -->
         </div>
     </main>
@@ -150,6 +153,12 @@
         function closeNav() {
             document.getElementById("myNav").style.height = "0%";
         }
+
+        function scrolldiv() {
+            var elem = document.getElementById("heading-aboutus");
+            elem.scrollIntoView();
+        }
+
     </script>
 
     <script src="/JavaScript/footer.js"></script>

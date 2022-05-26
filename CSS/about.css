@@ -16,3 +16,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.onclick-aboutus-button {
+    margin-top: 36rem;
+    margin-left: 45rem;
+    width: 180px;
+    height: 5%;
+    background: transparent;
+    border-style: none;
+    cursor: pointer;
+}
