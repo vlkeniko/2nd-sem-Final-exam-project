@@ -194,7 +194,7 @@ body {
 @media screen and (max-width: 620px) {
 
     body {
-        background-image: url(/Pictures/mobile/playlist-small_mobile.png);
+        background-image: url(/Pictures/mobile/playlist-extended_mobile.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
