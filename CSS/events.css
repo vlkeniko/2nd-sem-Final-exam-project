@@ -1,9 +1,10 @@
 .facebookmention{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    padding-top: 60px;
+    padding-top: 100px;
     gap: 10px;
+    margin-left: 250px;
 }
 
 .check{
@@ -24,7 +25,6 @@
     position: relative;
     overflow: hidden;
     z-index: -5;
-    ;
 }
 
 .slide {
@@ -117,9 +117,9 @@
     margin-bottom: 30px;
 }
 
-.bigtitle {
+/* .bigtitle {
     margin-top: 180px;
-}
+} */
 
 /*Making the whole page responsive*/
 @media only screen and (max-width: 1000px) {
@@ -128,6 +128,15 @@
     body {
         background-image: none;
         background-color: #f4e7bf;
+    }
+
+    .facebookmention{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        gap: 10px;
+        margin-left: 0px;
     }
 
     /*Yeah we make the dots appear here*/
