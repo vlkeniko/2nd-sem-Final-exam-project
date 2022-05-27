@@ -108,9 +108,10 @@ body{
 }
 
 .w3-modal{
-    padding-top: 60px;
+    padding-top: 0px;
+;
 }
 
 .img01{
-    height: 90%
+    height: 80%
 }

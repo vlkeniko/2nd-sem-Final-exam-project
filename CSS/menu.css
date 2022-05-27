@@ -47,9 +47,6 @@ html {
 
 }
 
-body {
-    background-color: #1F1F1F;
-}
 
 th {
     margin-bottom: 15px;
@@ -109,9 +106,7 @@ td {
 
 /*THis special offers*/
 
-.specbar{
-    color:#f4e7bf;
-}
+
 
 .specialperson {
     margin-top: 50px;
@@ -246,6 +241,11 @@ td {
 
     }
 
+    .sunmoon {
+        background-image: url("/Pictures/mobile/menu1_mobile.png");
+        background-repeat: repeat;
+        background-size: cover;
+    }
     .cafe {
         background-image: url("/Pictures/mobile/menu2_mobile.png");
         background-repeat: repeat;
@@ -256,6 +256,10 @@ td {
         background-image: url("/Pictures/mobile/menu3_mobile.png");
         background-repeat: repeat;
         background-size: cover;
+    }
+
+    .cafebar{
+        width: 100px;
     }
 
     .night-card {
@@ -292,17 +296,17 @@ td {
         justify-content: center;
         align-items: center;
         gap: 10px;
-        width: 80%;
         min-height: 100vh;
-        margin-left: auto;
-        margin-right: auto;
+  
     
     }
 
     .p4{
+        color:#1F1F1F;
+    }
+    .specbar{
         color:#f4e7bf;
     }
-
 /*move some titles to right so that it becomes readable*/
     #hotdrinks{
         text-align: right;
