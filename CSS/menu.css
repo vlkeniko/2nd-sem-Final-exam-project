@@ -138,6 +138,11 @@ td {
     /* padding-bottom: 20px; */
     align-items: left;
     padding: 30px 50px;
+    transition: 0.3s;
+}
+
+.coffeecard:hover {
+    transform: scale(1.05);
 }
 
 .coffecard-bar {
