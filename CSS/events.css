@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: left;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 0px;
     gap: 10px;
     margin-left: 250px;
 }
@@ -124,6 +124,17 @@ body {
     margin-bottom: 30px;
 }
 
+.eventstitle{
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    height: 200px;
+    align-items: center;
+    margin-left: 42%;
+    margin-top: 60px;
+    margin-right: auto;
+}
+
 /* .bigtitle {
     margin-top: 180px;
 } */
@@ -131,6 +142,15 @@ body {
 /*Making the whole page responsive*/
 @media only screen and (max-width: 1000px) {
 
+    .eventstitle{
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+        height: 200px;
+        align-items: center;
+    }
+
+ 
     /*We still need event backgrounds for mobile view here*/
     body {
         background-image: url("/Pictures/mobile/events_mobile.png");
@@ -142,7 +162,6 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 100px;
         gap: 10px;
         margin-left: 0px;
     }
