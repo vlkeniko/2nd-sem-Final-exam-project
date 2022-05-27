@@ -28,6 +28,15 @@
     margin-bottom: 230px;
 }
 
+.galleryitem {
+    transition: 0.3s;
+}
+
+.galleryitem:hover {
+    transform: scale(.85);
+
+}
+
 .galleryimage {
     margin-bottom: -200px;
     width: 400px;
