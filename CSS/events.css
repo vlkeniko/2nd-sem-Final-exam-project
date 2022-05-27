@@ -1,4 +1,10 @@
-.facebookmention{
+body {
+    background-image: url("/Pictures/events_pc.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.facebookmention {
     display: flex;
     justify-content: left;
     align-items: center;
@@ -7,11 +13,12 @@
     margin-left: 250px;
 }
 
-.check{
+.check {
     font-size: 12px;
     font-family: 'Space Grotesk', sans-serif;
     line-height: 15px;
 }
+
 /*Code by Md Farzan: https://codepen.io/mdfarzan/pen/yLeEJZV*/
 
 #slider {
@@ -126,11 +133,12 @@
 
     /*We still need event backgrounds for mobile view here*/
     body {
-        background-image: none;
-        background-color: #f4e7bf;
+        background-image: url("/Pictures/mobile/events_mobile.png");
+        background-repeat: repeat;
+        background-size: cover;
     }
 
-    .facebookmention{
+    .facebookmention {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -202,8 +210,3 @@
     }
 }
 
-/*body {
-    background-image: url("/Pictures/events_pc.png");
-    background-repeat: repeat;
-    background-size: cover;
-}*/
