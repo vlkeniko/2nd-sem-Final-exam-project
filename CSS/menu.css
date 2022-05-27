@@ -238,6 +238,8 @@ td {
 /*Background for mobile*/
 @media screen and (max-width:800px) {
 
+
+
     .sunlogo {
         display: block;
         margin-left: auto;
@@ -251,11 +253,20 @@ td {
         display: block;
     }
 
+    .specialperson {
+        display: none;
+    }
+
+    .special-offers {
+        margin-top: 125px;
+        font-size: 60px;
+    }
+
     .coffeecard {
-        width: 80%;
+        width: 60%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; */
     }
 
     .moonicon {
@@ -305,7 +316,7 @@ td {
     }
 
     table {
-        width: 100%;
+        width: 80%;
     }
 
     .sun{
