@@ -124,7 +124,7 @@ body {
     margin-bottom: 60px;
     
     text-align: left;
-    padding: 80px 50px;
+    padding: 80px 70px;
 }
 
 .eventstitle{
@@ -166,8 +166,6 @@ body {
         padding-top: 0px;
     }
 
-   
- 
     /*We still need event backgrounds for mobile view here*/
     body {
         background-image: url("/Pictures/mobile/events_mobile.png");
@@ -194,16 +192,18 @@ body {
 
     /*The event card*/
     .eventdescription {
-        min-width: 300px;
-        padding-top: 20px;
+        /* min-width: 300px; */
+        /* padding-top: 20px;
         padding-left: 5%;
         padding-right: 5%;
-        padding-bottom: 40px;
+        padding-bottom: 40px; */
+
+        padding: 80px 50px;
         box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-        width: 80%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 30px;
+        width: 60%;
+        /* margin-left: 5%;
+        margin-right: 5%; */
+        /* margin-bottom: 30px; */
         font-family: 'Space Grotesk', sans-serif;
         font-weight: 400;
         font-size: 16px;
@@ -240,8 +240,5 @@ body {
 
     .eventpics {
         width: 100%;
-    }
-
-   
+    }  
 }
-
