@@ -126,8 +126,8 @@ body{
 .igitem{
     text-align:left;
     font-weight: bold;
-    padding-left: auto;
-    padding-right: auto;
+    /* padding-left: auto;
+    padding-right: auto; */
 }
 
 .logolittle{
