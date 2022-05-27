@@ -1,48 +1,38 @@
-/* .heading-aboutus {
-    text-align: center;
-    margin: 150px auto;
-} */
-
-
-
-@media only screen and (max-width: 900px) {
-  .onclick-aboutus{
-      display: none;
-  }
-
-  .error{
-    margin-left: 60px;
-    margin-right: 60px;
-  }
+.error{
+    display:none;
 }
 
-@media only screen and (min-width: 900px) {
-    .error{
-        display:none;
-        
-    }
+.heading-aboutus {
+    background-image: url(/Pictures/about-us2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1250vh;
+}
 
-    .heading-aboutus {
-        background-image: url(/Pictures/about-us2.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 1250vh;
+.onclick-aboutus {
+    background-image: url(/Pictures/onclick-about-us.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.onclick-aboutus-button {
+    margin-top: 33rem;
+    margin-left: 44rem;
+    width: 250px;
+    height: 30%;
+    background: transparent;
+    border-style: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    .onclick-aboutus{
+        display: none;
     }
     
-    .onclick-aboutus {
-        background-image: url(/Pictures/onclick-about-us.png);
-        height: 100vh;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    
-    .onclick-aboutus-button {
-        margin-top: 36rem;
-        margin-left: 45rem;
-        width: 180px;
-        height: 5%;
-        background: transparent;
-        border-style: none;
-        cursor: pointer;
+    .error{
+        margin-left: 60px;
+        margin-right: 60px;
     }
 }
