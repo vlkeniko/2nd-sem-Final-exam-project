@@ -104,7 +104,7 @@ body {
     gap: 10px;
 }
 
-.check{
+.check {
     font-size: 12px;
     font-family: 'Space Grotesk', sans-serif;
     line-height: 15px;
@@ -205,6 +205,7 @@ body {
         align-items: center;
         gap: 10px;
         padding-top: 50px;
+        padding-bottom: 30px;
     }
 
     h1 {
@@ -213,11 +214,13 @@ body {
 
     .container {
         width: 100%;
+        margin-bottom: 0px;
     }
 
     .heading {
         padding: 20px;
         font-size: 20px;
+        margin-bottom: 20px;
     }
 
     .vinyl-sun {
@@ -226,13 +229,26 @@ body {
 
     .vinyl-moon {
         width: 200px;
+        margin-top: 0px;
     }
 
     .vinyls {
-        margin-bottom: 110px;
+        margin-bottom: 5px;
     }
 
     .card {
         width: 80%;
+    }
+
+    #day-spotify {
+        display: block;
+    }
+
+    #night-spotify {
+        display: block;
+    }
+
+    .card-body .btn {
+        margin-bottom: 350px;
     }
 }
