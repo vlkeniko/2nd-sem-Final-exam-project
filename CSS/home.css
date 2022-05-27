@@ -22,6 +22,12 @@ body {
     text-align: center;
 }
 
+.title-special-offers {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
 .cardscontainer {
     display: flex;
     gap: 30px;
@@ -70,7 +76,7 @@ body {
 .gallerylink {
     display: block;
     width: 40%;
-    margin-left: 20%;
+    margin-left: auto;
     margin-right: auto;
     text-align: right;
     text-decoration: none;
@@ -111,10 +117,16 @@ body {
     .gallerylink {
         display: block;
         width: 80%;
-        margin-left: auto;
+        /* margin-left: 60px; */
         margin-right: auto;
+        justify-content: center;
+        align-items: center;
         text-align: right;
         -webkit-text-stroke: 1px #f4e7bf;
+        color: black;
+        -webkit-text-fill-color: #f4e7bf; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #f4e7bf;
     }
 
     .cards-container {
@@ -181,6 +193,8 @@ body {
         font-size: 44px;
         /* padding-top: 15px; */
         padding-bottom: 5px;
+        /* margin-left: 40px; */
+        text-align: center;
     }
 
     .card {
@@ -198,5 +212,3 @@ body {
         display: none;
     }
 }
-
-/*Cards*/
