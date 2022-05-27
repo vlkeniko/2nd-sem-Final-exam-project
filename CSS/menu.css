@@ -130,7 +130,7 @@ td {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    background-color: #1F1F1F;
+    background-color: #f4e7bf;
     border-radius: 30px;
     box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
     max-width: 400px;
@@ -147,11 +147,19 @@ td {
     border-style: solid;
     /*border-color: coral; */
 
-    border: coral;
-    box-shadow: 0px 1px 1px 0px #f4e7bf, 0px 1px 20px 0px #f4e7bf;
+    /* border: coral;
+    box-shadow: 0px 1px 1px 0px #f4e7bf, 0px 1px 20px 0px #f4e7bf; */
 }
 
 .cardimage {
+    margin-top: 15px;
+    border-radius: 20px;
+    height: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.cardimage-bar {
     margin-top: 15px;
     border-radius: 20px;
     height: 50%;
