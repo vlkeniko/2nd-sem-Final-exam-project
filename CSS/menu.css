@@ -109,6 +109,10 @@ td {
 
 /*THis special offers*/
 
+.specbar{
+    color:#f4e7bf;
+}
+
 .specialperson {
     margin-top: 50px;
     display: flex;
