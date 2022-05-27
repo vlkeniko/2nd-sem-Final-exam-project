@@ -160,19 +160,19 @@ td {
 @media screen and (min-width:900px) {
     .sunmoon {
         background-image: url("/Pictures/menu1-01.png");
-        background-repeat: repeat;
+        background-repeat: no-repeat;
         background-size: cover;
     }
 
     .cafe {
         background-image: url("/Pictures/menu1.png");
-        background-repeat: repeat;
+        background-repeat: no-repeat;
         background-size: cover;
     }
 
     .bar {
         background-image: url("/Pictures/menu2.png");
-        background-repeat: repeat;
+        background-repeat: no-repeat;
         background-size: cover;
     }
 
@@ -243,18 +243,18 @@ td {
 
     .sunmoon {
         background-image: url("/Pictures/mobile/menu1_mobile.png");
-        background-repeat: repeat;
+        background-repeat: repeat-y;
         background-size: cover;
     }
     .cafe {
         background-image: url("/Pictures/mobile/menu2_mobile.png");
-        background-repeat: repeat;
+        background-repeat: repeat-y;
         background-size: cover;
     }
 
     .bar {
         background-image: url("/Pictures/mobile/menu3_mobile.png");
-        background-repeat: repeat;
+        background-repeat: repeat-y;
         background-size: cover;
     }
 
@@ -306,6 +306,10 @@ td {
     }
     .specbar{
         color:#f4e7bf;
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        overflow: hidden;
     }
 /*move some titles to right so that it becomes readable*/
     #hotdrinks{
