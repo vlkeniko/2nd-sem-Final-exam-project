@@ -131,7 +131,7 @@ body {
     height: 200px;
     align-items: center;
     margin-left: 32%;
-    margin-top: 250px;
+    margin-top: 150px;
     margin-right: 5%;
 }
 
@@ -229,5 +229,7 @@ body {
     .eventpics {
         width: 100%;
     }
+
+   
 }
 

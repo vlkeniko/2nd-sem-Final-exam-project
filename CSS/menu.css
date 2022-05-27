@@ -47,9 +47,6 @@ html {
 
 }
 
-body {
-    background-color: #1F1F1F;
-}
 
 th {
     margin-bottom: 15px;
@@ -109,9 +106,7 @@ td {
 
 /*THis special offers*/
 
-.specbar{
-    color:#f4e7bf;
-}
+
 
 .specialperson {
     margin-top: 50px;
@@ -129,21 +124,18 @@ td {
     border-radius: 30px;
     box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
     max-width: 400px;
-    justify-content: center;
-    margin-bottom: 30px;
+    justify-content: left;
     padding-bottom: 20px;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: left;
+   
 }
 
 .cardimage {
-    margin-top: 30px;
+    margin-top: 15px;
     border-radius: 20px;
-    width: 90%;
     height: 50%;
-    padding-left: 2%;
-    padding-right: 2%;
+    margin-left: 15px;
+    margin-right: 15px;
 
 }
 
@@ -153,6 +145,8 @@ td {
     font-weight: 400;
     font-size: 16px;
     align-items: flex-start;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 /*placing of sun and moon nav items*/
@@ -208,7 +202,7 @@ td {
 }
 
 /*Background for mobile*/
-@media screen and (max-width:899px) {
+@media screen and (max-width:800px) {
 
     .sunlogo {
         display: block;
@@ -247,6 +241,11 @@ td {
 
     }
 
+    .sunmoon {
+        background-image: url("/Pictures/mobile/menu1_mobile.png");
+        background-repeat: repeat;
+        background-size: cover;
+    }
     .cafe {
         background-image: url("/Pictures/mobile/menu2_mobile.png");
         background-repeat: repeat;
@@ -257,6 +256,10 @@ td {
         background-image: url("/Pictures/mobile/menu3_mobile.png");
         background-repeat: repeat;
         background-size: cover;
+    }
+
+    .cafebar{
+        width: 100px;
     }
 
     .night-card {
@@ -293,17 +296,17 @@ td {
         justify-content: center;
         align-items: center;
         gap: 10px;
-        width: 80%;
         min-height: 100vh;
-        margin-left: auto;
-        margin-right: auto;
+  
     
     }
 
     .p4{
+        color:#1F1F1F;
+    }
+    .specbar{
         color:#f4e7bf;
     }
-
 /*move some titles to right so that it becomes readable*/
     #hotdrinks{
         text-align: right;
