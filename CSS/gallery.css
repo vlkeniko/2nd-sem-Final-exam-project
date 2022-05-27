@@ -3,6 +3,16 @@
     padding-left: 200px;
 }
 
+.facebookmention {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-top: 0px;
+    gap: 10px;
+    margin-right: 250px;
+    margin-top: 0px;
+}
+
 .gallerycontainer {
     position: relative;
     display: flex;
@@ -20,6 +30,11 @@
 .galleryimage {
     margin-bottom: -200px;
     width: 400px;
+}
+
+.w3-animate-zoom {
+    margin-top: 150px;
+    width: 45%
 }
 
 .jaj {
@@ -44,6 +59,10 @@ body{
     .title{
         padding-top:0px;
         padding-left: 100px;
+    }
+
+    .facebookmention {
+        display: none;
     }
     
 
