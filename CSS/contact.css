@@ -61,6 +61,7 @@ body {
     flex-direction: column;
     gap: 40px;
     max-width: 90%;
+    justify-content: center;
 }
 
 .day-card {
@@ -75,6 +76,7 @@ body {
     box-shadow: 5px 5px#fd910a;
     /* text-overflow: ellipsis; */
     white-space: nowrap;
+    background-color: #F4E7BF;
 }
 
 /* ------------ LOCATION CONTAINER ----------- */
@@ -171,8 +173,8 @@ body {
         flex: 60px;
         gap: 40px;
         height: 60vh;
-        width: 60%;
-        margin-left: -10vw;
+        width: 20%;
+        /* margin-left: -10vw; */
     }
 
     /* ------------ LOCATION CONTAINER ----------- */
