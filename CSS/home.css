@@ -47,7 +47,7 @@ body {
     margin-top: 60px;
 }
 
-.concert-booking-card {
+.concert-booking-card-home {
     align-self: flex-end;
 }
 
@@ -114,6 +114,7 @@ body {
         margin-left: auto;
         margin-right: auto;
         text-align: right;
+        -webkit-text-stroke: 1px #f4e7bf;
     }
 
     .cards-container {
@@ -122,13 +123,21 @@ body {
         align-items: flex-start;
         gap: 20px;
         width: 80%;
-        margin-top: 200px;
-
+        /* margin-top: 200px; */
     }
 
-    .concert-booking-card {
+    .social-media-card {
+        margin-top: 150px;
+    }
+
+    .concert-booking-card-home {
+        margin-top: 30px;
         align-self: flex-end;
-    } 
+    }
+
+    .email-card-about-us {
+        margin-top: 30px;
+    }
 
     .maintitle {
         position: relative;
@@ -137,13 +146,22 @@ body {
         text-align: center;
     }
 
+    .title-special-offers {
+        margin-top: 150px;
+        /* justify-content: center;
+        align-items: center; */
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
     .cardz {
         width: 100%;
         border: 2px solid #f4e7bf;
         border-radius: 30px;
     }
     .whoarewe {
-        margin-top: 150px;
+        margin-top: 130px;
     }
 
     .kromosom {
@@ -161,7 +179,7 @@ body {
 
     .title {
         font-size: 44px;
-        padding-top: 15px;
+        /* padding-top: 15px; */
         padding-bottom: 5px;
     }
 
@@ -169,7 +187,7 @@ body {
         border: 2px solid #f4e7bf;
         border-radius: 20px;
         padding: 20px;
-        height: 100px;
+        /* height: 100px; */
         display: flex;
         flex-direction: column;
         gap: 5px;
