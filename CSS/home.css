@@ -82,6 +82,13 @@ body {
     text-decoration: none;
 }
 
+.gallerylinkcontainer, .card, .cardz {
+    transition: 0.3s;
+}
+
+.gallerylinkcontainer:hover, .card:hover, .cardz:hover {
+    transform: scale(1.05);
+}
 
 .denduer {
     font-size: 35px;
