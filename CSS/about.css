@@ -3,26 +3,46 @@
     margin: 150px auto;
 } */
 
-.heading-aboutus {
-    background-image: url(/Pictures/about-us2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 1250vh;
+
+
+@media only screen and (max-width: 900px) {
+  .onclick-aboutus{
+      display: none;
+  }
+
+  .error{
+    margin-left: 60px;
+    margin-right: 60px;
+  }
 }
 
-.onclick-aboutus {
-    background-image: url(/Pictures/onclick-about-us.png);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+@media only screen and (min-width: 900px) {
+    .error{
+        display:none;
+        
+    }
 
-.onclick-aboutus-button {
-    margin-top: 36rem;
-    margin-left: 45rem;
-    width: 180px;
-    height: 5%;
-    background: transparent;
-    border-style: none;
-    cursor: pointer;
+    .heading-aboutus {
+        background-image: url(/Pictures/about-us2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1250vh;
+    }
+    
+    .onclick-aboutus {
+        background-image: url(/Pictures/onclick-about-us.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .onclick-aboutus-button {
+        margin-top: 36rem;
+        margin-left: 45rem;
+        width: 180px;
+        height: 5%;
+        background: transparent;
+        border-style: none;
+        cursor: pointer;
+    }
 }
