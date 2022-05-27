@@ -6,7 +6,14 @@ body {
     background-size: cover;
 }
 
-
+/* GIF */
+#loader{
+	/* position: fixed; */
+	width: 100%;
+	height: 100vh;
+	background: #21242d url('/pictures/kromo-resized.gif') no-repeat center;
+	z-index: 99999;
+}
 
 .maintitle {
     position: relative;
