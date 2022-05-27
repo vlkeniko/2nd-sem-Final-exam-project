@@ -2,7 +2,7 @@
 
 body {
     background-image: url("/Pictures/mainpage_pc.png");
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -97,7 +97,7 @@ body {
 
     body {
         background-image: url("/Pictures/mobile/mainpage_mobile.png");
-        background-repeat: repeat;
+        background-repeat: no-repeat;
         background-size: cover;
     }
 
