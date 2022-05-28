@@ -7,19 +7,6 @@ const sunVinyl = document.getElementById("sun-vinyl");
 const daySpotify = document.getElementById("day-spotify");
 
 // Create a function that shows/hides the Spotify playlist if you click on the Vinyl image
-// sunVinyl.onclick = function () {
-//   // If the Spotify playlist isn't shown
-//   if (daySpotify.style.display !== "block") {
-//     // then show it
-//     daySpotify.style.display = "block";
-//   } else {  //if it is shown
-//     daySpotify.style.display = "none";
-//     // then hide it
-//   }
-// };
-
-
-// Create a function that shows/hides the Spotify playlist if you click on the Vinyl image
 sunVinyl.onclick = function () {
   // If the Spotify playlist isn't shown
   if (daySpotify.style.display !== "block") {
