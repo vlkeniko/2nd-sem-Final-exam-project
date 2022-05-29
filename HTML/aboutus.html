@@ -19,17 +19,22 @@
     <link rel="stylesheet" href="/CSS/navfooter.css">
     <link rel="stylesheet" href="/CSS/basicstyles.css">
     <link rel="stylesheet" href="/CSS/about.css">
+
     <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico">
     <title>Kromosom - About us</title>
 </head>
 
 <body>
 
+    <!-- Navigation bar -->
     <nav>
         <!--For mobile-->
         <div class="mobilenav">
             <div class="navbar"></div>
-            <a href="/index.html"><img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png"></a>
+            <a href="/index.html">
+                <img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png">
+            </a>
+
             <div id="myNav" class="overlay">
                 <!-- Button to close the overlay navigation -->
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -50,21 +55,20 @@
                     </div>
                 </div>
             </div>
+
             <!-- Use any element to open/show the overlay navigation menu -->
             <span onclick="openNav()"></span>
             <!-- Use any element to open/show the overlay navigation menu -->
             <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/burger-img.png"
                     width="30" height="25">
             </span>
+
         </div>
     </nav>
 
     <!-- Content -->
     <main>
-
         <div class="onclick-aboutus">
-            <!-- <img src="/Pictures/onclick-about-us.png" alt="About us image hidden"> -->
-            <!-- onclick="smoothScroll(document.getElementById('heading-aboutus'))" -->
             <button class="onclick-aboutus-button" type="button" onclick="scrolldiv()"></button>
         </div>
 
@@ -72,6 +76,7 @@
             <!-- <h1>ABOUT US</h1> -->
         </div>
 
+        <!-- When the screen is less than 1000px then display the error page -->
         <div class="error">
             <br>
             <br>
@@ -82,7 +87,6 @@
             <br>
             <p class="p3" style="margin-bottom: 20px;">Visit us later!</p>
         </div>
-
     </main>
 
     <!-- Start of the FOOTER coding -->
@@ -171,9 +175,9 @@
             var elem = document.getElementById("heading-aboutus");
             elem.scrollIntoView();
         }
-
     </script>
 
+    <!-- JS files linking -->
     <script src="/JavaScript/footer.js"></script>
 
 </body>
