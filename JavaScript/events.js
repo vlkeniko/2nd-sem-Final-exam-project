@@ -2,7 +2,6 @@ var slides = document.querySelectorAll(".slide");
 var dots = document.querySelectorAll(".dot");
 var index = 0;
 
-
 function prevSlide(n){
   index+=n;
   console.log("prevSlide is called");
