@@ -21,12 +21,14 @@
     <link rel="stylesheet" href="/CSS/navfooter.css">
     <link rel="stylesheet" href="/CSS/basicstyles.css">
     <link rel="stylesheet" href="/CSS/gallery.css">
+
     <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico">
     <title>Kromosom - Gallery</title>
 </head>
 
 <body>
     
+    <!-- Navigation bar -->
     <nav>
         <!--For mobile-->
         <div class="mobilenav">
@@ -52,12 +54,14 @@
                     </div>
                 </div>
             </div>
+
             <!-- Use any element to open/show the overlay navigation menu -->
             <span onclick="openNav()"></span>
             <!-- Use any element to open/show the overlay navigation menu -->
             <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/burger-img.png"
                 width="30" height="25">
             </span>
+
         </div>
     </nav>
 
@@ -85,30 +89,13 @@
     </div>
 
 
-<!--Big image opens on click, from w3schools. https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_gallery -->
+    <!--Big image opens on click, from w3schools. https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_gallery -->
     <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
         <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
         <div class="w3-modal-content w3-animate-zoom">
           <!-- <img id="img01" style="width:100%" alt="image"> -->
         </div>
-      </div>
-
-    <!--Instagram promo message-->
-    <!--<div class="p1 logolittle">
-        <a href="https://www.instagram.com/kromosom66/"><img class="socials_image" src="/Pictures/ig-icon.png"
-                alt="Instagram"></a>
     </div>
-   <div class="igmessage igitem">
-        <div class="">
-            <a><img src="/Pictures/beige_person.png" alt="Instagram"
-                    width="60px"></a>
-        </div>
-        <div class="p1 igitem">
-            <p class="p1">
-                Check our<br>Instagram<br>for more!
-            </p>
-        </div>
-    </div>--> 
 
     <!--Footer-->
     <footer>
@@ -182,6 +169,7 @@
             </div>
         </div>
     </footer>
+
     <script>
         // OPENS THE BURGER MENU
         function openNav() {
@@ -199,6 +187,7 @@
         }
     </script>
 
+    <!-- JS files linking -->
     <script src="/JavaScript/footer.js"></script>
 
 </body>
