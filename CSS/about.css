@@ -1,5 +1,4 @@
-
-
+/* Mobile view  */
 @media only screen and (max-width: 899px) {
     .onclick-aboutus{
         display: none;
@@ -11,6 +10,7 @@
     }
 }
 
+/* PC view  */
 @media only screen and (min-width: 900px) {
 
     .error{

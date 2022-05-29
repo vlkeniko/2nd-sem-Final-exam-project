@@ -24,7 +24,6 @@
 }
 
  /*navigation menu opened*/
-
 .overlay {
     height: 0%;
     width: 100%;
@@ -55,7 +54,6 @@
 	font-weight: 300;
 	font-size: 20px;
     color: #f4e7bf;
-    /* line-height: 13.6px; */
     display: block;
     transition: 0.3s;
 }
@@ -154,7 +152,6 @@ form {
     padding: 5px;
 }
 
-
 header {
     display: flex;
     justify-items: center;
@@ -170,7 +167,6 @@ header {
 }
 
  /*Styling the button for language change*/
-
 .languagebutton {
     border: 2px solid #fd910a;
     background: #1f1f1f;
@@ -210,14 +206,12 @@ header {
 
 .langchangetext {
     font-family: 'Space Grotesk', sans-serif;
-	/* font-weight: 'regular' ; */
 	font-size: 12px;
 	color: #F4E7BF;
 }
 
                         /*------------------FOOTER---------------------*/
 .footercontainer {
-    /* z-index: -2; */
     left: 0;
     bottom: 0;
     width: 100%;
@@ -258,13 +252,6 @@ table {
 }
 
  /*the social icoons*/
-
-/* .socials_container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-} */
 
 .socialscontainer {
     position: relative;
@@ -356,7 +343,6 @@ table {
     }
 
     .copyright {
-        /* writing-mode: horizontal; */
         font-size: 10px;
         text-align: center;
         margin: auto;

@@ -126,8 +126,6 @@ body{
 .igitem{
     text-align:left;
     font-weight: bold;
-    /* padding-left: auto;
-    padding-right: auto; */
 }
 
 .logolittle{
@@ -138,7 +136,6 @@ body{
 
 .w3-modal{
     padding-top: 0px;
-;
 }
 
 .img01{

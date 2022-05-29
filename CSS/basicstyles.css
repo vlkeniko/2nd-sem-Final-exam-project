@@ -72,7 +72,6 @@ html {
 	scroll-behavior: smooth;
 }
 
-
               	                   /*------- TEXT FORMATTING ------*/
 /* KROMOSOM HEADINGS */
 h1 {
@@ -150,21 +149,21 @@ p{
 /* width */
 ::-webkit-scrollbar {
 	width: 15px;
-  }
+}
   
-  /* Track */
-  ::-webkit-scrollbar-track {
+/* Track */
+::-webkit-scrollbar-track {
 	background: #f1f1f1;
-  }
+}
   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+/* Handle */
+::-webkit-scrollbar-thumb {
 	background: #1F1F1F;
-  }
+}
   
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
 	background-image: url("/Pictures/scrollbar.jpg");
 	background-size: contain;
 	background-repeat: repeat;
-  }
+}

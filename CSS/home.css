@@ -70,8 +70,6 @@ body {
 }
 
 
-
-
 /*The gallery picture and link*/
 .gallerylink {
     display: block;
@@ -113,6 +111,7 @@ body {
     gap: 20px;
 }
 
+/* Mobile view */
 @media screen and (max-width:900px) {
 
     body {
@@ -124,7 +123,6 @@ body {
     .gallerylink {
         display: block;
         width: 80%;
-        /* margin-left: 60px; */
         margin-right: auto;
         justify-content: center;
         align-items: center;
@@ -142,7 +140,6 @@ body {
         align-items: flex-start;
         gap: 20px;
         width: 80%;
-        /* margin-top: 200px; */
     }
 
     .social-media-card {
@@ -167,8 +164,6 @@ body {
 
     .title-special-offers {
         margin-top: 150px;
-        /* justify-content: center;
-        align-items: center; */
         margin-left: auto;
         margin-right: auto;
         width: 100%;
@@ -198,9 +193,7 @@ body {
 
     .title {
         font-size: 44px;
-        /* padding-top: 15px; */
         padding-bottom: 5px;
-        /* margin-left: 40px; */
         text-align: center;
     }
 
@@ -208,7 +201,6 @@ body {
         border: 2px solid #f4e7bf;
         border-radius: 20px;
         padding: 20px;
-        /* height: 100px; */
         display: flex;
         flex-direction: column;
         gap: 5px;
