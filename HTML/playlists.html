@@ -53,12 +53,14 @@
                     </div>
                 </div>
             </div>
+
             <!-- Use any element to open/show the overlay navigation menu -->
             <span onclick="openNav()"></span>
             <!-- Use any element to open/show the overlay navigation menu -->
             <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/burger-img.png"
                     width="30" height="25">
             </span>
+
         </div>
     </nav>
     <!-- End of the NAVBAR coding -->
@@ -68,25 +70,28 @@
 
         <div class="container">
 
+            <!-- Little man with text -->
             <div class="facebookmention">
                 <img src="/Pictures/logo_little.png" alt="logo" width="40">
                 <p class="check" style="color: black;">WANNA CHECK<br>OUR MUSIC?</p>
             </div>
 
+            <!-- Title -->
             <div class="heading">
               <h1>OUR<br>PLAYLISTS</h1>
             </div>
 
             <div class="row">
 
+                <!-- The sun vinyl section -->
                 <div class="vinyls sun-vinyl">
-                    <!-- Add id to image -->
                     <a href="#day-spotify">
                         <img class="vinyl-sun sun-vinyl-mobile" id="sun-vinyl" src="/Pictures/vinyl-sun.png" alt="A vinyl image with a sun in the middle"
                         style="cursor: pointer;"/>
                     </a>
                 </div>
 
+                <!-- Day Spotify Iframe import -->
                 <div class="card" id="day-spotify">
                     <div class="card-header">
                         <h1>DAYTIME<br>CHILL</h1>
@@ -97,6 +102,8 @@
                             frameBorder="0" allowfullscreen=""
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
                         </iframe>
+
+                        <!-- What's the Vibe of the Spotify playlist info box -->
                         <div class="btn">
                             <h2 style="text-align: left;">WHAT'S THE VIBE?</h2>
                             <p style="text-align: left; color: #1F1F1F; font-family: 'Space Grotesk';"><br><br>Other than a simple playlist, creating 
@@ -109,26 +116,27 @@
                     </div>
                 </div>
 
+                <!-- The moon vinyl section -->
                 <div class="vinyls">
-                    <!-- Add id to image -->
                     <a href="#night-spotify">
                         <img class="vinyl-moon moon-vinyl-mobile" id="moon-vinyl" src="/Pictures/vinyl-moon.png" alt="A vinyl image with a moon in the middle"
                         style="cursor: pointer;"/>
                     </a>
                 </div>
 
+                <!-- Night Spotify Iframe import -->
                 <div class="card" id="night-spotify">
                     <div class="card-header">
                         <h1>NIGHTTIME<br>PARTY</h1>
                     </div>
                     <div class="card-body">
-
                         <iframe class="iframe-vinyl-moon"
                             src="https://open.spotify.com/embed/playlist/1kN8ZKn434Xbc8zq882e6W?utm_source=generator"
                             frameBorder="0" allowfullscreen=""
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
                         </iframe>
 
+                        <!-- What's the Vibe of the Spotify playlist info box -->
                         <div class="btn">
                             <h2 style="text-align: left;">WHAT'S THE VIBE?</h2>
                             <p style="text-align: left; color: #F4E7BF; font-family: 'Space Grotesk';"><br><br>Other than a simple playlist, creating 
@@ -140,11 +148,9 @@
                         </div>
                     </div>
                 </div>
-            
             </div>
         </div>
     </main>
-
 
     <!-- Start of the FOOTER coding -->
     <footer>
@@ -232,6 +238,7 @@
         }
     </script>
 
+    <!-- JS files linking -->
     <script src="/JavaScript/playlists.js"></script>
     <script src="/JavaScript/footer.js"></script>
 
