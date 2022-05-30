@@ -12,30 +12,23 @@ sunVinyl.onclick = function () {
   if (daySpotify.style.display !== "block") {
     // then show it
     daySpotify.style.display = "block";
-
     document.body.style.backgroundImage = "url(/Pictures/playlist-extended_pc.png)";
-
     // moonVinyl.classList.add("margin-top-extended-bgk");
 
   } else if(daySpotify.style.display !== "none" && nightSpotify.style.display !== "none") {
     daySpotify.style.display = "none";
     // then hide it
-
     document.body.style.backgroundImage = "url(/Pictures/playlist-extended_pc.png)";
-
     // moonVinyl.classList.remove("margin-top-extended-bgk");
   }
 
     else {
       document.body.style.backgroundImage = "url(/Pictures/playlist-small_pc.png)";
-
       nightSpotify.style.display = "none";
       daySpotify.style.display = "none";
-
       // moonVinyl.classList.remove("margin-top-extended-bgk");
     }
 };
-
 
 
 // Declare the variables for the Moon-Vinyl & Night Spotify
