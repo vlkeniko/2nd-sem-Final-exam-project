@@ -20,13 +20,17 @@
     <link rel="stylesheet" href="/CSS/navfooter.css">
     <link rel="stylesheet" href="/CSS/basicstyles.css">
     <link rel="stylesheet" href="/CSS/menu.css">
-    <link rel="icon" type="image/x-icon" href="/pictures/favicon.ico">
+
+    <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico">
     <title>Kromosom - Menu</title>
 </head>
 
 <body>
-    <div class="navbar"></div><a href="/index.html"><img class="toplogo" alt="menuicon"
-            src="/pictures/logo_little.png"></a>
+
+    <div class="navbar"></div>
+    <a href="/index.html">
+    <img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png">
+    </a>
 
     <nav>
         <!--For mobile-->
@@ -38,14 +42,18 @@
 
                 <!-- Overlay content -->
                 <div class="overlay-content">
-                    <a href="index.html" class="menuitem">HOME</a>
+                    <a href="/index.html" class="menuitem">HOME</a>
                     <a href="/HTML/menu.html" class="menuitem">MENU</a>
                     <a href="/HTML/events.html" class="menuitem">EVENTS</a>
                     <a href="/HTML/aboutus.html" class="menuitem">ABOUT US</a>
                     <a href="/HTML/gallery.html" class="menuitem">GALLERY</a>
                     <a href="/HTML/playlists.html" class="menuitem">OUR PLAYLISTS</a>
                     <a href="/HTML/contact.html" class="menuitem">CONTACT US</a>
-                    <button class="languagebutton dk">DK</button> &nbsp <button class="languagebutton en">EN</button>
+                    <button class="languagebutton dk">DK</button> &nbsp; <button class="languagebutton en">EN</button>
+                    <div class="langcontainer">
+                        <img class="langlogo" alt="lang" src="/Pictures/logo_little.png">
+                        <p class="langchangetext">Do you wanna<br>change the<br>language?</p>
+                    </div>
                 </div>
             </div>
 
@@ -53,11 +61,10 @@
             <span onclick="openNav()"></span>
             <!-- Use any element to open/show the overlay navigation menu -->
 
-            <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/pictures/burger-img.png"
-                    width="35" height="30">
-
-                <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/pictures/burger-img.png"
-                        width="35" height="30"></span>
+            <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/burger-img.png"
+                width="30" height="25">
+            </span>
+            
         </div>
     </nav>
 
@@ -65,8 +72,9 @@
     <div class="cafe">
 
         <!--The moon icon to switch to bar menu-->
-        <a class="cafebar" href="menubar.html"><img class="moonicon" src="/Pictures/moon-01.png" alt="moonicon"
-                width="100px"></a>
+        <a class="cafebar" href="menubar.html">
+            <img class="moonicon" src="/Pictures/moon-01.png" alt="moonicon" width="100">
+        </a>
 
         <!--The sun icon at the top of the menu-->
         <img class="sunlogo" src="/Pictures/sun_menuday.png" alt="sunlogo" width="100px">
@@ -75,7 +83,7 @@
         <div id="cafe">
             <table>
                 <th>
-                    <h2>HOT DRINKS</h2>
+                    <h2 id="hotdrinks">HOT DRINKS</h2>
                 </th>
                 <div class="menucard">
                     <tr class="day-card">
@@ -124,17 +132,22 @@
             </table>
         </div>
 
+        <!--This is where homepage special offers link leads-->
+        <a name="coffecard"></a>
+
         <!--Coffee card part, SPECIAL OFFERS-->
         <div class="specialperson">
             <img src="/Pictures/logo_little.png" alt="personicon" width="70px">
-            <p class="p4">WE HAVE THE<BR>SPECIAL OFFERS FOR<BR>YOU!</p>
+            <p class="p4">WE HAVE THE<BR>SPECIAL OFFERS<br>FOR YOU!</p>
         </div>
-        <h1 class="title">SPECIAL<br>OFFERS</h1>
+        <h1 class="title special-offers">SPECIAL<br>OFFERS</h1>
         <div class="coffeecard">
-            <img class="cardimage" src="/Pictures/click on this.png" alt="we need another image here">
+            <img class="cardimage" src="/Pictures/coffeecard.png" alt="we need another image here">
             <div class="cardtext">
-                <p>HOW DOES IT WORK?</p>
-                <br>PRICE</p>
+                <h2>HOW DOES IT WORK?</h2>
+                <p><br><br>A Coffee-Card Gives You Access To Ad-Libitum Filter Coffee For 1 Whole Month.</p>
+                <br><br><h2>PRICE:</h2>
+                <p class="price-card">125 Kr.</p>
             </div>
         </div>
     </div>
@@ -186,11 +199,15 @@
             </div>
             <div class="footeritem">
                 <h2 class="footertitle">SOCIAL MEDIA</h2>
-                <div class="socialscontainer">
-                    <a href="https://www.facebook.com/Kromosom66"><img class="socials_image" src="/Pictures/fb-icon.png"
-                            alt="Facebook"></a>
-                    <a href="https://www.instagram.com/kromosom66/"><img class="socials_image"
-                            src="/Pictures/ig-icon.png" alt="Instagram"></a>
+                <div class="socialscontainer social-media">
+                    <a href="https://www.facebook.com/Kromosom66">
+                        <img class="socials_image fbk" id="fbk-icon" src="/Pictures/fb-icon.png" alt="Facebook">
+                        <img style="display: none;" class="socials_image fbk" id="fbk-icon-rainbow" src="/Pictures/fb-icon-rainbow.png" alt="Fbk rainbowish">
+                    </a>
+                    <a href="https://www.instagram.com/kromosom66/">
+                        <img class="socials_image" id="ig-icon" src="/Pictures/ig-icon.png" alt="Instagram">
+                        <img style="display: none;" class="socials_image" id="ig-icon-rainbow" src="/Pictures/ig-icon-rainbow.png" alt="Ig rainbowish">
+                    </a>
                 </div>
             </div>
             <div class="footeritem">
@@ -207,6 +224,7 @@
             </div>
         </div>
     </footer>
+
     <!--Small script-->
     <script>
         // OPENS THE BURGER MENU
@@ -218,6 +236,9 @@
             document.getElementById("myNav").style.height = "0%";
         }
     </script>
-</body>
 
+    <!-- JS files linking -->
+    <script src="/JavaScript/footer.js"></script>
+
+</body>
 </html>

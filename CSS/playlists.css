@@ -1,5 +1,5 @@
- /* HTML page scrolls smoothly when a button that leads to a section is pressed */
- html {
+/* HTML page scrolls smoothly when a button that leads to a section is pressed */
+html {
     scroll-behavior: smooth;
 }
 
@@ -9,10 +9,9 @@
     margin-bottom: 80px;
 }
 
-/* Containers with the Vinyl and Spotify playlist */
+/* Containers with the Person&Text, title, Vinyl, Spotify playlist and Vibe-box */
 .container {
-    /* margin: 250px auto; */
-    margin-top: 250px;
+    margin-top: 200px;
     margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -23,7 +22,7 @@
 }
 
 .vinyls {
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     transition: 0.5s ease-in-out;
 }
 
@@ -39,7 +38,7 @@
 
 .vinyl-moon {
     width: 400px;
-    margin-top: 20px;
+    margin-top: 800px;
 }
 
 .iframe-vinyl-sun {
@@ -64,12 +63,8 @@
     transform: scale(1.05);
 }
 
-
-
-
-
 body {
-    background-image: url(/Pictures/bg2.png);
+    background-image: url(/Pictures/playlist-small_pc.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -84,13 +79,18 @@ body {
     display: none;
 }
 
+.facebookmention{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
 
-
-
-
-
-
-/* NEW CSS STYLING */
+.check {
+    font-size: 12px;
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 15px;
+}
 
 .row {
     display: flex;
@@ -143,6 +143,15 @@ body {
     transform: scale(1.05);
 }
 
+.socialscontainer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: 1s;
+}
 
     /* -------- MEDIA QUERIES -------- */
 @media screen and (max-width: 1000px) {
@@ -162,17 +171,34 @@ body {
 
 @media screen and (max-width: 620px) {
 
+    body {
+        background-image: url(/Pictures/mobile/playlist-extended_mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .facebookmention{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
     h1 {
         font-size: 60px;
     }
 
     .container {
         width: 100%;
+        margin-bottom: 0px;
     }
 
     .heading {
         padding: 20px;
         font-size: 20px;
+        margin-bottom: 20px;
     }
 
     .vinyl-sun {
@@ -181,13 +207,26 @@ body {
 
     .vinyl-moon {
         width: 200px;
+        margin-top: 0px;
     }
 
     .vinyls {
-        margin-bottom: 110px;
+        margin-bottom: 5px;
     }
 
     .card {
         width: 80%;
+    }
+
+    #day-spotify {
+        display: block;
+    }
+
+    #night-spotify {
+        display: block;
+    }
+
+    .card-body .btn {
+        margin-bottom: 350px;
     }
 }
