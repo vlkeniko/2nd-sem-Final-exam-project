@@ -1,4 +1,4 @@
-.facebookmention {
+.facebookmention{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,14 +6,10 @@
     gap: 10px;
 }
 
-.check {
+.check{
     font-size: 12px;
     font-family: 'Space Grotesk', sans-serif;
     line-height: 15px;
-}
-
-.eventtitle{
-    text-align: center;
 }
 /*Code by Md Farzan: https://codepen.io/mdfarzan/pen/yLeEJZV*/
 
@@ -122,7 +118,7 @@
 }
 
 .bigtitle {
-    margin-top: 0px;
+    margin-top: 180px;
 }
 
 /*Making the whole page responsive*/
