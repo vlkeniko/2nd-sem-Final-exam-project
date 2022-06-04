@@ -21,19 +21,17 @@
     <link rel="stylesheet" href="/CSS/navfooter.css">
     <link rel="stylesheet" href="/CSS/basicstyles.css">
     <link rel="stylesheet" href="/CSS/events.css">
-
-    <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/pictures/favicon.ico">
     <title>Kromosom - Events</title>
 </head>
 
 <body>
 
-    <!-- Navigation bar -->
     <nav>
         <!--For mobile-->
         <div class="mobilenav">
             <div class="navbar"></div>
-            <a href="/index.html"><img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png"></a>
+            <a href="/index.html"><img class="toplogo" alt="menuicon" src="/pictures/logo_little.png"></a>
             <div id="myNav" class="overlay">
                 <!-- Button to close the overlay navigation -->
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -49,66 +47,63 @@
                     <a href="/HTML/contact.html" class="menuitem">CONTACT US</a>
                     <button class="languagebutton dk">DK</button> &nbsp; <button class="languagebutton en">EN</button>
                     <div class="langcontainer">
-                        <img class="langlogo" alt="lang" src="/Pictures/logo_little.png">
+                        <img class="langlogo" alt="lang" src="/pictures/logo_little.png">
                         <p class="langchangetext">Do you wanna<br>change the<br>language?</p>
                     </div>
                 </div>
             </div>
-
             <!-- Use any element to open/show the overlay navigation menu -->
             <span onclick="openNav()"></span>
             <!-- Use any element to open/show the overlay navigation menu -->
-            <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/burger-img.png"
-                width="30" height="25">
+            <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/pictures/burger-img.png"
+                    width="30" height="25">
             </span>
-
-        </div>
     </nav>
 
     <!--Code by Md Farzan: https://codepen.io/mdfarzan/pen/yLeEJZV-->
-    <div class="eventstitle">
-        <h1 class="title bigtitle">EVENTS</h1>
-
-        <!-- Special person with text  -->
-        <div class="facebookmention">
-            <img src="/Pictures/logo_little.png" alt="logo" WIDTH="40">
-            <p class="check">CHECK OUR<BR>FACEBOOK<BR>FOR MORE!</p>
-        </div>
-    </div>
+<div class="facebookmention">
+    <img src="/Pictures/logo_little.png" alt="logo" WIDTH="40PX">
+    <p class="check">CHECK OUR<BR>FACEBOOK<BR>FOR MORE!</p>
+</div>
+    <h1 class="title bigtitle">EVENTS</h1>
 
     <div class="eventcontainer">
         <!--First arrow-->
         <div class="eventitem">
             <span class="controls" onclick="prevSlide(-1)" id="left-arrow"><i class="fa fa-arrow-left"
-                aria-hidden="true"><img class="arrow" src="/Pictures/arrowleft.png" alt="Arrow left"></i>
+                    aria-hidden="true"><img class="arrow" src="/pictures/arrowleft.png"></i>
             </span>
         </div>
         <div class="eventitem">
             <div id="slider">
                 <div class="slide">
-                    <img class="eventpics" src="/Pictures/B-2.png" alt="tv" width="600">
+                    <!--Theese are the pictures for the gallery-->
+                    <img class="eventpics" src="/pictures/tv.png" alt="tv" width="600">
                 </div>
 
                 <div class="slide">
-                    <img class="eventpics" src="/Pictures/TV.png" alt="tv" width="600">
+                    <img class="eventpics" src="/pictures/tv.png" alt="tv" width="600">
                 </div>
 
                 <div class="slide">
-                    <img class="eventpics" src="/Pictures/PRIDE1.png" alt="tv" width="600">
+                    <img class="eventpics" src="/pictures/tv.png" alt="tv" width="600">
+                </div>
+
+                <div class="slide">
+                    <img class="eventpics" src="/pictures/tv.png" alt="tv" width="600">
                 </div>
             </div>
         </div>
-
         <!--Controlling arrows-->
         <div class="eventitem">
             <span class=" controls" id="right-arrow" onclick="nextSlide(1)"><i class="fa fa-arrow-right"
-                    aria-hidden="true"><img class="arrow" src="/Pictures/arrowright.png" alt="Arrow right"></i>
+                    aria-hidden="true"><img class="arrow" src="/pictures/arrowright.png"></i>
             </span>
         </div>
     </div>
-
     <!--the dots that show how many events are there, but we dont want them-->
     <div id="dots-con">
+        <span class="dot" onclick="nextSlide(1)"></span>
         <span class="dot" onclick="nextSlide(1)"></span>
         <span class="dot" onclick="nextSlide(1)"></span>
         <span class="dot" onclick="nextSlide(1)"></span>
@@ -116,18 +111,15 @@
 
     <!--Short description of the event-->
     <div class="eventdescription">
-        <h2>BÆNCH CONCERT</h2>
-        <p><br><br>
-            BÆNCH is a new and upcoming Rock Band from Horsens with roots in the psychedelic and progressive 
-            sound of the 70s. The Band’s sound is inspired by genres such as Post-Punk, Indie-Rock and Noise-Rock 
-            with a clear vision of mixing sounds and ideas into the universe from the band members’ common thoughts.
-            A collective frustration over today’s passive way of thinking and acting led the group together to 
-            write their debut album.
-        </p>
-        <br><br><h2>Entrance:</h2>
-        <p class="price-card">35 Kr.</p>
+        <h2>JUST JOIN US!</h2>
+        <br>
+        <p>Sit amet, consectetur adipiscing elit. Quisque rhoncus est
+            vel eros scelerisque dictum quis vel sapien. Integer ac lectus nec lorem feugiat imperdiet. Scelerisque
+            dictum quis vel sapien. Integer ac lectus nec lorem feugiat imperdiet.</p><br>
+        <p>Sit amet, consectetur adipiscing elit. Quisque rhoncus est
+            vel eros scelerisque dictum quis vel sapien. Integer ac lectus nec lorem feugiat imperdiet. Scelerisque
+            dictum quis vel sapien. Integer ac lectus nec lorem feugiat imperdiet.</p>
     </div>
-
     <!--The Footer-->
     <footer>
         <div class="footercontainer">
@@ -180,15 +172,11 @@
             </div>
             <div class="footeritem">
                 <h2 class="footertitle">SOCIAL MEDIA</h2>
-                <div class="socialscontainer social-media">
-                    <a href="https://www.facebook.com/Kromosom66">
-                        <img class="socials_image fbk" id="fbk-icon" src="/Pictures/fb-icon.png" alt="Facebook">
-                        <img style="display: none;" class="socials_image fbk" id="fbk-icon-rainbow" src="/Pictures/fb-icon-rainbow.png" alt="Fbk rainbowish">
-                    </a>
-                    <a href="https://www.instagram.com/kromosom66/">
-                        <img class="socials_image" id="ig-icon" src="/Pictures/ig-icon.png" alt="Instagram">
-                        <img style="display: none;" class="socials_image" id="ig-icon-rainbow" src="/Pictures/ig-icon-rainbow.png" alt="Ig rainbowish">
-                    </a>
+                <div class="socialscontainer">
+                    <a href="https://www.facebook.com/Kromosom66"><img class="socials_image" src="/pictures/fb-icon.png"
+                            alt="Facebook"></a>
+                    <a href="https://www.instagram.com/kromosom66/"><img class="socials_image"
+                            src="/pictures/ig-icon.png" alt="Instagram"></a>
                 </div>
             </div>
             <div class="footeritem">
@@ -205,7 +193,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="/JavaScript/events.js"></script>
     <script>
         // OPENS THE BURGER MENU
         function openNav() {
@@ -217,9 +205,6 @@
         }
     </script>
 
-    <!-- JS files linking -->
-    <script src="/JavaScript/events.js"></script>
-    <script src="/JavaScript/footer.js"></script>
-
 </body>
+
 </html>

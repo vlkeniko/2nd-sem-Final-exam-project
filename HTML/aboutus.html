@@ -19,21 +19,18 @@
     <link rel="stylesheet" href="/CSS/navfooter.css">
     <link rel="stylesheet" href="/CSS/basicstyles.css">
     <link rel="stylesheet" href="/CSS/about.css">
-
-    <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/pictures/favicon.ico">
     <title>Kromosom - About us</title>
 </head>
 
 <body>
 
-    <!-- Navigation bar -->
     <nav>
         <!--For mobile-->
         <div class="mobilenav">
+        
             <div class="navbar"></div>
-            <a href="/index.html">
-                <img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png">
-            </a>
+            <a href="index.html"><img class="toplogo" alt="menuicon" src="/pictures/logo_little.png"></a>
 
             <div id="myNav" class="overlay">
                 <!-- Button to close the overlay navigation -->
@@ -48,44 +45,23 @@
                     <a href="/HTML/gallery.html" class="menuitem">GALLERY</a>
                     <a href="/HTML/playlists.html" class="menuitem">OUR PLAYLISTS</a>
                     <a href="/HTML/contact.html" class="menuitem">CONTACT US</a>
-                    <button class="languagebutton dk">DK</button> &nbsp; <button class="languagebutton en">EN</button>
-                    <div class="langcontainer">
-                        <img class="langlogo" alt="lang" src="/Pictures/logo_little.png">
-                        <p class="langchangetext">Do you wanna<br>change the<br>language?</p>
-                    </div>
+                    <button class="languagebutton dk">DK</button> &nbsp <button class="languagebutton en">EN</button>
                 </div>
             </div>
 
             <!-- Use any element to open/show the overlay navigation menu -->
             <span onclick="openNav()"></span>
             <!-- Use any element to open/show the overlay navigation menu -->
-            <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/burger-img.png"
-                    width="30" height="25">
+            <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/pictures/burger-img.png"
+                width="30" height="25">
             </span>
-
         </div>
     </nav>
 
     <!-- Content -->
     <main>
-        <div class="onclick-aboutus">
-            <button class="onclick-aboutus-button" type="button" onclick="scrolldiv()"></button>
-        </div>
-
-        <div class="heading-aboutus" id="heading-aboutus">
-            <!-- <h1>ABOUT US</h1> -->
-        </div>
-
-        <!-- When the screen is less than 1000px then display the error page -->
-        <div class="error">
-            <br>
-            <br>
-            <br>
-            <img src="/Pictures/Barbara.jpg" width="100%" alt="Barbara" style="margin-top: 10px;">
-            <h1>ERROR</h1>
-            <p class="p3">Page is under construction</p>
-            <br>
-            <p class="p3" style="margin-bottom: 20px;">Visit us later!</p>
+        <div class="heading-aboutus">
+            <h1>ABOUT US</h1>
         </div>
     </main>
 
@@ -136,14 +112,13 @@
             </div>
             <div class="footeritem">
                 <h2 class="footertitle">SOCIAL MEDIA</h2>
-                <div class="socialscontainer social-media">
-                    <a href="https://www.facebook.com/Kromosom66">
-                        <img class="socials_image fbk" id="fbk-icon" src="/Pictures/fb-icon.png" alt="Facebook">
-                        <img style="display: none;" class="socials_image fbk" id="fbk-icon-rainbow" src="/Pictures/fb-icon-rainbow.png" alt="Fbk rainbowish">
+
+                <div class="socials_container">
+                    <a href="https://www.facebook.com/Kromosom66"><img class="socials_image facebook"
+                        src="/Pictures/fb-icon.png" alt="Facebook">
                     </a>
-                    <a href="https://www.instagram.com/kromosom66/">
-                        <img class="socials_image" id="ig-icon" src="/Pictures/ig-icon.png" alt="Instagram">
-                        <img style="display: none;" class="socials_image" id="ig-icon-rainbow" src="/Pictures/ig-icon-rainbow.png" alt="Ig rainbowish">
+                    <a href="https://www.instagram.com/kromosom66/"><img class="socials_image instagram"
+                        src="/Pictures/ig-icon.png" alt="Instagram">
                     </a>
                 </div>
             </div>
@@ -170,15 +145,7 @@
         function closeNav() {
             document.getElementById("myNav").style.height = "0%";
         }
-
-        function scrolldiv() {
-            var elem = document.getElementById("heading-aboutus");
-            elem.scrollIntoView();
-        }
     </script>
-
-    <!-- JS files linking -->
-    <script src="/JavaScript/footer.js"></script>
 
 </body>
 </html>

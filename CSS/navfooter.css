@@ -24,6 +24,7 @@
 }
 
  /*navigation menu opened*/
+
 .overlay {
     height: 0%;
     width: 100%;
@@ -31,12 +32,9 @@
     z-index: 10;
     top: 0;
     left: 0;
-    background-image: url("/Pictures/menu_pc.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgb(28, 28, 28);
     overflow-y: hidden;
     transition: 0.5s;
-    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
 }
 
 .overlay-content {
@@ -45,7 +43,7 @@
     width: 100%;
     text-align: center;
     margin-top: 30px;
-    background: none;
+    background-color: rgb(28, 28, 28);
 }
 
 .overlay a {
@@ -54,6 +52,7 @@
 	font-weight: 300;
 	font-size: 20px;
     color: #f4e7bf;
+    /* line-height: 13.6px; */
     display: block;
     transition: 0.3s;
 }
@@ -152,6 +151,7 @@ form {
     padding: 5px;
 }
 
+
 header {
     display: flex;
     justify-items: center;
@@ -167,6 +167,7 @@ header {
 }
 
  /*Styling the button for language change*/
+
 .languagebutton {
     border: 2px solid #fd910a;
     background: #1f1f1f;
@@ -206,12 +207,14 @@ header {
 
 .langchangetext {
     font-family: 'Space Grotesk', sans-serif;
+	font-weight: 'regular' ;
 	font-size: 12px;
 	color: #F4E7BF;
 }
 
                         /*------------------FOOTER---------------------*/
 .footercontainer {
+    /* z-index: -2; */
     left: 0;
     bottom: 0;
     width: 100%;
@@ -253,15 +256,11 @@ table {
 
  /*the social icoons*/
 
-.socialscontainer {
-    position: relative;
+.socials_container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-
-    transition: 1s;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
 }
 
 .socials_image {
@@ -305,7 +304,7 @@ table {
     }
 
     .footerlogo {
-        content: url("/Pictures/beige_person.png"); 
+        content: url("/pictures/beige_person.png"); 
         transform: scaleX(-1);
         margin-left: 40px;
         z-index: 1;
@@ -343,6 +342,7 @@ table {
     }
 
     .copyright {
+        writing-mode: horizontal;
         font-size: 10px;
         text-align: center;
         margin: auto;
