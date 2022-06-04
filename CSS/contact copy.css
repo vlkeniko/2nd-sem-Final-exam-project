@@ -1,21 +1,9 @@
 /* ------------ CONTACT US CONTAINER ----------- */
-body {
-    background-image: url("/Pictures/contactus_mobile.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.contact-us-container {
-    margin: 15vw 20px;
-}
-
 .cards-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 6vh;
+    gap: 20px;
 }
 
 .card {
@@ -27,11 +15,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    transition: 0.3s;
-}
-
-.card:hover {
-    transform: scale(1.05);
 }
 
 .social-media-icons {
@@ -58,7 +41,6 @@ body {
     text-align: center;
     gap: 30px;
     padding: 80px 20px 50px;
-    margin-top: 36vh;
 }
 
 .day-cards {
@@ -66,7 +48,6 @@ body {
     flex-direction: column;
     gap: 40px;
     max-width: 90%;
-    justify-content: center;
 }
 
 .day-card {
@@ -81,7 +62,6 @@ body {
     box-shadow: 5px 5px#fd910a;
     /* text-overflow: ellipsis; */
     white-space: nowrap;
-    background-color: #F4E7BF;
 }
 
 /* ------------ LOCATION CONTAINER ----------- */
@@ -90,8 +70,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5vh;
-    padding-bottom: 50px;
+        margin-top: 5vh;
+        padding-bottom: 50px;
 }
 
 .location-text-container {
@@ -107,7 +87,7 @@ body {
     position: relative;
     text-align: right;
     height: auto;
-    width: 90%;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -124,7 +104,7 @@ body {
 @media screen and (min-width:900px) {
 
     body {
-        background-image: url("/Pictures/contactus_ver2.png");
+        background-image: url("/Pictures/contactus_pc.png");
         background-repeat: no-repeat;
         background-size: 100%;
         flex-direction: column;
@@ -133,32 +113,33 @@ body {
 
     /* ------------ CONTACT US CONTAINER ----------- */
     .contact-us-container {
-        margin-top: 5vh;
+        margin-top: 80px;
     }
 
     .cards-container {
         flex-direction: column;
         align-items: flex-start;
-        gap: 2vw;
+        gap: 7vw;
         width: 55%;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 3vh;
+        margin-top: 165px;
     }
 
     .card {
         border: 2px solid #F4E7BF;
         border-radius: 20px;
-        padding: 10px 20px;
-        height: 8vw;
-        min-width: 21vw;
+        padding: 25px 25px;
+        height: 10vw;
+        min-width: 23vw;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        gap: 5px;
     }
 
     .socials_contact-img {
-        width: 6vw;
+        width: 8vw;
         height: auto;
         margin-left: -25px;
     }
@@ -169,8 +150,7 @@ body {
 
     /* ------------ OPENING HOURS CONTAINER ----------- */
     .brain-container {
-        margin-top: 60vh;
-        padding: 0px 20px 0px;
+        margin-top: 400px;
     }
 
     .day-cards {
@@ -178,22 +158,18 @@ body {
         flex: 60px;
         gap: 40px;
         height: 60vh;
-        width: 20%;
-        /* margin-left: -10vw; */
+        width: 60%;
+        margin-left: -10vw;
     }
 
     /* ------------ LOCATION CONTAINER ----------- */
     .location {
-        margin-top: 15vh;
+        margin-top: 10vh;
         padding-bottom: 50px;
     }
 
     .location-header {
-        margin-bottom: 4vh;
-    }
-
-    .location-text-container {
-        padding-bottom: 2vh;
+        margin-bottom: 30px;
     }
 
     /* ---- MAP ---- */
@@ -209,5 +185,11 @@ body {
         overflow: hidden;
         background: none !important;
         width: 100%;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .contact-us-container {
+        margin: 0px 20px;
     }
 }

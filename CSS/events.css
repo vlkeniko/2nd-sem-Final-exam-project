@@ -1,16 +1,25 @@
-.facebookmention{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 60px;
-    gap: 10px;
+body {
+    background-image: url("/Pictures/events_pc.png");
+    background-repeat: repeat-y;
+    background-size: cover;
 }
 
-.check{
+.facebookmention {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 0px;
+    gap: 10px;
+    margin-left: 100px;
+    margin-top: -100px;
+}
+
+.check {
     font-size: 12px;
     font-family: 'Space Grotesk', sans-serif;
     line-height: 15px;
 }
+
 /*Code by Md Farzan: https://codepen.io/mdfarzan/pen/yLeEJZV*/
 
 #slider {
@@ -24,7 +33,6 @@
     position: relative;
     overflow: hidden;
     z-index: -5;
-    ;
 }
 
 .slide {
@@ -105,7 +113,6 @@
     display: block;
     border-radius: 30px;
     box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-    padding: 30px;
     background-color: #f4e7bf;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 400;
@@ -113,21 +120,58 @@
     width: 35%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    
+    text-align: left;
+    padding: 80px 70px;
 }
 
-.bigtitle {
-    margin-top: 180px;
+.eventstitle{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 200px;
+    align-items: center;
+    margin-left: 32%;
+    margin-top: 150px;
+    margin-right: 5%;
+}
+
+.price-card {
+    font-weight: lighter;
+    padding-left: 150px;
+    margin-top: -22px;
+    font-size: 25px;
 }
 
 /*Making the whole page responsive*/
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
+
+    .eventstitle{
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px;
+        height: 200px;
+        padding-top: 0px;
+    }
 
     /*We still need event backgrounds for mobile view here*/
     body {
-        background-image: none;
-        background-color: #f4e7bf;
+        background-image: url("/Pictures/mobile/events_mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .facebookmention {
+        display: none;
+      
     }
 
     /*Yeah we make the dots appear here*/
@@ -144,16 +188,9 @@
 
     /*The event card*/
     .eventdescription {
-        min-width: 300px;
-        padding-top: 20px;
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-bottom: 40px;
+        padding: 80px 50px;
         box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-        width: 80%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 30px;
+        width: 60%;
         font-family: 'Space Grotesk', sans-serif;
         font-weight: 400;
         font-size: 16px;
@@ -165,7 +202,6 @@
         margin-right: auto;
         padding-right: 20px;
         padding-bottom: 10px;
-
     }
 
     #slider {
@@ -190,11 +226,5 @@
 
     .eventpics {
         width: 100%;
-    }
+    }  
 }
-
-/*body {
-    background-image: url("/Pictures/events_pc.png");
-    background-repeat: repeat;
-    background-size: cover;
-}*/
