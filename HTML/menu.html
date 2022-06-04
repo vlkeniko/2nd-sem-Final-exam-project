@@ -21,13 +21,17 @@
     <link rel="stylesheet" href="/CSS/navfooter.css">
     <link rel="stylesheet" href="/CSS/basicstyles.css">
     <link rel="stylesheet" href="/CSS/menu.css">
-    <link rel="icon" type="image/x-icon" href="/pictures/favicon.ico">
+
+    <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico">
     <title>Kromosom - Menu</title>
 </head>
 
 <body>
-    <div class="navbar"></div><a href="/index.html"><img class="toplogo" alt="menuicon"
-            src="/pictures/logo_little.png"></a>
+
+    <div class="navbar"></div>
+    <a href="/index.html">
+        <img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png">
+    </a>
 
     <nav>
         <!--For mobile-->
@@ -39,14 +43,18 @@
 
                 <!-- Overlay content -->
                 <div class="overlay-content">
-                    <a href="index.html" class="menuitem">HOME</a>
+                    <a href="/index.html" class="menuitem">HOME</a>
                     <a href="/HTML/menu.html" class="menuitem">MENU</a>
                     <a href="/HTML/events.html" class="menuitem">EVENTS</a>
                     <a href="/HTML/aboutus.html" class="menuitem">ABOUT US</a>
                     <a href="/HTML/gallery.html" class="menuitem">GALLERY</a>
                     <a href="/HTML/playlists.html" class="menuitem">OUR PLAYLISTS</a>
                     <a href="/HTML/contact.html" class="menuitem">CONTACT US</a>
-                    <button class="languagebutton dk">DK</button> &nbsp <button class="languagebutton en">EN</button>
+                    <button class="languagebutton dk">DK</button> &nbsp; <button class="languagebutton en">EN</button>
+                    <div class="langcontainer">
+                        <img class="langlogo" alt="lang" src="/Pictures/logo_little.png">
+                        <p class="langchangetext">Do you wanna<br>change the<br>language?</p>
+                    </div>
                 </div>
             </div>
 
@@ -54,11 +62,10 @@
             <span onclick="openNav()"></span>
             <!-- Use any element to open/show the overlay navigation menu -->
 
-            <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/pictures/burger-img.png"
-                    width="35" height="30">
+            <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/burger-img.png"
+                width="30" height="25">
+            </span>
 
-                <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/pictures/burger-img.png"
-                        width="35" height="30"></span>
         </div>
     </nav>
 
@@ -70,74 +77,6 @@
         </div>  
     </main>
 
-    <!--Footer-->
-   <!-- <footer>
-        <div class="footercontainer">
-            <div class="footeritem">
-                <h2 class="footertitle openinghours">OPENING<br>HOURS</h2>
-            </div>
-            <div class="footeritem">
-                <table>
-                    <tr>
-                        <th class="day">Monday</th>
-                        <th>Closed</th>
-                    </tr>
-                    <tbody>
-                        <tr class="hoursrow">
-                            <td class="day">Tuesday</td>
-                            <td>2pm - 10pm</td>
-                        </tr>
-                        <tr class="hoursrow">
-                            <td class="day">Wednesday</td>
-                            <td>2pm - 10pm</td>
-                        </tr>
-                        <tr class="hoursrow">
-                            <td class="day">Thursday</td>
-                            <td>2pm - 12am</td>
-                        </tr>
-                        <tr class="hoursrow">
-                            <td class="day">Friday</td>
-                            <td>2pm - 12am</td>
-                        </tr>
-                        <tr class="hoursrow">
-                            <td class="day">Saturday</td>
-                            <td>2pm - 2am</td>
-                        </tr>
-                        <tr class="hoursrow">
-                            <td class="day">Sunday</td>
-                            <td>Closed</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="footeritem">
-                <h2 class="footertitle">ADDRESS</h2>
-                <p>Nørre Allé 66</p>
-                <p>8000 Aarhus</p>
-            </div>
-            <div class="footeritem">
-                <h2 class="footertitle">SOCIAL MEDIA</h2>
-                <div class="socialscontainer">
-                    <a href="https://www.facebook.com/Kromosom66"><img class="socials_image" src="/Pictures/fb-icon.png"
-                            alt="Facebook"></a>
-                    <a href="https://www.instagram.com/kromosom66/"><img class="socials_image"
-                            src="/Pictures/ig-icon.png" alt="Instagram"></a>
-                </div>
-            </div>
-            <div class="footeritem">
-                <p class="smallmessage">
-                    CAN'T >
-                    <br>
-                    WAIT TO SEE YOU
-                </p>
-            </div>
-            <div class="footeritem footerlogo">
-            </div>
-            <div class="footeritem footercopyright">
-                <p class="copyright">© 2022 KROMOSOM. All rights reserved</p>
-            </div>
-        </div>
-    </footer>-->
     <!--Small script-->
     <script>
         // OPENS THE BURGER MENU
@@ -150,6 +89,8 @@
         }
     </script>
 
-</body>
+    <!-- JS files linking -->
+    <script src="/JavaScript/footer.js"></script>
 
+</body>
 </html>
